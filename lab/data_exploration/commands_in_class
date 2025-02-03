@@ -1,0 +1,2 @@
+cat filename | less
+    Allows to scroll throught the file on terminal
