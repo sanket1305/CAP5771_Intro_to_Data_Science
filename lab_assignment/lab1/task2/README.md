@@ -5,8 +5,8 @@ The HR team maintains hiring records and annual reports in Excel files from 2015
 
 Implement the following functions in `main.py`:
 
-### 1. `list_excel_files(directory: str) -> List[str]`
-This function takes the path of a directory and returns a list of Excel file names in alphabetical order. Non-Excel files should be ignored. The output should print each filename on a new line in alphabetical order.
+### 1. `list_excel_files(directory: str) -> None`
+This function takes the path of a directory and prints a list of Excel file names in alphabetical order. Non-Excel files should be ignored. The output should print each filename on a new line in alphabetical order.
 
 #### Example
 If the directory contains the following files:
@@ -14,9 +14,11 @@ If the directory contains the following files:
 $ ls
 tasks.csv  Jane.xlsx  Jon.xlsx  Jake.xlsx  report.docx
 ```
-Calling the function should return:
+Calling the function should print:
 ```python
-["Jake.xlsx", "Jane.xlsx", "Jon.xlsx"]
+Jake.xlsx
+Jane.xlsx
+Jon.xlsx
 ```
 
 
