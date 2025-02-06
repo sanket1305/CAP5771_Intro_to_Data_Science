@@ -7,7 +7,7 @@ This task involves working with a SQLite database file (`data/sales.db`) to extr
 ## Requirements
 
 1. **Locate the Database File**: Ensure the `data/sales.db` file exists in your project directory.
-2. **Function Implementation**: Create a Python function `print_db_schema` in `code/task1.py` that:
+2. **Function Implementation**: Create a Python function `print_db_schema` in `main.py` that:
    - Accepts a database filename as input.
    - Prints the names of all tables in alphabetical order.
    - For each table, prints its column names sorted alphabetically, separated from the table name by `": "` (colon followed by space).
