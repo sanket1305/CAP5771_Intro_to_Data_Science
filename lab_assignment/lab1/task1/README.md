@@ -1,26 +1,27 @@
-# Task 1: Print Database Schema
+# Task 1 : Sales data (SQLite)
 
 ## Overview
+Locate the data/sales.db database file in your file tree. Your initial task is to print the database schema. Given your expertise as a data scientist, you know the benefits of developing reusable code.
 
-This task involves working with a SQLite database file (`data/sales.db`) to extract and display its schema in a structured and reusable manner. The goal is to create a function that prints the names of all tables along with their column names, sorted alphabetically.
+Implement the following functions in `main.py`:
 
-## Requirements
+### 1. `print_db_schema(directory: str) -> None`
+This function takes the path of a directory and prints the names of all tables in alphabetical order. For each table, print its corresponding column names sorted alphabetically separated from the table name by a ": " (colon and followed by space).
 
-1. **Locate the Database File**: Ensure the `data/sales.db` file exists in your project directory.
-2. **Function Implementation**: Create a Python function `print_db_schema` in `main.py` that:
-   - Accepts a database filename as input.
-   - Prints the names of all tables in alphabetical order.
-   - For each table, prints its column names sorted alphabetically, separated from the table name by `": "` (colon followed by space).
-   - Handles invalid filenames gracefully by printing `"Invalid filename provided"`.
+#### Example
+If we had two tables, named `telephone` and `alpha` and their fields were as follows:
+```
+telephone: zip_code, number
+alpha: name, lastname, id
+```
+Calling the function should print:
+```
+alpha: id, lastname, name
+telephone: number, zip_code
+```
 
-### Example Output
-
-If the database contains two tables (`telephone` and `alpha`) with the following fields:
-
-- **telephone**: `zip_code`, `number`
-- **alpha**: `name`, `lastname`, `id`
-
-The output of the function should be:
-
-- **alpha**: `id`, `number`, `lastname`
-- **telephone**: `number`, `zip_code`
+#### Error Handling
+- If an invalid filename is provided, print:
+  ```
+  Invalid filename provided.
+  ```
