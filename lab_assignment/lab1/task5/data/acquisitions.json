@@ -1,0 +1,5373 @@
+[
+    {
+        "id": 1,
+        "location": "Jamesland",
+        "cost": 3813647.6,
+        "type": "Office",
+        "office_seating_capacity": 392
+    },
+    {
+        "id": 2,
+        "location": "Waltersberg",
+        "cost": 1198161.57,
+        "type": "Office",
+        "office_seating_capacity": 98
+    },
+    {
+        "id": 3,
+        "location": "Frenchberg",
+        "cost": 3058498.73,
+        "type": "Kiosk",
+        "operating_hours": "8am - 4pm",
+        "monthly_rent": 3559.46
+    },
+    {
+        "id": 4,
+        "location": "Port Christopherburgh",
+        "cost": 725189.14,
+        "type": "Store",
+        "retail_location_id": 28
+    },
+    {
+        "id": 5,
+        "location": "South Alexandra",
+        "cost": 2273420.59,
+        "type": "Store",
+        "retail_location_id": 3
+    },
+    {
+        "id": 6,
+        "location": "Lake Katie",
+        "cost": 3787594.45,
+        "type": "Kiosk",
+        "operating_hours": "12am - 5pm",
+        "monthly_rent": 3641.72
+    },
+    {
+        "id": 7,
+        "location": "Lake Alexandra",
+        "cost": 1106826.1,
+        "type": "Warehouse",
+        "date_of_acquisition": "2020-09-11",
+        "bought_from": "Lewis, Simmons and Mitchell",
+        "warehouse_capacity_volume": 7508
+    },
+    {
+        "id": 8,
+        "location": "Johnbury",
+        "cost": 1105508.56,
+        "type": "Warehouse",
+        "date_of_acquisition": "2023-06-09",
+        "bought_from": "Mercer Ltd",
+        "warehouse_capacity_volume": 2437
+    },
+    {
+        "id": 9,
+        "location": "East Jamesborough",
+        "cost": 1880415.45,
+        "type": "Warehouse",
+        "date_of_acquisition": "2005-04-12",
+        "bought_from": "Harris-Johnson",
+        "warehouse_capacity_volume": 7961
+    },
+    {
+        "id": 10,
+        "location": "Lake Jessica",
+        "cost": 2568902.83,
+        "type": "Office",
+        "office_seating_capacity": 219
+    },
+    {
+        "id": 11,
+        "location": "Mcdonaldfurt",
+        "cost": 645966.67,
+        "type": "Warehouse",
+        "date_of_acquisition": "2017-09-22",
+        "bought_from": "Hill, Hill and West",
+        "warehouse_capacity_volume": 2939
+    },
+    {
+        "id": 12,
+        "location": "Harrisside",
+        "cost": 1859026.92,
+        "type": "Warehouse",
+        "date_of_acquisition": "2004-01-17",
+        "bought_from": "Dawson Inc",
+        "warehouse_capacity_volume": 4365
+    },
+    {
+        "id": 13,
+        "location": "North Shane",
+        "cost": 4528002.82,
+        "type": "Store",
+        "retail_location_id": 34
+    },
+    {
+        "id": 14,
+        "location": "Englishchester",
+        "cost": 1822139.85,
+        "type": "Store",
+        "retail_location_id": 53
+    },
+    {
+        "id": 15,
+        "location": "Elizabethfort",
+        "cost": 2931618.79,
+        "type": "Store",
+        "retail_location_id": 15
+    },
+    {
+        "id": 16,
+        "location": "Lake Alexandra",
+        "cost": 4651919.49,
+        "type": "Office",
+        "office_seating_capacity": 461
+    },
+    {
+        "id": 17,
+        "location": "South Johnhaven",
+        "cost": 3525322.78,
+        "type": "Kiosk",
+        "operating_hours": "11am - 5pm",
+        "monthly_rent": 2188.86
+    },
+    {
+        "id": 18,
+        "location": "North Lauren",
+        "cost": 3205428.01,
+        "type": "Office",
+        "office_seating_capacity": 268
+    },
+    {
+        "id": 19,
+        "location": "North Megan",
+        "cost": 4428742.79,
+        "type": "Store",
+        "retail_location_id": 48
+    },
+    {
+        "id": 20,
+        "location": "Staceybury",
+        "cost": 3985723.18,
+        "type": "Warehouse",
+        "date_of_acquisition": "2006-02-07",
+        "bought_from": "Sanchez Ltd",
+        "warehouse_capacity_volume": 2561
+    },
+    {
+        "id": 21,
+        "location": "North Annettebury",
+        "cost": 3392394.41,
+        "type": "Warehouse",
+        "date_of_acquisition": "2023-01-24",
+        "bought_from": "Hughes LLC",
+        "warehouse_capacity_volume": 5127
+    },
+    {
+        "id": 22,
+        "location": "New Benjamin",
+        "cost": 4528472.75,
+        "type": "Office",
+        "office_seating_capacity": 273
+    },
+    {
+        "id": 23,
+        "location": "Port Danaborough",
+        "cost": 3605903.56,
+        "type": "Kiosk",
+        "operating_hours": "8am - 4pm",
+        "monthly_rent": 4018.55
+    },
+    {
+        "id": 24,
+        "location": "New Jon",
+        "cost": 4894537.17,
+        "type": "Store",
+        "retail_location_id": 59
+    },
+    {
+        "id": 25,
+        "location": "Anneside",
+        "cost": 4346071.06,
+        "type": "Office",
+        "office_seating_capacity": 214
+    },
+    {
+        "id": 26,
+        "location": "Davidfurt",
+        "cost": 4285463.79,
+        "type": "Store",
+        "retail_location_id": 4
+    },
+    {
+        "id": 27,
+        "location": "East Warren",
+        "cost": 2277918.36,
+        "type": "Office",
+        "office_seating_capacity": 440
+    },
+    {
+        "id": 28,
+        "location": "Patrickberg",
+        "cost": 2455491.17,
+        "type": "Kiosk",
+        "operating_hours": "11am - 6pm",
+        "monthly_rent": 4842.2
+    },
+    {
+        "id": 29,
+        "location": "Lake Anthony",
+        "cost": 2264834.25,
+        "type": "Kiosk",
+        "operating_hours": "9am - 4pm",
+        "monthly_rent": 1654.24
+    },
+    {
+        "id": 30,
+        "location": "Lake Kristen",
+        "cost": 2521555.14,
+        "type": "Warehouse",
+        "date_of_acquisition": "2001-02-10",
+        "bought_from": "Schultz, Sanchez and Johnson",
+        "warehouse_capacity_volume": 8164
+    },
+    {
+        "id": 31,
+        "location": "South Elizabeth",
+        "cost": 3595598.72,
+        "type": "Office",
+        "office_seating_capacity": 18
+    },
+    {
+        "id": 32,
+        "location": "Keithside",
+        "cost": 4629082.15,
+        "type": "Warehouse",
+        "date_of_acquisition": "2012-08-01",
+        "bought_from": "Walker LLC",
+        "warehouse_capacity_volume": 8169
+    },
+    {
+        "id": 33,
+        "location": "South Michaelburgh",
+        "cost": 2448268.09,
+        "type": "Office",
+        "office_seating_capacity": 242
+    },
+    {
+        "id": 34,
+        "location": "Ochoaport",
+        "cost": 1856268.71,
+        "type": "Store",
+        "retail_location_id": 46
+    },
+    {
+        "id": 35,
+        "location": "West Wendy",
+        "cost": 142547.15,
+        "type": "Kiosk",
+        "operating_hours": "10am - 5pm",
+        "monthly_rent": 3298.03
+    },
+    {
+        "id": 36,
+        "location": "Port Kevinchester",
+        "cost": 4580667.36,
+        "type": "Store",
+        "retail_location_id": 13
+    },
+    {
+        "id": 37,
+        "location": "East Vernon",
+        "cost": 2909632.86,
+        "type": "Warehouse",
+        "date_of_acquisition": "2002-12-19",
+        "bought_from": "Anthony Ltd",
+        "warehouse_capacity_volume": 755
+    },
+    {
+        "id": 38,
+        "location": "Lake John",
+        "cost": 1675465.97,
+        "type": "Store",
+        "retail_location_id": 42
+    },
+    {
+        "id": 39,
+        "location": "Lake Michelle",
+        "cost": 1627088.37,
+        "type": "Warehouse",
+        "date_of_acquisition": "2024-04-03",
+        "bought_from": "Williams Inc",
+        "warehouse_capacity_volume": 9417
+    },
+    {
+        "id": 40,
+        "location": "Lake Kara",
+        "cost": 3534911.49,
+        "type": "Warehouse",
+        "date_of_acquisition": "2024-05-07",
+        "bought_from": "Smith Ltd",
+        "warehouse_capacity_volume": 1004
+    },
+    {
+        "id": 41,
+        "location": "North Nicole",
+        "cost": 4470276.05,
+        "type": "Store",
+        "retail_location_id": 43
+    },
+    {
+        "id": 42,
+        "location": "Brianchester",
+        "cost": 4734941.28,
+        "type": "Warehouse",
+        "date_of_acquisition": "2011-05-20",
+        "bought_from": "Miller-Perkins",
+        "warehouse_capacity_volume": 2585
+    },
+    {
+        "id": 43,
+        "location": "West Teresa",
+        "cost": 399370.04,
+        "type": "Office",
+        "office_seating_capacity": 185
+    },
+    {
+        "id": 44,
+        "location": "North Kyleshire",
+        "cost": 2757027.29,
+        "type": "Store",
+        "retail_location_id": 47
+    },
+    {
+        "id": 45,
+        "location": "East Susanbury",
+        "cost": 4114967.72,
+        "type": "Office",
+        "office_seating_capacity": 233
+    },
+    {
+        "id": 46,
+        "location": "North Thomasville",
+        "cost": 4039405.67,
+        "type": "Kiosk",
+        "operating_hours": "10am - 6pm",
+        "monthly_rent": 4174.15
+    },
+    {
+        "id": 47,
+        "location": "West Alextown",
+        "cost": 1410336.9,
+        "type": "Kiosk",
+        "operating_hours": "11am - 4pm",
+        "monthly_rent": 1330.19
+    },
+    {
+        "id": 48,
+        "location": "South Jessica",
+        "cost": 4796430.1,
+        "type": "Store",
+        "retail_location_id": 43
+    },
+    {
+        "id": 49,
+        "location": "Terriville",
+        "cost": 3278107.96,
+        "type": "Kiosk",
+        "operating_hours": "12am - 9pm",
+        "monthly_rent": 1158.24
+    },
+    {
+        "id": 50,
+        "location": "West Johnnyshire",
+        "cost": 4314316.07,
+        "type": "Warehouse",
+        "date_of_acquisition": "2015-02-22",
+        "bought_from": "Sanders LLC",
+        "warehouse_capacity_volume": 3827
+    },
+    {
+        "id": 51,
+        "location": "North Anthony",
+        "cost": 4839951.81,
+        "type": "Store",
+        "retail_location_id": 59
+    },
+    {
+        "id": 52,
+        "location": "North Tricia",
+        "cost": 2039291.72,
+        "type": "Warehouse",
+        "date_of_acquisition": "2007-12-11",
+        "bought_from": "Terry, Anderson and Silva",
+        "warehouse_capacity_volume": 4405
+    },
+    {
+        "id": 53,
+        "location": "Joshuamouth",
+        "cost": 2547321.84,
+        "type": "Kiosk",
+        "operating_hours": "9am - 9pm",
+        "monthly_rent": 2492.93
+    },
+    {
+        "id": 54,
+        "location": "Lonnieton",
+        "cost": 1396337.42,
+        "type": "Store",
+        "retail_location_id": 12
+    },
+    {
+        "id": 55,
+        "location": "Guzmanport",
+        "cost": 1711639.77,
+        "type": "Kiosk",
+        "operating_hours": "10am - 6pm",
+        "monthly_rent": 3076.61
+    },
+    {
+        "id": 56,
+        "location": "Lake Brendafurt",
+        "cost": 1776565.51,
+        "type": "Warehouse",
+        "date_of_acquisition": "2016-10-18",
+        "bought_from": "Santana PLC",
+        "warehouse_capacity_volume": 2697
+    },
+    {
+        "id": 57,
+        "location": "East Laurafurt",
+        "cost": 4575937.23,
+        "type": "Store",
+        "retail_location_id": 60
+    },
+    {
+        "id": 58,
+        "location": "Lake Gabrielle",
+        "cost": 4894901.0,
+        "type": "Office",
+        "office_seating_capacity": 457
+    },
+    {
+        "id": 59,
+        "location": "Grantshire",
+        "cost": 4144085.64,
+        "type": "Kiosk",
+        "operating_hours": "9am - 6pm",
+        "monthly_rent": 4861.52
+    },
+    {
+        "id": 60,
+        "location": "Timothychester",
+        "cost": 4957843.36,
+        "type": "Kiosk",
+        "operating_hours": "9am - 5pm",
+        "monthly_rent": 1405.35
+    },
+    {
+        "id": 61,
+        "location": "South Brianna",
+        "cost": 4678847.1,
+        "type": "Store",
+        "retail_location_id": 16
+    },
+    {
+        "id": 62,
+        "location": "Barnettburgh",
+        "cost": 219863.98,
+        "type": "Store",
+        "retail_location_id": 10
+    },
+    {
+        "id": 63,
+        "location": "Ryanmouth",
+        "cost": 1903694.71,
+        "type": "Kiosk",
+        "operating_hours": "10am - 8pm",
+        "monthly_rent": 4352.84
+    },
+    {
+        "id": 64,
+        "location": "North Stephanie",
+        "cost": 3475941.27,
+        "type": "Office",
+        "office_seating_capacity": 373
+    },
+    {
+        "id": 65,
+        "location": "New Jeremyborough",
+        "cost": 323930.63,
+        "type": "Kiosk",
+        "operating_hours": "10am - 6pm",
+        "monthly_rent": 1954.65
+    },
+    {
+        "id": 66,
+        "location": "South Timothy",
+        "cost": 312142.35,
+        "type": "Warehouse",
+        "date_of_acquisition": "2009-04-27",
+        "bought_from": "Brown LLC",
+        "warehouse_capacity_volume": 1606
+    },
+    {
+        "id": 67,
+        "location": "Vincentport",
+        "cost": 2177527.6,
+        "type": "Store",
+        "retail_location_id": 47
+    },
+    {
+        "id": 68,
+        "location": "North Kaitlyn",
+        "cost": 4899382.0,
+        "type": "Store",
+        "retail_location_id": 20
+    },
+    {
+        "id": 69,
+        "location": "Lambchester",
+        "cost": 227104.2,
+        "type": "Store",
+        "retail_location_id": 23
+    },
+    {
+        "id": 70,
+        "location": "East Kathleenton",
+        "cost": 1516452.46,
+        "type": "Office",
+        "office_seating_capacity": 136
+    },
+    {
+        "id": 71,
+        "location": "Kennedyfurt",
+        "cost": 1483912.26,
+        "type": "Store",
+        "retail_location_id": 34
+    },
+    {
+        "id": 72,
+        "location": "South Kim",
+        "cost": 1176758.31,
+        "type": "Kiosk",
+        "operating_hours": "12am - 10pm",
+        "monthly_rent": 3832.62
+    },
+    {
+        "id": 73,
+        "location": "Laurabury",
+        "cost": 4238466.78,
+        "type": "Office",
+        "office_seating_capacity": 78
+    },
+    {
+        "id": 74,
+        "location": "East Joseville",
+        "cost": 2585996.41,
+        "type": "Store",
+        "retail_location_id": 14
+    },
+    {
+        "id": 75,
+        "location": "Lake Sarahton",
+        "cost": 1148759.41,
+        "type": "Store",
+        "retail_location_id": 6
+    },
+    {
+        "id": 76,
+        "location": "Sarahaven",
+        "cost": 2165723.7,
+        "type": "Office",
+        "office_seating_capacity": 236
+    },
+    {
+        "id": 77,
+        "location": "East Fred",
+        "cost": 3573136.94,
+        "type": "Warehouse",
+        "date_of_acquisition": "2025-01-15",
+        "bought_from": "Thomas Group",
+        "warehouse_capacity_volume": 3020
+    },
+    {
+        "id": 78,
+        "location": "Brookehaven",
+        "cost": 3783931.38,
+        "type": "Office",
+        "office_seating_capacity": 96
+    },
+    {
+        "id": 79,
+        "location": "Danielfort",
+        "cost": 3979522.64,
+        "type": "Kiosk",
+        "operating_hours": "8am - 5pm",
+        "monthly_rent": 4872.87
+    },
+    {
+        "id": 80,
+        "location": "South Aaronchester",
+        "cost": 4486421.85,
+        "type": "Office",
+        "office_seating_capacity": 183
+    },
+    {
+        "id": 81,
+        "location": "Port Catherinetown",
+        "cost": 3432063.36,
+        "type": "Warehouse",
+        "date_of_acquisition": "2000-03-28",
+        "bought_from": "Frey, Smith and Perkins",
+        "warehouse_capacity_volume": 992
+    },
+    {
+        "id": 82,
+        "location": "Reginabury",
+        "cost": 1963185.44,
+        "type": "Kiosk",
+        "operating_hours": "10am - 10pm",
+        "monthly_rent": 3803.47
+    },
+    {
+        "id": 83,
+        "location": "East Melinda",
+        "cost": 3941312.74,
+        "type": "Warehouse",
+        "date_of_acquisition": "2007-08-09",
+        "bought_from": "Cruz, Bates and Rivera",
+        "warehouse_capacity_volume": 3081
+    },
+    {
+        "id": 84,
+        "location": "North Ryan",
+        "cost": 4514694.98,
+        "type": "Store",
+        "retail_location_id": 29
+    },
+    {
+        "id": 85,
+        "location": "Jamesside",
+        "cost": 2177305.8,
+        "type": "Kiosk",
+        "operating_hours": "12am - 10pm",
+        "monthly_rent": 1619.48
+    },
+    {
+        "id": 86,
+        "location": "Bellstad",
+        "cost": 896737.15,
+        "type": "Office",
+        "office_seating_capacity": 227
+    },
+    {
+        "id": 87,
+        "location": "Angelatown",
+        "cost": 665017.84,
+        "type": "Office",
+        "office_seating_capacity": 372
+    },
+    {
+        "id": 88,
+        "location": "Courtneyfort",
+        "cost": 2993234.6,
+        "type": "Kiosk",
+        "operating_hours": "10am - 4pm",
+        "monthly_rent": 3606.53
+    },
+    {
+        "id": 89,
+        "location": "North Michael",
+        "cost": 787424.48,
+        "type": "Kiosk",
+        "operating_hours": "12am - 6pm",
+        "monthly_rent": 3955.05
+    },
+    {
+        "id": 90,
+        "location": "Scottmouth",
+        "cost": 248448.76,
+        "type": "Office",
+        "office_seating_capacity": 122
+    },
+    {
+        "id": 91,
+        "location": "Port Reginachester",
+        "cost": 746344.78,
+        "type": "Store",
+        "retail_location_id": 34
+    },
+    {
+        "id": 92,
+        "location": "East Melissa",
+        "cost": 1260265.58,
+        "type": "Store",
+        "retail_location_id": 46
+    },
+    {
+        "id": 93,
+        "location": "West Madisonland",
+        "cost": 4748562.74,
+        "type": "Office",
+        "office_seating_capacity": 180
+    },
+    {
+        "id": 94,
+        "location": "Lake Jeremymouth",
+        "cost": 1459715.79,
+        "type": "Office",
+        "office_seating_capacity": 365
+    },
+    {
+        "id": 95,
+        "location": "Lake Monicastad",
+        "cost": 2964761.97,
+        "type": "Store",
+        "retail_location_id": 25
+    },
+    {
+        "id": 96,
+        "location": "Shermanbury",
+        "cost": 162423.37,
+        "type": "Store",
+        "retail_location_id": 1
+    },
+    {
+        "id": 97,
+        "location": "East Amberton",
+        "cost": 541248.68,
+        "type": "Warehouse",
+        "date_of_acquisition": "2011-03-06",
+        "bought_from": "Holder, Bell and Moore",
+        "warehouse_capacity_volume": 6759
+    },
+    {
+        "id": 98,
+        "location": "Phillipbury",
+        "cost": 1700826.69,
+        "type": "Office",
+        "office_seating_capacity": 209
+    },
+    {
+        "id": 99,
+        "location": "Kingmouth",
+        "cost": 4317918.77,
+        "type": "Kiosk",
+        "operating_hours": "8am - 10pm",
+        "monthly_rent": 3330.8
+    },
+    {
+        "id": 100,
+        "location": "West Alison",
+        "cost": 3998882.6,
+        "type": "Office",
+        "office_seating_capacity": 38
+    },
+    {
+        "id": 101,
+        "location": "Byrdmouth",
+        "cost": 586385.7,
+        "type": "Warehouse",
+        "date_of_acquisition": "2024-11-12",
+        "bought_from": "Potter, Schneider and Castillo",
+        "warehouse_capacity_volume": 8617
+    },
+    {
+        "id": 102,
+        "location": "Lake Donald",
+        "cost": 1927711.75,
+        "type": "Kiosk",
+        "operating_hours": "12am - 7pm",
+        "monthly_rent": 2563.35
+    },
+    {
+        "id": 103,
+        "location": "Pageport",
+        "cost": 3231960.13,
+        "type": "Kiosk",
+        "operating_hours": "8am - 7pm",
+        "monthly_rent": 4669.56
+    },
+    {
+        "id": 104,
+        "location": "Port Craigland",
+        "cost": 2598255.71,
+        "type": "Office",
+        "office_seating_capacity": 283
+    },
+    {
+        "id": 105,
+        "location": "Annahaven",
+        "cost": 256182.24,
+        "type": "Office",
+        "office_seating_capacity": 432
+    },
+    {
+        "id": 106,
+        "location": "Port Kevin",
+        "cost": 2365194.66,
+        "type": "Warehouse",
+        "date_of_acquisition": "2011-07-12",
+        "bought_from": "Garrett PLC",
+        "warehouse_capacity_volume": 3089
+    },
+    {
+        "id": 107,
+        "location": "Duranburgh",
+        "cost": 4588303.61,
+        "type": "Store",
+        "retail_location_id": 60
+    },
+    {
+        "id": 108,
+        "location": "Port Williamburgh",
+        "cost": 3750503.32,
+        "type": "Warehouse",
+        "date_of_acquisition": "2016-06-25",
+        "bought_from": "Adams, Wheeler and Griffin",
+        "warehouse_capacity_volume": 5862
+    },
+    {
+        "id": 109,
+        "location": "Franciscoport",
+        "cost": 1200137.26,
+        "type": "Kiosk",
+        "operating_hours": "12am - 10pm",
+        "monthly_rent": 3169.32
+    },
+    {
+        "id": 110,
+        "location": "Lake Robertberg",
+        "cost": 4027847.11,
+        "type": "Office",
+        "office_seating_capacity": 195
+    },
+    {
+        "id": 111,
+        "location": "Meganstad",
+        "cost": 2746609.07,
+        "type": "Warehouse",
+        "date_of_acquisition": "2002-04-22",
+        "bought_from": "Suarez Group",
+        "warehouse_capacity_volume": 5723
+    },
+    {
+        "id": 112,
+        "location": "East Jenniferstad",
+        "cost": 2535916.89,
+        "type": "Office",
+        "office_seating_capacity": 462
+    },
+    {
+        "id": 113,
+        "location": "South Marcus",
+        "cost": 2144334.87,
+        "type": "Office",
+        "office_seating_capacity": 21
+    },
+    {
+        "id": 114,
+        "location": "Annton",
+        "cost": 1126637.42,
+        "type": "Warehouse",
+        "date_of_acquisition": "2016-10-01",
+        "bought_from": "Carpenter, Shields and Davis",
+        "warehouse_capacity_volume": 8113
+    },
+    {
+        "id": 115,
+        "location": "Jonesland",
+        "cost": 939559.76,
+        "type": "Office",
+        "office_seating_capacity": 375
+    },
+    {
+        "id": 116,
+        "location": "East Kristen",
+        "cost": 3925223.32,
+        "type": "Warehouse",
+        "date_of_acquisition": "2017-03-28",
+        "bought_from": "Hendrix-Jimenez",
+        "warehouse_capacity_volume": 734
+    },
+    {
+        "id": 117,
+        "location": "Lake William",
+        "cost": 676656.07,
+        "type": "Kiosk",
+        "operating_hours": "12am - 4pm",
+        "monthly_rent": 3988.86
+    },
+    {
+        "id": 118,
+        "location": "Christianside",
+        "cost": 2872343.86,
+        "type": "Warehouse",
+        "date_of_acquisition": "2007-11-09",
+        "bought_from": "Thomas PLC",
+        "warehouse_capacity_volume": 4610
+    },
+    {
+        "id": 119,
+        "location": "New Madelineview",
+        "cost": 4682996.83,
+        "type": "Office",
+        "office_seating_capacity": 144
+    },
+    {
+        "id": 120,
+        "location": "Nicoleland",
+        "cost": 1061176.73,
+        "type": "Office",
+        "office_seating_capacity": 396
+    },
+    {
+        "id": 121,
+        "location": "Lake Kellieberg",
+        "cost": 2047166.52,
+        "type": "Kiosk",
+        "operating_hours": "11am - 4pm",
+        "monthly_rent": 1206.86
+    },
+    {
+        "id": 122,
+        "location": "East Stacy",
+        "cost": 862858.5,
+        "type": "Kiosk",
+        "operating_hours": "10am - 6pm",
+        "monthly_rent": 1204.5
+    },
+    {
+        "id": 123,
+        "location": "West Charlesmouth",
+        "cost": 2016951.89,
+        "type": "Office",
+        "office_seating_capacity": 167
+    },
+    {
+        "id": 124,
+        "location": "Port James",
+        "cost": 1005721.72,
+        "type": "Warehouse",
+        "date_of_acquisition": "2008-11-14",
+        "bought_from": "Cruz, Henderson and Cox",
+        "warehouse_capacity_volume": 7466
+    },
+    {
+        "id": 125,
+        "location": "North Davidburgh",
+        "cost": 4198869.57,
+        "type": "Store",
+        "retail_location_id": 2
+    },
+    {
+        "id": 126,
+        "location": "Snowville",
+        "cost": 4975362.55,
+        "type": "Office",
+        "office_seating_capacity": 402
+    },
+    {
+        "id": 127,
+        "location": "New Melissabury",
+        "cost": 2403657.55,
+        "type": "Warehouse",
+        "date_of_acquisition": "2008-01-15",
+        "bought_from": "Swanson, Sexton and Ortiz",
+        "warehouse_capacity_volume": 1255
+    },
+    {
+        "id": 128,
+        "location": "Ramireztown",
+        "cost": 3697662.24,
+        "type": "Store",
+        "retail_location_id": 7
+    },
+    {
+        "id": 129,
+        "location": "Longtown",
+        "cost": 3913127.29,
+        "type": "Kiosk",
+        "operating_hours": "8am - 10pm",
+        "monthly_rent": 2369.83
+    },
+    {
+        "id": 130,
+        "location": "Navarroside",
+        "cost": 300986.56,
+        "type": "Kiosk",
+        "operating_hours": "10am - 6pm",
+        "monthly_rent": 3769.82
+    },
+    {
+        "id": 131,
+        "location": "Littleport",
+        "cost": 3801758.57,
+        "type": "Store",
+        "retail_location_id": 11
+    },
+    {
+        "id": 132,
+        "location": "New Micheleland",
+        "cost": 3392474.35,
+        "type": "Office",
+        "office_seating_capacity": 262
+    },
+    {
+        "id": 133,
+        "location": "New Abigail",
+        "cost": 1127038.63,
+        "type": "Kiosk",
+        "operating_hours": "12am - 8pm",
+        "monthly_rent": 1694.92
+    },
+    {
+        "id": 134,
+        "location": "Lake Heather",
+        "cost": 498491.12,
+        "type": "Office",
+        "office_seating_capacity": 30
+    },
+    {
+        "id": 135,
+        "location": "Faulknermouth",
+        "cost": 2578405.99,
+        "type": "Office",
+        "office_seating_capacity": 493
+    },
+    {
+        "id": 136,
+        "location": "Lake Roychester",
+        "cost": 1056470.09,
+        "type": "Office",
+        "office_seating_capacity": 321
+    },
+    {
+        "id": 137,
+        "location": "South Matthewland",
+        "cost": 1274175.98,
+        "type": "Store",
+        "retail_location_id": 43
+    },
+    {
+        "id": 138,
+        "location": "Jamesstad",
+        "cost": 1709556.4,
+        "type": "Store",
+        "retail_location_id": 9
+    },
+    {
+        "id": 139,
+        "location": "South Brenda",
+        "cost": 2009662.42,
+        "type": "Store",
+        "retail_location_id": 16
+    },
+    {
+        "id": 140,
+        "location": "Port Richard",
+        "cost": 3751906.65,
+        "type": "Kiosk",
+        "operating_hours": "8am - 5pm",
+        "monthly_rent": 2218.65
+    },
+    {
+        "id": 141,
+        "location": "Deborahton",
+        "cost": 1294451.98,
+        "type": "Kiosk",
+        "operating_hours": "9am - 10pm",
+        "monthly_rent": 1160.45
+    },
+    {
+        "id": 142,
+        "location": "East Gregory",
+        "cost": 2394604.33,
+        "type": "Store",
+        "retail_location_id": 3
+    },
+    {
+        "id": 143,
+        "location": "Lake Dennis",
+        "cost": 571193.37,
+        "type": "Store",
+        "retail_location_id": 52
+    },
+    {
+        "id": 144,
+        "location": "Saramouth",
+        "cost": 2785140.24,
+        "type": "Office",
+        "office_seating_capacity": 166
+    },
+    {
+        "id": 145,
+        "location": "Thomaschester",
+        "cost": 3428053.97,
+        "type": "Kiosk",
+        "operating_hours": "9am - 8pm",
+        "monthly_rent": 3329.92
+    },
+    {
+        "id": 146,
+        "location": "Bellland",
+        "cost": 2858132.61,
+        "type": "Warehouse",
+        "date_of_acquisition": "2024-11-13",
+        "bought_from": "Mitchell PLC",
+        "warehouse_capacity_volume": 2310
+    },
+    {
+        "id": 147,
+        "location": "Jonathanfort",
+        "cost": 238625.43,
+        "type": "Office",
+        "office_seating_capacity": 51
+    },
+    {
+        "id": 148,
+        "location": "New Tina",
+        "cost": 2649046.66,
+        "type": "Kiosk",
+        "operating_hours": "8am - 5pm",
+        "monthly_rent": 1783.28
+    },
+    {
+        "id": 149,
+        "location": "West Edward",
+        "cost": 3374402.26,
+        "type": "Office",
+        "office_seating_capacity": 133
+    },
+    {
+        "id": 150,
+        "location": "West Diana",
+        "cost": 1748921.3,
+        "type": "Warehouse",
+        "date_of_acquisition": "2015-09-12",
+        "bought_from": "Thompson, Bradshaw and Nguyen",
+        "warehouse_capacity_volume": 7790
+    },
+    {
+        "id": 151,
+        "location": "Strongfort",
+        "cost": 3288839.11,
+        "type": "Kiosk",
+        "operating_hours": "11am - 10pm",
+        "monthly_rent": 2969.39
+    },
+    {
+        "id": 152,
+        "location": "North Aaron",
+        "cost": 3798455.77,
+        "type": "Office",
+        "office_seating_capacity": 440
+    },
+    {
+        "id": 153,
+        "location": "Lake Tonyaland",
+        "cost": 4175237.91,
+        "type": "Kiosk",
+        "operating_hours": "9am - 10pm",
+        "monthly_rent": 4172.03
+    },
+    {
+        "id": 154,
+        "location": "Freemanview",
+        "cost": 3092821.01,
+        "type": "Office",
+        "office_seating_capacity": 184
+    },
+    {
+        "id": 155,
+        "location": "Lake Elizabethhaven",
+        "cost": 4472198.93,
+        "type": "Warehouse",
+        "date_of_acquisition": "2008-05-08",
+        "bought_from": "Ortiz LLC",
+        "warehouse_capacity_volume": 6158
+    },
+    {
+        "id": 156,
+        "location": "Lake Kylestad",
+        "cost": 3786107.47,
+        "type": "Warehouse",
+        "date_of_acquisition": "2023-04-18",
+        "bought_from": "Vega, Hernandez and Gallegos",
+        "warehouse_capacity_volume": 8030
+    },
+    {
+        "id": 157,
+        "location": "Aaronmouth",
+        "cost": 355226.32,
+        "type": "Kiosk",
+        "operating_hours": "9am - 4pm",
+        "monthly_rent": 3741.73
+    },
+    {
+        "id": 158,
+        "location": "North Stephen",
+        "cost": 3669646.95,
+        "type": "Store",
+        "retail_location_id": 8
+    },
+    {
+        "id": 159,
+        "location": "Brendaport",
+        "cost": 3636169.45,
+        "type": "Office",
+        "office_seating_capacity": 264
+    },
+    {
+        "id": 160,
+        "location": "Williamsmouth",
+        "cost": 4711009.08,
+        "type": "Warehouse",
+        "date_of_acquisition": "2022-05-27",
+        "bought_from": "Davenport-Ortega",
+        "warehouse_capacity_volume": 7953
+    },
+    {
+        "id": 161,
+        "location": "East Peterburgh",
+        "cost": 4166288.3,
+        "type": "Office",
+        "office_seating_capacity": 394
+    },
+    {
+        "id": 162,
+        "location": "Lake Debraland",
+        "cost": 1823584.74,
+        "type": "Store",
+        "retail_location_id": 59
+    },
+    {
+        "id": 163,
+        "location": "Williamstown",
+        "cost": 4016054.03,
+        "type": "Warehouse",
+        "date_of_acquisition": "2015-05-06",
+        "bought_from": "Vazquez, Mack and Davis",
+        "warehouse_capacity_volume": 4663
+    },
+    {
+        "id": 164,
+        "location": "West Kimberly",
+        "cost": 1562303.72,
+        "type": "Store",
+        "retail_location_id": 60
+    },
+    {
+        "id": 165,
+        "location": "New Shelbybury",
+        "cost": 745838.43,
+        "type": "Store",
+        "retail_location_id": 57
+    },
+    {
+        "id": 166,
+        "location": "Lake Ana",
+        "cost": 739928.58,
+        "type": "Warehouse",
+        "date_of_acquisition": "2016-03-31",
+        "bought_from": "Rose-Hill",
+        "warehouse_capacity_volume": 9840
+    },
+    {
+        "id": 167,
+        "location": "West Craig",
+        "cost": 2209338.24,
+        "type": "Warehouse",
+        "date_of_acquisition": "2002-02-28",
+        "bought_from": "Miles-Moore",
+        "warehouse_capacity_volume": 823
+    },
+    {
+        "id": 168,
+        "location": "Philipfort",
+        "cost": 1978729.35,
+        "type": "Store",
+        "retail_location_id": 57
+    },
+    {
+        "id": 169,
+        "location": "Smithburgh",
+        "cost": 170866.35,
+        "type": "Office",
+        "office_seating_capacity": 470
+    },
+    {
+        "id": 170,
+        "location": "Williambury",
+        "cost": 3094904.72,
+        "type": "Office",
+        "office_seating_capacity": 26
+    },
+    {
+        "id": 171,
+        "location": "North Ricardo",
+        "cost": 1397360.64,
+        "type": "Store",
+        "retail_location_id": 49
+    },
+    {
+        "id": 172,
+        "location": "Rogersstad",
+        "cost": 2381994.63,
+        "type": "Kiosk",
+        "operating_hours": "11am - 10pm",
+        "monthly_rent": 1925.76
+    },
+    {
+        "id": 173,
+        "location": "Martinhaven",
+        "cost": 2321238.31,
+        "type": "Store",
+        "retail_location_id": 31
+    },
+    {
+        "id": 174,
+        "location": "Allenview",
+        "cost": 1856723.07,
+        "type": "Warehouse",
+        "date_of_acquisition": "2015-01-09",
+        "bought_from": "Anderson, Fields and Mclaughlin",
+        "warehouse_capacity_volume": 2486
+    },
+    {
+        "id": 175,
+        "location": "Robertstad",
+        "cost": 1982875.63,
+        "type": "Store",
+        "retail_location_id": 41
+    },
+    {
+        "id": 176,
+        "location": "Matthewshire",
+        "cost": 1341470.81,
+        "type": "Kiosk",
+        "operating_hours": "8am - 10pm",
+        "monthly_rent": 1517.53
+    },
+    {
+        "id": 177,
+        "location": "West Michael",
+        "cost": 4024005.58,
+        "type": "Store",
+        "retail_location_id": 55
+    },
+    {
+        "id": 178,
+        "location": "West Henryville",
+        "cost": 2312223.87,
+        "type": "Kiosk",
+        "operating_hours": "10am - 5pm",
+        "monthly_rent": 2753.96
+    },
+    {
+        "id": 179,
+        "location": "South Brianberg",
+        "cost": 2164408.08,
+        "type": "Store",
+        "retail_location_id": 3
+    },
+    {
+        "id": 180,
+        "location": "Lake Johnborough",
+        "cost": 4249395.14,
+        "type": "Kiosk",
+        "operating_hours": "10am - 5pm",
+        "monthly_rent": 2295.79
+    },
+    {
+        "id": 181,
+        "location": "West Patrick",
+        "cost": 3839273.7,
+        "type": "Kiosk",
+        "operating_hours": "10am - 9pm",
+        "monthly_rent": 4378.73
+    },
+    {
+        "id": 182,
+        "location": "South Anthonyborough",
+        "cost": 3817879.79,
+        "type": "Warehouse",
+        "date_of_acquisition": "2014-04-18",
+        "bought_from": "Hill, Flowers and Lara",
+        "warehouse_capacity_volume": 517
+    },
+    {
+        "id": 183,
+        "location": "South Coreyfort",
+        "cost": 4601999.42,
+        "type": "Store",
+        "retail_location_id": 52
+    },
+    {
+        "id": 184,
+        "location": "West Timothy",
+        "cost": 251457.84,
+        "type": "Warehouse",
+        "date_of_acquisition": "2011-07-10",
+        "bought_from": "Curry PLC",
+        "warehouse_capacity_volume": 1878
+    },
+    {
+        "id": 185,
+        "location": "Smithtown",
+        "cost": 4322914.92,
+        "type": "Office",
+        "office_seating_capacity": 197
+    },
+    {
+        "id": 186,
+        "location": "North Reneeborough",
+        "cost": 4454588.39,
+        "type": "Warehouse",
+        "date_of_acquisition": "2007-05-22",
+        "bought_from": "Bennett and Sons",
+        "warehouse_capacity_volume": 4202
+    },
+    {
+        "id": 187,
+        "location": "Rhondaville",
+        "cost": 1464055.72,
+        "type": "Office",
+        "office_seating_capacity": 32
+    },
+    {
+        "id": 188,
+        "location": "Johnstonfurt",
+        "cost": 3373175.89,
+        "type": "Kiosk",
+        "operating_hours": "11am - 8pm",
+        "monthly_rent": 1844.76
+    },
+    {
+        "id": 189,
+        "location": "North Marie",
+        "cost": 610955.42,
+        "type": "Office",
+        "office_seating_capacity": 48
+    },
+    {
+        "id": 190,
+        "location": "Carloshaven",
+        "cost": 3230916.72,
+        "type": "Warehouse",
+        "date_of_acquisition": "2022-02-20",
+        "bought_from": "Johnson-Roberts",
+        "warehouse_capacity_volume": 3850
+    },
+    {
+        "id": 191,
+        "location": "Richardbury",
+        "cost": 3728582.83,
+        "type": "Office",
+        "office_seating_capacity": 99
+    },
+    {
+        "id": 192,
+        "location": "Mariaburgh",
+        "cost": 1118807.63,
+        "type": "Kiosk",
+        "operating_hours": "10am - 4pm",
+        "monthly_rent": 1783.0
+    },
+    {
+        "id": 193,
+        "location": "Rickyborough",
+        "cost": 2020188.19,
+        "type": "Office",
+        "office_seating_capacity": 432
+    },
+    {
+        "id": 194,
+        "location": "Lake Rebeccaport",
+        "cost": 3640857.46,
+        "type": "Office",
+        "office_seating_capacity": 361
+    },
+    {
+        "id": 195,
+        "location": "East Lindsay",
+        "cost": 3815298.75,
+        "type": "Kiosk",
+        "operating_hours": "11am - 4pm",
+        "monthly_rent": 1265.03
+    },
+    {
+        "id": 196,
+        "location": "Lake Bradleyhaven",
+        "cost": 3852332.12,
+        "type": "Kiosk",
+        "operating_hours": "12am - 4pm",
+        "monthly_rent": 4239.14
+    },
+    {
+        "id": 197,
+        "location": "Port Timothychester",
+        "cost": 482109.05,
+        "type": "Office",
+        "office_seating_capacity": 443
+    },
+    {
+        "id": 198,
+        "location": "Kayleehaven",
+        "cost": 630426.09,
+        "type": "Office",
+        "office_seating_capacity": 422
+    },
+    {
+        "id": 199,
+        "location": "Tonyatown",
+        "cost": 435354.41,
+        "type": "Warehouse",
+        "date_of_acquisition": "2008-02-04",
+        "bought_from": "Brown LLC",
+        "warehouse_capacity_volume": 7106
+    },
+    {
+        "id": 200,
+        "location": "Salazarville",
+        "cost": 2438308.95,
+        "type": "Store",
+        "retail_location_id": 23
+    },
+    {
+        "id": 201,
+        "location": "Christinachester",
+        "cost": 4114092.8,
+        "type": "Warehouse",
+        "date_of_acquisition": "2015-02-07",
+        "bought_from": "Smith, Mclaughlin and Willis",
+        "warehouse_capacity_volume": 7705
+    },
+    {
+        "id": 202,
+        "location": "Marissaton",
+        "cost": 1095606.52,
+        "type": "Kiosk",
+        "operating_hours": "10am - 7pm",
+        "monthly_rent": 4260.33
+    },
+    {
+        "id": 203,
+        "location": "Charleshaven",
+        "cost": 3243166.99,
+        "type": "Warehouse",
+        "date_of_acquisition": "2010-08-16",
+        "bought_from": "Martin LLC",
+        "warehouse_capacity_volume": 9703
+    },
+    {
+        "id": 204,
+        "location": "Deanfurt",
+        "cost": 1674959.83,
+        "type": "Kiosk",
+        "operating_hours": "12am - 4pm",
+        "monthly_rent": 1087.71
+    },
+    {
+        "id": 205,
+        "location": "East Michael",
+        "cost": 1179984.0,
+        "type": "Warehouse",
+        "date_of_acquisition": "2014-12-19",
+        "bought_from": "Mitchell-Little",
+        "warehouse_capacity_volume": 2652
+    },
+    {
+        "id": 206,
+        "location": "South Jesse",
+        "cost": 4073701.67,
+        "type": "Office",
+        "office_seating_capacity": 399
+    },
+    {
+        "id": 207,
+        "location": "North Priscilla",
+        "cost": 2107160.11,
+        "type": "Office",
+        "office_seating_capacity": 352
+    },
+    {
+        "id": 208,
+        "location": "Jasonmouth",
+        "cost": 3216832.87,
+        "type": "Office",
+        "office_seating_capacity": 370
+    },
+    {
+        "id": 209,
+        "location": "South Dennistown",
+        "cost": 2477817.55,
+        "type": "Store",
+        "retail_location_id": 15
+    },
+    {
+        "id": 210,
+        "location": "Phambury",
+        "cost": 1571492.73,
+        "type": "Store",
+        "retail_location_id": 39
+    },
+    {
+        "id": 211,
+        "location": "Lake Karamouth",
+        "cost": 2679540.53,
+        "type": "Store",
+        "retail_location_id": 31
+    },
+    {
+        "id": 212,
+        "location": "Janetborough",
+        "cost": 1056366.62,
+        "type": "Kiosk",
+        "operating_hours": "10am - 9pm",
+        "monthly_rent": 2752.54
+    },
+    {
+        "id": 213,
+        "location": "Youngview",
+        "cost": 712020.41,
+        "type": "Office",
+        "office_seating_capacity": 87
+    },
+    {
+        "id": 214,
+        "location": "North Heatherhaven",
+        "cost": 2465092.83,
+        "type": "Store",
+        "retail_location_id": 9
+    },
+    {
+        "id": 215,
+        "location": "West Sarahfort",
+        "cost": 993258.04,
+        "type": "Office",
+        "office_seating_capacity": 413
+    },
+    {
+        "id": 216,
+        "location": "Fosterton",
+        "cost": 4441922.3,
+        "type": "Store",
+        "retail_location_id": 57
+    },
+    {
+        "id": 217,
+        "location": "Garciatown",
+        "cost": 505040.72,
+        "type": "Kiosk",
+        "operating_hours": "10am - 6pm",
+        "monthly_rent": 2024.74
+    },
+    {
+        "id": 218,
+        "location": "New Teresa",
+        "cost": 4570230.52,
+        "type": "Store",
+        "retail_location_id": 41
+    },
+    {
+        "id": 219,
+        "location": "East Anatown",
+        "cost": 3653420.79,
+        "type": "Kiosk",
+        "operating_hours": "9am - 4pm",
+        "monthly_rent": 2017.19
+    },
+    {
+        "id": 220,
+        "location": "Lake Erin",
+        "cost": 3117595.28,
+        "type": "Store",
+        "retail_location_id": 18
+    },
+    {
+        "id": 221,
+        "location": "Mikechester",
+        "cost": 3827322.74,
+        "type": "Store",
+        "retail_location_id": 2
+    },
+    {
+        "id": 222,
+        "location": "Port Kenneth",
+        "cost": 603387.94,
+        "type": "Warehouse",
+        "date_of_acquisition": "2024-07-25",
+        "bought_from": "Larsen, Andrews and Knox",
+        "warehouse_capacity_volume": 1973
+    },
+    {
+        "id": 223,
+        "location": "North Anthonyton",
+        "cost": 468048.99,
+        "type": "Kiosk",
+        "operating_hours": "12am - 10pm",
+        "monthly_rent": 2454.09
+    },
+    {
+        "id": 224,
+        "location": "Lake Sarah",
+        "cost": 2368447.24,
+        "type": "Kiosk",
+        "operating_hours": "10am - 8pm",
+        "monthly_rent": 4806.84
+    },
+    {
+        "id": 225,
+        "location": "Port Rodneyside",
+        "cost": 1361162.04,
+        "type": "Kiosk",
+        "operating_hours": "12am - 5pm",
+        "monthly_rent": 2794.13
+    },
+    {
+        "id": 226,
+        "location": "Port Kevin",
+        "cost": 4252302.75,
+        "type": "Kiosk",
+        "operating_hours": "8am - 10pm",
+        "monthly_rent": 3029.53
+    },
+    {
+        "id": 227,
+        "location": "New Michael",
+        "cost": 500427.56,
+        "type": "Office",
+        "office_seating_capacity": 35
+    },
+    {
+        "id": 228,
+        "location": "Sparkschester",
+        "cost": 4219688.55,
+        "type": "Office",
+        "office_seating_capacity": 20
+    },
+    {
+        "id": 229,
+        "location": "Michaelfurt",
+        "cost": 1828103.26,
+        "type": "Office",
+        "office_seating_capacity": 72
+    },
+    {
+        "id": 230,
+        "location": "Warrenton",
+        "cost": 2705617.2,
+        "type": "Warehouse",
+        "date_of_acquisition": "2024-12-18",
+        "bought_from": "George-Stafford",
+        "warehouse_capacity_volume": 4788
+    },
+    {
+        "id": 231,
+        "location": "South Melanie",
+        "cost": 3429979.96,
+        "type": "Kiosk",
+        "operating_hours": "8am - 7pm",
+        "monthly_rent": 1270.39
+    },
+    {
+        "id": 232,
+        "location": "South Cynthia",
+        "cost": 3577242.37,
+        "type": "Office",
+        "office_seating_capacity": 91
+    },
+    {
+        "id": 233,
+        "location": "Port Tiffany",
+        "cost": 2175039.1,
+        "type": "Warehouse",
+        "date_of_acquisition": "2025-05-31",
+        "bought_from": "Young, Smith and Thompson",
+        "warehouse_capacity_volume": 5536
+    },
+    {
+        "id": 234,
+        "location": "Lake Michaelmouth",
+        "cost": 1645081.56,
+        "type": "Office",
+        "office_seating_capacity": 376
+    },
+    {
+        "id": 235,
+        "location": "Avilaville",
+        "cost": 1878844.29,
+        "type": "Kiosk",
+        "operating_hours": "11am - 7pm",
+        "monthly_rent": 1201.67
+    },
+    {
+        "id": 236,
+        "location": "Heathberg",
+        "cost": 4519828.74,
+        "type": "Store",
+        "retail_location_id": 35
+    },
+    {
+        "id": 237,
+        "location": "East Amandaville",
+        "cost": 4602002.11,
+        "type": "Warehouse",
+        "date_of_acquisition": "2004-04-21",
+        "bought_from": "Kennedy-Garner",
+        "warehouse_capacity_volume": 8362
+    },
+    {
+        "id": 238,
+        "location": "Johnsonbury",
+        "cost": 4290108.3,
+        "type": "Warehouse",
+        "date_of_acquisition": "2012-07-23",
+        "bought_from": "Carney LLC",
+        "warehouse_capacity_volume": 8846
+    },
+    {
+        "id": 239,
+        "location": "Jasminechester",
+        "cost": 4261259.49,
+        "type": "Store",
+        "retail_location_id": 60
+    },
+    {
+        "id": 240,
+        "location": "South Anthonyfort",
+        "cost": 2195261.46,
+        "type": "Office",
+        "office_seating_capacity": 329
+    },
+    {
+        "id": 241,
+        "location": "Pattersonport",
+        "cost": 3446985.99,
+        "type": "Office",
+        "office_seating_capacity": 130
+    },
+    {
+        "id": 242,
+        "location": "Waltonbury",
+        "cost": 4523189.33,
+        "type": "Kiosk",
+        "operating_hours": "9am - 8pm",
+        "monthly_rent": 4123.4
+    },
+    {
+        "id": 243,
+        "location": "Melissatown",
+        "cost": 2743354.24,
+        "type": "Office",
+        "office_seating_capacity": 118
+    },
+    {
+        "id": 244,
+        "location": "Wheelerberg",
+        "cost": 638199.99,
+        "type": "Kiosk",
+        "operating_hours": "9am - 10pm",
+        "monthly_rent": 1484.71
+    },
+    {
+        "id": 245,
+        "location": "Lewischester",
+        "cost": 1864632.32,
+        "type": "Kiosk",
+        "operating_hours": "8am - 9pm",
+        "monthly_rent": 1158.15
+    },
+    {
+        "id": 246,
+        "location": "Jenniferburgh",
+        "cost": 4533011.38,
+        "type": "Store",
+        "retail_location_id": 46
+    },
+    {
+        "id": 247,
+        "location": "Wrightmouth",
+        "cost": 3863967.76,
+        "type": "Warehouse",
+        "date_of_acquisition": "2022-02-13",
+        "bought_from": "Shepard-Butler",
+        "warehouse_capacity_volume": 1307
+    },
+    {
+        "id": 248,
+        "location": "Lake Daniel",
+        "cost": 200369.95,
+        "type": "Office",
+        "office_seating_capacity": 457
+    },
+    {
+        "id": 249,
+        "location": "North Josephview",
+        "cost": 592732.34,
+        "type": "Store",
+        "retail_location_id": 55
+    },
+    {
+        "id": 250,
+        "location": "Ortizstad",
+        "cost": 916604.59,
+        "type": "Kiosk",
+        "operating_hours": "9am - 9pm",
+        "monthly_rent": 1983.2
+    },
+    {
+        "id": 251,
+        "location": "South Annaville",
+        "cost": 4777231.5,
+        "type": "Kiosk",
+        "operating_hours": "11am - 5pm",
+        "monthly_rent": 2995.0
+    },
+    {
+        "id": 252,
+        "location": "North James",
+        "cost": 4709170.33,
+        "type": "Kiosk",
+        "operating_hours": "11am - 5pm",
+        "monthly_rent": 2623.22
+    },
+    {
+        "id": 253,
+        "location": "Georgeside",
+        "cost": 1606527.08,
+        "type": "Warehouse",
+        "date_of_acquisition": "2004-02-08",
+        "bought_from": "Smith, Watkins and Valenzuela",
+        "warehouse_capacity_volume": 3095
+    },
+    {
+        "id": 254,
+        "location": "Lake Elizabethberg",
+        "cost": 1199927.02,
+        "type": "Warehouse",
+        "date_of_acquisition": "2010-12-29",
+        "bought_from": "Duke-Smith",
+        "warehouse_capacity_volume": 9661
+    },
+    {
+        "id": 255,
+        "location": "North Nicole",
+        "cost": 3689957.86,
+        "type": "Store",
+        "retail_location_id": 55
+    },
+    {
+        "id": 256,
+        "location": "Port Rachelmouth",
+        "cost": 2817820.72,
+        "type": "Office",
+        "office_seating_capacity": 500
+    },
+    {
+        "id": 257,
+        "location": "Sanchezport",
+        "cost": 3370631.31,
+        "type": "Store",
+        "retail_location_id": 51
+    },
+    {
+        "id": 258,
+        "location": "South Maryland",
+        "cost": 2373975.2,
+        "type": "Kiosk",
+        "operating_hours": "11am - 5pm",
+        "monthly_rent": 1483.58
+    },
+    {
+        "id": 259,
+        "location": "West Justinville",
+        "cost": 2167118.31,
+        "type": "Office",
+        "office_seating_capacity": 338
+    },
+    {
+        "id": 260,
+        "location": "West Ashleymouth",
+        "cost": 1787731.86,
+        "type": "Store",
+        "retail_location_id": 46
+    },
+    {
+        "id": 261,
+        "location": "Johnland",
+        "cost": 955328.23,
+        "type": "Kiosk",
+        "operating_hours": "9am - 4pm",
+        "monthly_rent": 1552.84
+    },
+    {
+        "id": 262,
+        "location": "Port Sherriland",
+        "cost": 292354.4,
+        "type": "Office",
+        "office_seating_capacity": 264
+    },
+    {
+        "id": 263,
+        "location": "Lake Jamie",
+        "cost": 479538.7,
+        "type": "Warehouse",
+        "date_of_acquisition": "2025-01-02",
+        "bought_from": "Hammond PLC",
+        "warehouse_capacity_volume": 8058
+    },
+    {
+        "id": 264,
+        "location": "Lake Melissa",
+        "cost": 3555493.63,
+        "type": "Office",
+        "office_seating_capacity": 449
+    },
+    {
+        "id": 265,
+        "location": "Leebury",
+        "cost": 2734458.41,
+        "type": "Store",
+        "retail_location_id": 23
+    },
+    {
+        "id": 266,
+        "location": "Sarahstad",
+        "cost": 3241283.04,
+        "type": "Store",
+        "retail_location_id": 22
+    },
+    {
+        "id": 267,
+        "location": "Theresaburgh",
+        "cost": 3858196.19,
+        "type": "Store",
+        "retail_location_id": 29
+    },
+    {
+        "id": 268,
+        "location": "Vegaton",
+        "cost": 3617582.71,
+        "type": "Store",
+        "retail_location_id": 8
+    },
+    {
+        "id": 269,
+        "location": "Lake Ryan",
+        "cost": 983931.59,
+        "type": "Warehouse",
+        "date_of_acquisition": "2025-04-08",
+        "bought_from": "Barker, Williams and Yu",
+        "warehouse_capacity_volume": 7198
+    },
+    {
+        "id": 270,
+        "location": "Martinside",
+        "cost": 3200034.66,
+        "type": "Store",
+        "retail_location_id": 2
+    },
+    {
+        "id": 271,
+        "location": "West Jeremiah",
+        "cost": 4177471.56,
+        "type": "Office",
+        "office_seating_capacity": 473
+    },
+    {
+        "id": 272,
+        "location": "Dixonberg",
+        "cost": 4915155.14,
+        "type": "Warehouse",
+        "date_of_acquisition": "2009-09-25",
+        "bought_from": "Bridges-Porter",
+        "warehouse_capacity_volume": 8801
+    },
+    {
+        "id": 273,
+        "location": "Williamsmouth",
+        "cost": 1534927.19,
+        "type": "Office",
+        "office_seating_capacity": 366
+    },
+    {
+        "id": 274,
+        "location": "North John",
+        "cost": 1325079.6,
+        "type": "Store",
+        "retail_location_id": 25
+    },
+    {
+        "id": 275,
+        "location": "New Nathan",
+        "cost": 383294.7,
+        "type": "Warehouse",
+        "date_of_acquisition": "2020-04-23",
+        "bought_from": "Morales-Blankenship",
+        "warehouse_capacity_volume": 2530
+    },
+    {
+        "id": 276,
+        "location": "South Jennifershire",
+        "cost": 3550917.19,
+        "type": "Kiosk",
+        "operating_hours": "11am - 8pm",
+        "monthly_rent": 1742.56
+    },
+    {
+        "id": 277,
+        "location": "East Anitaport",
+        "cost": 1954149.99,
+        "type": "Store",
+        "retail_location_id": 19
+    },
+    {
+        "id": 278,
+        "location": "New Lindsay",
+        "cost": 3226762.34,
+        "type": "Store",
+        "retail_location_id": 47
+    },
+    {
+        "id": 279,
+        "location": "North Gabriel",
+        "cost": 373070.9,
+        "type": "Office",
+        "office_seating_capacity": 401
+    },
+    {
+        "id": 280,
+        "location": "Huynhshire",
+        "cost": 4262150.15,
+        "type": "Store",
+        "retail_location_id": 33
+    },
+    {
+        "id": 281,
+        "location": "South Carol",
+        "cost": 1854840.16,
+        "type": "Warehouse",
+        "date_of_acquisition": "2017-02-14",
+        "bought_from": "Rice Group",
+        "warehouse_capacity_volume": 9781
+    },
+    {
+        "id": 282,
+        "location": "Castanedaton",
+        "cost": 515161.16,
+        "type": "Warehouse",
+        "date_of_acquisition": "2017-02-28",
+        "bought_from": "Johnson, Bennett and Martinez",
+        "warehouse_capacity_volume": 9516
+    },
+    {
+        "id": 283,
+        "location": "Muellertown",
+        "cost": 821209.19,
+        "type": "Kiosk",
+        "operating_hours": "10am - 9pm",
+        "monthly_rent": 4169.12
+    },
+    {
+        "id": 284,
+        "location": "Youngburgh",
+        "cost": 4331440.44,
+        "type": "Warehouse",
+        "date_of_acquisition": "2025-08-27",
+        "bought_from": "May Ltd",
+        "warehouse_capacity_volume": 5221
+    },
+    {
+        "id": 285,
+        "location": "West Michaela",
+        "cost": 2273120.09,
+        "type": "Kiosk",
+        "operating_hours": "11am - 8pm",
+        "monthly_rent": 4831.43
+    },
+    {
+        "id": 286,
+        "location": "Gomezside",
+        "cost": 4071672.64,
+        "type": "Office",
+        "office_seating_capacity": 493
+    },
+    {
+        "id": 287,
+        "location": "Port John",
+        "cost": 820661.61,
+        "type": "Kiosk",
+        "operating_hours": "8am - 8pm",
+        "monthly_rent": 2040.9
+    },
+    {
+        "id": 288,
+        "location": "Thomasview",
+        "cost": 943984.45,
+        "type": "Warehouse",
+        "date_of_acquisition": "2001-04-23",
+        "bought_from": "Hull LLC",
+        "warehouse_capacity_volume": 5792
+    },
+    {
+        "id": 289,
+        "location": "Richardmouth",
+        "cost": 1158597.4,
+        "type": "Warehouse",
+        "date_of_acquisition": "2015-10-18",
+        "bought_from": "Parker, Mcbride and Moore",
+        "warehouse_capacity_volume": 3196
+    },
+    {
+        "id": 290,
+        "location": "Boydborough",
+        "cost": 2702566.8,
+        "type": "Warehouse",
+        "date_of_acquisition": "2005-05-07",
+        "bought_from": "Stewart, Gardner and Moon",
+        "warehouse_capacity_volume": 9468
+    },
+    {
+        "id": 291,
+        "location": "Port Sandra",
+        "cost": 2281824.59,
+        "type": "Store",
+        "retail_location_id": 26
+    },
+    {
+        "id": 292,
+        "location": "South Teresaville",
+        "cost": 3823439.22,
+        "type": "Office",
+        "office_seating_capacity": 136
+    },
+    {
+        "id": 293,
+        "location": "West Katie",
+        "cost": 3281801.08,
+        "type": "Store",
+        "retail_location_id": 4
+    },
+    {
+        "id": 294,
+        "location": "New Tyler",
+        "cost": 2708859.91,
+        "type": "Office",
+        "office_seating_capacity": 185
+    },
+    {
+        "id": 295,
+        "location": "Ashleybury",
+        "cost": 4275193.43,
+        "type": "Kiosk",
+        "operating_hours": "8am - 9pm",
+        "monthly_rent": 3954.54
+    },
+    {
+        "id": 296,
+        "location": "South Cheyennehaven",
+        "cost": 600726.93,
+        "type": "Kiosk",
+        "operating_hours": "11am - 10pm",
+        "monthly_rent": 3676.73
+    },
+    {
+        "id": 297,
+        "location": "Darrellfort",
+        "cost": 4524196.99,
+        "type": "Kiosk",
+        "operating_hours": "8am - 6pm",
+        "monthly_rent": 3873.4
+    },
+    {
+        "id": 298,
+        "location": "Rosalesside",
+        "cost": 4082810.72,
+        "type": "Warehouse",
+        "date_of_acquisition": "2016-03-29",
+        "bought_from": "Lopez, Roberts and Hammond",
+        "warehouse_capacity_volume": 3974
+    },
+    {
+        "id": 299,
+        "location": "Jenniferview",
+        "cost": 4866518.08,
+        "type": "Store",
+        "retail_location_id": 33
+    },
+    {
+        "id": 300,
+        "location": "South Nathan",
+        "cost": 4359528.96,
+        "type": "Kiosk",
+        "operating_hours": "9am - 10pm",
+        "monthly_rent": 2036.01
+    },
+    {
+        "id": 301,
+        "location": "Lake Crystalland",
+        "cost": 4607840.61,
+        "type": "Office",
+        "office_seating_capacity": 467
+    },
+    {
+        "id": 302,
+        "location": "West Margaret",
+        "cost": 4683603.09,
+        "type": "Kiosk",
+        "operating_hours": "10am - 4pm",
+        "monthly_rent": 1565.8
+    },
+    {
+        "id": 303,
+        "location": "Riveramouth",
+        "cost": 1897669.97,
+        "type": "Office",
+        "office_seating_capacity": 383
+    },
+    {
+        "id": 304,
+        "location": "Port Jeffrey",
+        "cost": 4056525.95,
+        "type": "Warehouse",
+        "date_of_acquisition": "2010-11-14",
+        "bought_from": "Goodman and Sons",
+        "warehouse_capacity_volume": 3056
+    },
+    {
+        "id": 305,
+        "location": "New Markshire",
+        "cost": 426670.38,
+        "type": "Office",
+        "office_seating_capacity": 411
+    },
+    {
+        "id": 306,
+        "location": "Sharishire",
+        "cost": 3983662.27,
+        "type": "Store",
+        "retail_location_id": 34
+    },
+    {
+        "id": 307,
+        "location": "Mortonport",
+        "cost": 2571771.29,
+        "type": "Office",
+        "office_seating_capacity": 259
+    },
+    {
+        "id": 308,
+        "location": "East Yvettemouth",
+        "cost": 4696429.02,
+        "type": "Warehouse",
+        "date_of_acquisition": "2000-09-13",
+        "bought_from": "Gonzalez, Norris and Daniels",
+        "warehouse_capacity_volume": 9103
+    },
+    {
+        "id": 309,
+        "location": "Brianabury",
+        "cost": 4226220.76,
+        "type": "Office",
+        "office_seating_capacity": 475
+    },
+    {
+        "id": 310,
+        "location": "Emilyville",
+        "cost": 301350.43,
+        "type": "Kiosk",
+        "operating_hours": "8am - 6pm",
+        "monthly_rent": 2482.57
+    },
+    {
+        "id": 311,
+        "location": "New Jamiefort",
+        "cost": 1403546.93,
+        "type": "Office",
+        "office_seating_capacity": 277
+    },
+    {
+        "id": 312,
+        "location": "Thompsonview",
+        "cost": 871160.89,
+        "type": "Office",
+        "office_seating_capacity": 224
+    },
+    {
+        "id": 313,
+        "location": "Erinside",
+        "cost": 3398683.1,
+        "type": "Kiosk",
+        "operating_hours": "9am - 4pm",
+        "monthly_rent": 4457.68
+    },
+    {
+        "id": 314,
+        "location": "New Wendy",
+        "cost": 3304749.41,
+        "type": "Office",
+        "office_seating_capacity": 301
+    },
+    {
+        "id": 315,
+        "location": "West Jerryshire",
+        "cost": 2202784.85,
+        "type": "Kiosk",
+        "operating_hours": "12am - 7pm",
+        "monthly_rent": 4733.79
+    },
+    {
+        "id": 316,
+        "location": "Lake Aprilmouth",
+        "cost": 1414605.56,
+        "type": "Warehouse",
+        "date_of_acquisition": "2017-12-21",
+        "bought_from": "Gray PLC",
+        "warehouse_capacity_volume": 3403
+    },
+    {
+        "id": 317,
+        "location": "South Catherine",
+        "cost": 3109073.17,
+        "type": "Office",
+        "office_seating_capacity": 264
+    },
+    {
+        "id": 318,
+        "location": "New Joel",
+        "cost": 190757.44,
+        "type": "Kiosk",
+        "operating_hours": "9am - 9pm",
+        "monthly_rent": 1751.94
+    },
+    {
+        "id": 319,
+        "location": "West Karenport",
+        "cost": 594391.82,
+        "type": "Kiosk",
+        "operating_hours": "10am - 8pm",
+        "monthly_rent": 4765.29
+    },
+    {
+        "id": 320,
+        "location": "West Michelleside",
+        "cost": 3312564.13,
+        "type": "Office",
+        "office_seating_capacity": 185
+    },
+    {
+        "id": 321,
+        "location": "Comptonberg",
+        "cost": 1317698.65,
+        "type": "Office",
+        "office_seating_capacity": 371
+    },
+    {
+        "id": 322,
+        "location": "East Monicahaven",
+        "cost": 3280974.76,
+        "type": "Office",
+        "office_seating_capacity": 248
+    },
+    {
+        "id": 323,
+        "location": "Nicoleville",
+        "cost": 3607748.81,
+        "type": "Office",
+        "office_seating_capacity": 407
+    },
+    {
+        "id": 324,
+        "location": "Port Theresa",
+        "cost": 3541929.85,
+        "type": "Office",
+        "office_seating_capacity": 351
+    },
+    {
+        "id": 325,
+        "location": "Lake Victoria",
+        "cost": 3667197.09,
+        "type": "Warehouse",
+        "date_of_acquisition": "2025-02-01",
+        "bought_from": "Nguyen Ltd",
+        "warehouse_capacity_volume": 9275
+    },
+    {
+        "id": 326,
+        "location": "South Mary",
+        "cost": 2250858.11,
+        "type": "Kiosk",
+        "operating_hours": "10am - 9pm",
+        "monthly_rent": 2946.68
+    },
+    {
+        "id": 327,
+        "location": "Lake Kristinafurt",
+        "cost": 4019391.97,
+        "type": "Office",
+        "office_seating_capacity": 481
+    },
+    {
+        "id": 328,
+        "location": "East Brittanymouth",
+        "cost": 763641.2,
+        "type": "Store",
+        "retail_location_id": 29
+    },
+    {
+        "id": 329,
+        "location": "Jennyton",
+        "cost": 1443952.6,
+        "type": "Warehouse",
+        "date_of_acquisition": "2007-10-06",
+        "bought_from": "Barber LLC",
+        "warehouse_capacity_volume": 2843
+    },
+    {
+        "id": 330,
+        "location": "East Lisaberg",
+        "cost": 2872453.82,
+        "type": "Store",
+        "retail_location_id": 26
+    },
+    {
+        "id": 331,
+        "location": "East Haleymouth",
+        "cost": 4657920.13,
+        "type": "Office",
+        "office_seating_capacity": 84
+    },
+    {
+        "id": 332,
+        "location": "Transide",
+        "cost": 3890141.97,
+        "type": "Store",
+        "retail_location_id": 3
+    },
+    {
+        "id": 333,
+        "location": "North Jeremyville",
+        "cost": 2555913.05,
+        "type": "Kiosk",
+        "operating_hours": "9am - 9pm",
+        "monthly_rent": 3528.96
+    },
+    {
+        "id": 334,
+        "location": "South Bethanyland",
+        "cost": 3727924.22,
+        "type": "Office",
+        "office_seating_capacity": 225
+    },
+    {
+        "id": 335,
+        "location": "Lake Rachelville",
+        "cost": 288235.72,
+        "type": "Office",
+        "office_seating_capacity": 196
+    },
+    {
+        "id": 336,
+        "location": "Jonathanfurt",
+        "cost": 137405.61,
+        "type": "Warehouse",
+        "date_of_acquisition": "2014-01-24",
+        "bought_from": "Rojas, Gray and Harris",
+        "warehouse_capacity_volume": 8894
+    },
+    {
+        "id": 337,
+        "location": "Alberttown",
+        "cost": 1195447.19,
+        "type": "Kiosk",
+        "operating_hours": "11am - 6pm",
+        "monthly_rent": 2567.07
+    },
+    {
+        "id": 338,
+        "location": "Nathanstad",
+        "cost": 3440901.41,
+        "type": "Store",
+        "retail_location_id": 46
+    },
+    {
+        "id": 339,
+        "location": "East Matthewmouth",
+        "cost": 1421862.57,
+        "type": "Kiosk",
+        "operating_hours": "8am - 4pm",
+        "monthly_rent": 3269.96
+    },
+    {
+        "id": 340,
+        "location": "Joyceburgh",
+        "cost": 4369703.29,
+        "type": "Office",
+        "office_seating_capacity": 333
+    },
+    {
+        "id": 341,
+        "location": "South Priscillaview",
+        "cost": 3467021.2,
+        "type": "Office",
+        "office_seating_capacity": 132
+    },
+    {
+        "id": 342,
+        "location": "South Shaunshire",
+        "cost": 3103037.33,
+        "type": "Kiosk",
+        "operating_hours": "9am - 7pm",
+        "monthly_rent": 2658.99
+    },
+    {
+        "id": 343,
+        "location": "Matthewborough",
+        "cost": 4038911.38,
+        "type": "Office",
+        "office_seating_capacity": 378
+    },
+    {
+        "id": 344,
+        "location": "South Amandaberg",
+        "cost": 1326215.38,
+        "type": "Warehouse",
+        "date_of_acquisition": "2007-08-09",
+        "bought_from": "Tucker, Thompson and Thompson",
+        "warehouse_capacity_volume": 3312
+    },
+    {
+        "id": 345,
+        "location": "Christinechester",
+        "cost": 3031999.87,
+        "type": "Office",
+        "office_seating_capacity": 247
+    },
+    {
+        "id": 346,
+        "location": "West Dustinborough",
+        "cost": 2468210.98,
+        "type": "Office",
+        "office_seating_capacity": 290
+    },
+    {
+        "id": 347,
+        "location": "West Carolport",
+        "cost": 2785169.88,
+        "type": "Store",
+        "retail_location_id": 32
+    },
+    {
+        "id": 348,
+        "location": "West Catherine",
+        "cost": 4977294.42,
+        "type": "Office",
+        "office_seating_capacity": 189
+    },
+    {
+        "id": 349,
+        "location": "Millschester",
+        "cost": 1794555.58,
+        "type": "Warehouse",
+        "date_of_acquisition": "2000-06-09",
+        "bought_from": "Munoz, Berry and Austin",
+        "warehouse_capacity_volume": 4696
+    },
+    {
+        "id": 350,
+        "location": "Joycestad",
+        "cost": 148283.07,
+        "type": "Office",
+        "office_seating_capacity": 247
+    },
+    {
+        "id": 351,
+        "location": "Edwinview",
+        "cost": 1556676.59,
+        "type": "Office",
+        "office_seating_capacity": 202
+    },
+    {
+        "id": 352,
+        "location": "Mcmillantown",
+        "cost": 3762170.07,
+        "type": "Warehouse",
+        "date_of_acquisition": "2011-07-04",
+        "bought_from": "Ferrell Group",
+        "warehouse_capacity_volume": 1109
+    },
+    {
+        "id": 353,
+        "location": "Stevenshire",
+        "cost": 4945220.91,
+        "type": "Office",
+        "office_seating_capacity": 279
+    },
+    {
+        "id": 354,
+        "location": "Robertberg",
+        "cost": 3847572.46,
+        "type": "Store",
+        "retail_location_id": 18
+    },
+    {
+        "id": 355,
+        "location": "South Ruthville",
+        "cost": 4488857.45,
+        "type": "Kiosk",
+        "operating_hours": "8am - 4pm",
+        "monthly_rent": 1337.64
+    },
+    {
+        "id": 356,
+        "location": "Wigginsmouth",
+        "cost": 1990622.03,
+        "type": "Warehouse",
+        "date_of_acquisition": "2025-07-03",
+        "bought_from": "Dalton, Rose and Davis",
+        "warehouse_capacity_volume": 7643
+    },
+    {
+        "id": 357,
+        "location": "Kennethville",
+        "cost": 2296452.86,
+        "type": "Kiosk",
+        "operating_hours": "8am - 4pm",
+        "monthly_rent": 3786.39
+    },
+    {
+        "id": 358,
+        "location": "North Austin",
+        "cost": 3701943.51,
+        "type": "Kiosk",
+        "operating_hours": "11am - 8pm",
+        "monthly_rent": 1621.32
+    },
+    {
+        "id": 359,
+        "location": "Kevinville",
+        "cost": 1824757.74,
+        "type": "Kiosk",
+        "operating_hours": "8am - 6pm",
+        "monthly_rent": 3963.08
+    },
+    {
+        "id": 360,
+        "location": "Josephshire",
+        "cost": 1485432.53,
+        "type": "Warehouse",
+        "date_of_acquisition": "2003-04-02",
+        "bought_from": "Singh-Grant",
+        "warehouse_capacity_volume": 8153
+    },
+    {
+        "id": 361,
+        "location": "Warefort",
+        "cost": 2540833.62,
+        "type": "Office",
+        "office_seating_capacity": 323
+    },
+    {
+        "id": 362,
+        "location": "Rhodesburgh",
+        "cost": 4646637.41,
+        "type": "Office",
+        "office_seating_capacity": 400
+    },
+    {
+        "id": 363,
+        "location": "Port Paul",
+        "cost": 1992101.59,
+        "type": "Office",
+        "office_seating_capacity": 13
+    },
+    {
+        "id": 364,
+        "location": "Yatesport",
+        "cost": 3714517.29,
+        "type": "Warehouse",
+        "date_of_acquisition": "2020-09-29",
+        "bought_from": "Harris-Kennedy",
+        "warehouse_capacity_volume": 8085
+    },
+    {
+        "id": 365,
+        "location": "Marychester",
+        "cost": 2133208.67,
+        "type": "Kiosk",
+        "operating_hours": "11am - 8pm",
+        "monthly_rent": 1098.14
+    },
+    {
+        "id": 366,
+        "location": "New Ashley",
+        "cost": 1580646.32,
+        "type": "Office",
+        "office_seating_capacity": 323
+    },
+    {
+        "id": 367,
+        "location": "East Jill",
+        "cost": 3035463.74,
+        "type": "Store",
+        "retail_location_id": 33
+    },
+    {
+        "id": 368,
+        "location": "Chelseafort",
+        "cost": 2599169.56,
+        "type": "Office",
+        "office_seating_capacity": 411
+    },
+    {
+        "id": 369,
+        "location": "Port Danielle",
+        "cost": 4236475.67,
+        "type": "Office",
+        "office_seating_capacity": 448
+    },
+    {
+        "id": 370,
+        "location": "North Veronica",
+        "cost": 1736285.5,
+        "type": "Store",
+        "retail_location_id": 19
+    },
+    {
+        "id": 371,
+        "location": "Clarkshire",
+        "cost": 2797582.92,
+        "type": "Kiosk",
+        "operating_hours": "12am - 9pm",
+        "monthly_rent": 2382.0
+    },
+    {
+        "id": 372,
+        "location": "Thomasbury",
+        "cost": 2209884.25,
+        "type": "Office",
+        "office_seating_capacity": 184
+    },
+    {
+        "id": 373,
+        "location": "Nelsontown",
+        "cost": 4572906.34,
+        "type": "Store",
+        "retail_location_id": 44
+    },
+    {
+        "id": 374,
+        "location": "Lake Lindaburgh",
+        "cost": 1026268.69,
+        "type": "Office",
+        "office_seating_capacity": 49
+    },
+    {
+        "id": 375,
+        "location": "Alexanderburgh",
+        "cost": 1825658.11,
+        "type": "Office",
+        "office_seating_capacity": 275
+    },
+    {
+        "id": 376,
+        "location": "West Johnnyview",
+        "cost": 3106812.26,
+        "type": "Kiosk",
+        "operating_hours": "9am - 4pm",
+        "monthly_rent": 3412.64
+    },
+    {
+        "id": 377,
+        "location": "Coopertown",
+        "cost": 3329875.45,
+        "type": "Store",
+        "retail_location_id": 2
+    },
+    {
+        "id": 378,
+        "location": "Zimmermanmouth",
+        "cost": 2861823.09,
+        "type": "Store",
+        "retail_location_id": 59
+    },
+    {
+        "id": 379,
+        "location": "Wolfeville",
+        "cost": 252459.37,
+        "type": "Warehouse",
+        "date_of_acquisition": "2004-10-14",
+        "bought_from": "Kemp-Klein",
+        "warehouse_capacity_volume": 9441
+    },
+    {
+        "id": 380,
+        "location": "North Douglas",
+        "cost": 531046.42,
+        "type": "Store",
+        "retail_location_id": 34
+    },
+    {
+        "id": 381,
+        "location": "Matthewmouth",
+        "cost": 3543836.73,
+        "type": "Kiosk",
+        "operating_hours": "12am - 8pm",
+        "monthly_rent": 1354.68
+    },
+    {
+        "id": 382,
+        "location": "Lorifurt",
+        "cost": 3737488.29,
+        "type": "Store",
+        "retail_location_id": 59
+    },
+    {
+        "id": 383,
+        "location": "New Graceview",
+        "cost": 3331954.35,
+        "type": "Warehouse",
+        "date_of_acquisition": "2010-01-27",
+        "bought_from": "Clark PLC",
+        "warehouse_capacity_volume": 8355
+    },
+    {
+        "id": 384,
+        "location": "South Andrea",
+        "cost": 3310569.84,
+        "type": "Office",
+        "office_seating_capacity": 485
+    },
+    {
+        "id": 385,
+        "location": "Hodgesport",
+        "cost": 939217.28,
+        "type": "Kiosk",
+        "operating_hours": "12am - 4pm",
+        "monthly_rent": 3055.78
+    },
+    {
+        "id": 386,
+        "location": "Beverlyshire",
+        "cost": 3173902.26,
+        "type": "Warehouse",
+        "date_of_acquisition": "2004-05-28",
+        "bought_from": "Waller-White",
+        "warehouse_capacity_volume": 9976
+    },
+    {
+        "id": 387,
+        "location": "Smithmouth",
+        "cost": 4813045.58,
+        "type": "Office",
+        "office_seating_capacity": 62
+    },
+    {
+        "id": 388,
+        "location": "Erikaville",
+        "cost": 3572408.44,
+        "type": "Store",
+        "retail_location_id": 24
+    },
+    {
+        "id": 389,
+        "location": "Wilcoxport",
+        "cost": 135926.42,
+        "type": "Store",
+        "retail_location_id": 4
+    },
+    {
+        "id": 390,
+        "location": "Nicholasmouth",
+        "cost": 1801822.19,
+        "type": "Office",
+        "office_seating_capacity": 243
+    },
+    {
+        "id": 391,
+        "location": "Taylorfort",
+        "cost": 4311336.51,
+        "type": "Kiosk",
+        "operating_hours": "11am - 9pm",
+        "monthly_rent": 1931.19
+    },
+    {
+        "id": 392,
+        "location": "Lake Markmouth",
+        "cost": 3765878.32,
+        "type": "Kiosk",
+        "operating_hours": "12am - 6pm",
+        "monthly_rent": 2851.19
+    },
+    {
+        "id": 393,
+        "location": "Moralesshire",
+        "cost": 3551454.83,
+        "type": "Office",
+        "office_seating_capacity": 291
+    },
+    {
+        "id": 394,
+        "location": "Morganburgh",
+        "cost": 3613325.84,
+        "type": "Store",
+        "retail_location_id": 27
+    },
+    {
+        "id": 395,
+        "location": "Rodriguezland",
+        "cost": 4959632.8,
+        "type": "Store",
+        "retail_location_id": 27
+    },
+    {
+        "id": 396,
+        "location": "Whitefort",
+        "cost": 4243164.32,
+        "type": "Warehouse",
+        "date_of_acquisition": "2023-01-15",
+        "bought_from": "Schmitt-Mann",
+        "warehouse_capacity_volume": 3418
+    },
+    {
+        "id": 397,
+        "location": "South Ethan",
+        "cost": 4046918.29,
+        "type": "Warehouse",
+        "date_of_acquisition": "2004-04-14",
+        "bought_from": "Moore, Pena and Cervantes",
+        "warehouse_capacity_volume": 9238
+    },
+    {
+        "id": 398,
+        "location": "East Paul",
+        "cost": 690482.6,
+        "type": "Warehouse",
+        "date_of_acquisition": "2004-06-23",
+        "bought_from": "Hartman-White",
+        "warehouse_capacity_volume": 4036
+    },
+    {
+        "id": 399,
+        "location": "North Toddstad",
+        "cost": 1723223.6,
+        "type": "Warehouse",
+        "date_of_acquisition": "2001-08-05",
+        "bought_from": "Reed, Thompson and Ferguson",
+        "warehouse_capacity_volume": 5219
+    },
+    {
+        "id": 400,
+        "location": "East Beth",
+        "cost": 3821995.81,
+        "type": "Warehouse",
+        "date_of_acquisition": "2008-07-06",
+        "bought_from": "Morgan-Williams",
+        "warehouse_capacity_volume": 1319
+    },
+    {
+        "id": 401,
+        "location": "Port Toni",
+        "cost": 2296159.33,
+        "type": "Warehouse",
+        "date_of_acquisition": "2011-08-09",
+        "bought_from": "Barnes, Marsh and Thompson",
+        "warehouse_capacity_volume": 6257
+    },
+    {
+        "id": 402,
+        "location": "Alvareztown",
+        "cost": 4606706.12,
+        "type": "Store",
+        "retail_location_id": 34
+    },
+    {
+        "id": 403,
+        "location": "Santosmouth",
+        "cost": 3303564.39,
+        "type": "Kiosk",
+        "operating_hours": "9am - 10pm",
+        "monthly_rent": 4277.77
+    },
+    {
+        "id": 404,
+        "location": "West Annette",
+        "cost": 4608196.88,
+        "type": "Store",
+        "retail_location_id": 31
+    },
+    {
+        "id": 405,
+        "location": "New Erica",
+        "cost": 738683.68,
+        "type": "Warehouse",
+        "date_of_acquisition": "2024-10-28",
+        "bought_from": "Lopez-Frazier",
+        "warehouse_capacity_volume": 3053
+    },
+    {
+        "id": 406,
+        "location": "Simmonsmouth",
+        "cost": 3637503.56,
+        "type": "Office",
+        "office_seating_capacity": 73
+    },
+    {
+        "id": 407,
+        "location": "North Joshuafort",
+        "cost": 1126465.32,
+        "type": "Office",
+        "office_seating_capacity": 440
+    },
+    {
+        "id": 408,
+        "location": "Hornburgh",
+        "cost": 2159712.35,
+        "type": "Warehouse",
+        "date_of_acquisition": "2020-12-07",
+        "bought_from": "Smith Group",
+        "warehouse_capacity_volume": 5511
+    },
+    {
+        "id": 409,
+        "location": "South Kevin",
+        "cost": 1176410.0,
+        "type": "Store",
+        "retail_location_id": 11
+    },
+    {
+        "id": 410,
+        "location": "Morrisshire",
+        "cost": 543816.68,
+        "type": "Store",
+        "retail_location_id": 7
+    },
+    {
+        "id": 411,
+        "location": "North Monica",
+        "cost": 4280945.49,
+        "type": "Store",
+        "retail_location_id": 18
+    },
+    {
+        "id": 412,
+        "location": "West Alexandra",
+        "cost": 291571.59,
+        "type": "Store",
+        "retail_location_id": 44
+    },
+    {
+        "id": 413,
+        "location": "Stephenchester",
+        "cost": 2780676.02,
+        "type": "Store",
+        "retail_location_id": 19
+    },
+    {
+        "id": 414,
+        "location": "Mcgeefurt",
+        "cost": 4723295.88,
+        "type": "Store",
+        "retail_location_id": 1
+    },
+    {
+        "id": 415,
+        "location": "West Patricia",
+        "cost": 150595.48,
+        "type": "Office",
+        "office_seating_capacity": 289
+    },
+    {
+        "id": 416,
+        "location": "New Crystal",
+        "cost": 4552537.34,
+        "type": "Store",
+        "retail_location_id": 16
+    },
+    {
+        "id": 417,
+        "location": "North Michaelbury",
+        "cost": 4812802.88,
+        "type": "Office",
+        "office_seating_capacity": 62
+    },
+    {
+        "id": 418,
+        "location": "Port Ashleyside",
+        "cost": 4362312.1,
+        "type": "Office",
+        "office_seating_capacity": 62
+    },
+    {
+        "id": 419,
+        "location": "Petersonchester",
+        "cost": 4333970.89,
+        "type": "Warehouse",
+        "date_of_acquisition": "2005-11-27",
+        "bought_from": "Marshall-Miller",
+        "warehouse_capacity_volume": 623
+    },
+    {
+        "id": 420,
+        "location": "Lake Jeffery",
+        "cost": 1365346.44,
+        "type": "Kiosk",
+        "operating_hours": "12am - 9pm",
+        "monthly_rent": 4541.66
+    },
+    {
+        "id": 421,
+        "location": "Averychester",
+        "cost": 982588.2,
+        "type": "Office",
+        "office_seating_capacity": 295
+    },
+    {
+        "id": 422,
+        "location": "Debraberg",
+        "cost": 3179929.02,
+        "type": "Kiosk",
+        "operating_hours": "12am - 5pm",
+        "monthly_rent": 2229.34
+    },
+    {
+        "id": 423,
+        "location": "Jacksonville",
+        "cost": 1426851.25,
+        "type": "Kiosk",
+        "operating_hours": "9am - 5pm",
+        "monthly_rent": 1907.81
+    },
+    {
+        "id": 424,
+        "location": "South Michaelfurt",
+        "cost": 2279720.5,
+        "type": "Store",
+        "retail_location_id": 60
+    },
+    {
+        "id": 425,
+        "location": "Charlesberg",
+        "cost": 2012108.27,
+        "type": "Kiosk",
+        "operating_hours": "8am - 9pm",
+        "monthly_rent": 4428.46
+    },
+    {
+        "id": 426,
+        "location": "South Melvinville",
+        "cost": 3308491.87,
+        "type": "Warehouse",
+        "date_of_acquisition": "2001-07-29",
+        "bought_from": "Gilbert-Graham",
+        "warehouse_capacity_volume": 6966
+    },
+    {
+        "id": 427,
+        "location": "Port Deborah",
+        "cost": 4859926.92,
+        "type": "Kiosk",
+        "operating_hours": "8am - 5pm",
+        "monthly_rent": 4547.96
+    },
+    {
+        "id": 428,
+        "location": "Brendachester",
+        "cost": 1517833.25,
+        "type": "Kiosk",
+        "operating_hours": "12am - 7pm",
+        "monthly_rent": 1815.07
+    },
+    {
+        "id": 429,
+        "location": "Millerchester",
+        "cost": 874128.57,
+        "type": "Store",
+        "retail_location_id": 36
+    },
+    {
+        "id": 430,
+        "location": "Phillipsshire",
+        "cost": 2943965.46,
+        "type": "Office",
+        "office_seating_capacity": 290
+    },
+    {
+        "id": 431,
+        "location": "New Christyborough",
+        "cost": 1734296.3,
+        "type": "Office",
+        "office_seating_capacity": 203
+    },
+    {
+        "id": 432,
+        "location": "South Jimmy",
+        "cost": 4113520.85,
+        "type": "Store",
+        "retail_location_id": 36
+    },
+    {
+        "id": 433,
+        "location": "North Kellyport",
+        "cost": 4131226.14,
+        "type": "Store",
+        "retail_location_id": 9
+    },
+    {
+        "id": 434,
+        "location": "West Kristifurt",
+        "cost": 4652027.41,
+        "type": "Office",
+        "office_seating_capacity": 110
+    },
+    {
+        "id": 435,
+        "location": "Jerrymouth",
+        "cost": 2557549.42,
+        "type": "Office",
+        "office_seating_capacity": 488
+    },
+    {
+        "id": 436,
+        "location": "West Carl",
+        "cost": 2450741.03,
+        "type": "Kiosk",
+        "operating_hours": "10am - 9pm",
+        "monthly_rent": 4290.64
+    },
+    {
+        "id": 437,
+        "location": "East Loriland",
+        "cost": 2879622.44,
+        "type": "Kiosk",
+        "operating_hours": "12am - 6pm",
+        "monthly_rent": 2387.7
+    },
+    {
+        "id": 438,
+        "location": "Jennahaven",
+        "cost": 419576.36,
+        "type": "Store",
+        "retail_location_id": 48
+    },
+    {
+        "id": 439,
+        "location": "Port Scottview",
+        "cost": 2811915.13,
+        "type": "Warehouse",
+        "date_of_acquisition": "2019-06-05",
+        "bought_from": "Rush LLC",
+        "warehouse_capacity_volume": 8198
+    },
+    {
+        "id": 440,
+        "location": "West Kathrynbury",
+        "cost": 3969806.6,
+        "type": "Store",
+        "retail_location_id": 41
+    },
+    {
+        "id": 441,
+        "location": "Davidburgh",
+        "cost": 4829670.14,
+        "type": "Kiosk",
+        "operating_hours": "8am - 9pm",
+        "monthly_rent": 2171.8
+    },
+    {
+        "id": 442,
+        "location": "Mullinsburgh",
+        "cost": 1789312.19,
+        "type": "Office",
+        "office_seating_capacity": 417
+    },
+    {
+        "id": 443,
+        "location": "West Kimberly",
+        "cost": 3174785.52,
+        "type": "Office",
+        "office_seating_capacity": 27
+    },
+    {
+        "id": 444,
+        "location": "Edwardsmouth",
+        "cost": 1871106.34,
+        "type": "Office",
+        "office_seating_capacity": 270
+    },
+    {
+        "id": 445,
+        "location": "Timothyton",
+        "cost": 2954207.28,
+        "type": "Office",
+        "office_seating_capacity": 172
+    },
+    {
+        "id": 446,
+        "location": "Timothyton",
+        "cost": 1362966.73,
+        "type": "Store",
+        "retail_location_id": 26
+    },
+    {
+        "id": 447,
+        "location": "Monicaton",
+        "cost": 901249.34,
+        "type": "Kiosk",
+        "operating_hours": "8am - 8pm",
+        "monthly_rent": 3407.43
+    },
+    {
+        "id": 448,
+        "location": "Brandonshire",
+        "cost": 3851209.99,
+        "type": "Warehouse",
+        "date_of_acquisition": "2024-01-05",
+        "bought_from": "Wallace-Thompson",
+        "warehouse_capacity_volume": 9987
+    },
+    {
+        "id": 449,
+        "location": "Chungfort",
+        "cost": 727322.94,
+        "type": "Store",
+        "retail_location_id": 17
+    },
+    {
+        "id": 450,
+        "location": "Watsontown",
+        "cost": 2440042.59,
+        "type": "Kiosk",
+        "operating_hours": "9am - 7pm",
+        "monthly_rent": 3618.17
+    },
+    {
+        "id": 451,
+        "location": "Ashleychester",
+        "cost": 2105860.97,
+        "type": "Warehouse",
+        "date_of_acquisition": "2002-07-28",
+        "bought_from": "Stafford Group",
+        "warehouse_capacity_volume": 5046
+    },
+    {
+        "id": 452,
+        "location": "Murphyshire",
+        "cost": 1685370.43,
+        "type": "Kiosk",
+        "operating_hours": "12am - 9pm",
+        "monthly_rent": 2547.32
+    },
+    {
+        "id": 453,
+        "location": "Jameshaven",
+        "cost": 4418813.56,
+        "type": "Store",
+        "retail_location_id": 5
+    },
+    {
+        "id": 454,
+        "location": "Hunterhaven",
+        "cost": 2309274.66,
+        "type": "Kiosk",
+        "operating_hours": "11am - 6pm",
+        "monthly_rent": 1223.84
+    },
+    {
+        "id": 455,
+        "location": "New Jenniferside",
+        "cost": 1829778.16,
+        "type": "Store",
+        "retail_location_id": 23
+    },
+    {
+        "id": 456,
+        "location": "East Valerie",
+        "cost": 4256537.34,
+        "type": "Kiosk",
+        "operating_hours": "11am - 5pm",
+        "monthly_rent": 2952.88
+    },
+    {
+        "id": 457,
+        "location": "Pamelaville",
+        "cost": 4166743.0,
+        "type": "Warehouse",
+        "date_of_acquisition": "2025-09-06",
+        "bought_from": "Leon and Sons",
+        "warehouse_capacity_volume": 7176
+    },
+    {
+        "id": 458,
+        "location": "Lake Robert",
+        "cost": 2861810.37,
+        "type": "Kiosk",
+        "operating_hours": "10am - 8pm",
+        "monthly_rent": 2169.56
+    },
+    {
+        "id": 459,
+        "location": "East Christopher",
+        "cost": 4700902.04,
+        "type": "Kiosk",
+        "operating_hours": "8am - 7pm",
+        "monthly_rent": 1729.68
+    },
+    {
+        "id": 460,
+        "location": "East Edwin",
+        "cost": 2139758.79,
+        "type": "Office",
+        "office_seating_capacity": 136
+    },
+    {
+        "id": 461,
+        "location": "Emilytown",
+        "cost": 343116.85,
+        "type": "Office",
+        "office_seating_capacity": 348
+    },
+    {
+        "id": 462,
+        "location": "South Jeanette",
+        "cost": 3424338.26,
+        "type": "Warehouse",
+        "date_of_acquisition": "2020-11-19",
+        "bought_from": "Gonzales, Brown and Jackson",
+        "warehouse_capacity_volume": 2303
+    },
+    {
+        "id": 463,
+        "location": "West Stephaniebury",
+        "cost": 4397192.92,
+        "type": "Office",
+        "office_seating_capacity": 343
+    },
+    {
+        "id": 464,
+        "location": "North Donald",
+        "cost": 4895711.72,
+        "type": "Store",
+        "retail_location_id": 47
+    },
+    {
+        "id": 465,
+        "location": "Haneyland",
+        "cost": 3273101.5,
+        "type": "Store",
+        "retail_location_id": 54
+    },
+    {
+        "id": 466,
+        "location": "Bowmanville",
+        "cost": 4873496.74,
+        "type": "Kiosk",
+        "operating_hours": "9am - 10pm",
+        "monthly_rent": 4212.93
+    },
+    {
+        "id": 467,
+        "location": "Lake Nancy",
+        "cost": 3241297.59,
+        "type": "Warehouse",
+        "date_of_acquisition": "2004-03-31",
+        "bought_from": "Berry Inc",
+        "warehouse_capacity_volume": 3912
+    },
+    {
+        "id": 468,
+        "location": "Lake Jennifer",
+        "cost": 2078307.66,
+        "type": "Kiosk",
+        "operating_hours": "10am - 4pm",
+        "monthly_rent": 4331.02
+    },
+    {
+        "id": 469,
+        "location": "Greenemouth",
+        "cost": 4240260.31,
+        "type": "Kiosk",
+        "operating_hours": "12am - 5pm",
+        "monthly_rent": 1792.47
+    },
+    {
+        "id": 470,
+        "location": "East Jason",
+        "cost": 4887119.36,
+        "type": "Store",
+        "retail_location_id": 48
+    },
+    {
+        "id": 471,
+        "location": "Port John",
+        "cost": 3990010.44,
+        "type": "Office",
+        "office_seating_capacity": 452
+    },
+    {
+        "id": 472,
+        "location": "West Johnfurt",
+        "cost": 4373819.12,
+        "type": "Kiosk",
+        "operating_hours": "8am - 9pm",
+        "monthly_rent": 2464.64
+    },
+    {
+        "id": 473,
+        "location": "East Jeffreychester",
+        "cost": 3771892.24,
+        "type": "Warehouse",
+        "date_of_acquisition": "2010-10-18",
+        "bought_from": "Warren-Kelly",
+        "warehouse_capacity_volume": 1468
+    },
+    {
+        "id": 474,
+        "location": "New Michelle",
+        "cost": 1644153.56,
+        "type": "Office",
+        "office_seating_capacity": 33
+    },
+    {
+        "id": 475,
+        "location": "Savageborough",
+        "cost": 3089490.2,
+        "type": "Store",
+        "retail_location_id": 23
+    },
+    {
+        "id": 476,
+        "location": "Paulamouth",
+        "cost": 1639742.73,
+        "type": "Office",
+        "office_seating_capacity": 426
+    },
+    {
+        "id": 477,
+        "location": "Butlershire",
+        "cost": 707388.83,
+        "type": "Warehouse",
+        "date_of_acquisition": "2018-01-16",
+        "bought_from": "Bates LLC",
+        "warehouse_capacity_volume": 3988
+    },
+    {
+        "id": 478,
+        "location": "East Peter",
+        "cost": 1487119.03,
+        "type": "Store",
+        "retail_location_id": 32
+    },
+    {
+        "id": 479,
+        "location": "New Sarah",
+        "cost": 1433233.75,
+        "type": "Store",
+        "retail_location_id": 5
+    },
+    {
+        "id": 480,
+        "location": "East Cassandraville",
+        "cost": 4560554.05,
+        "type": "Office",
+        "office_seating_capacity": 284
+    },
+    {
+        "id": 481,
+        "location": "Maymouth",
+        "cost": 2706444.89,
+        "type": "Warehouse",
+        "date_of_acquisition": "2016-07-07",
+        "bought_from": "Bell and Sons",
+        "warehouse_capacity_volume": 8988
+    },
+    {
+        "id": 482,
+        "location": "New Catherineville",
+        "cost": 4595276.99,
+        "type": "Store",
+        "retail_location_id": 57
+    },
+    {
+        "id": 483,
+        "location": "New Stevenhaven",
+        "cost": 4366193.2,
+        "type": "Store",
+        "retail_location_id": 19
+    },
+    {
+        "id": 484,
+        "location": "East Joshualand",
+        "cost": 2029588.41,
+        "type": "Office",
+        "office_seating_capacity": 385
+    },
+    {
+        "id": 485,
+        "location": "Port Larry",
+        "cost": 431612.21,
+        "type": "Warehouse",
+        "date_of_acquisition": "2022-09-30",
+        "bought_from": "Williamson and Sons",
+        "warehouse_capacity_volume": 3072
+    },
+    {
+        "id": 486,
+        "location": "Alisontown",
+        "cost": 1464406.85,
+        "type": "Kiosk",
+        "operating_hours": "12am - 9pm",
+        "monthly_rent": 1012.29
+    },
+    {
+        "id": 487,
+        "location": "Port Michelle",
+        "cost": 4990816.47,
+        "type": "Kiosk",
+        "operating_hours": "9am - 6pm",
+        "monthly_rent": 1053.17
+    },
+    {
+        "id": 488,
+        "location": "Santostown",
+        "cost": 2230577.19,
+        "type": "Store",
+        "retail_location_id": 54
+    },
+    {
+        "id": 489,
+        "location": "Lake Shaun",
+        "cost": 4588439.43,
+        "type": "Store",
+        "retail_location_id": 48
+    },
+    {
+        "id": 490,
+        "location": "Melanieport",
+        "cost": 285296.24,
+        "type": "Kiosk",
+        "operating_hours": "11am - 8pm",
+        "monthly_rent": 2243.62
+    },
+    {
+        "id": 491,
+        "location": "Jordanbury",
+        "cost": 4317916.14,
+        "type": "Office",
+        "office_seating_capacity": 211
+    },
+    {
+        "id": 492,
+        "location": "Schneiderland",
+        "cost": 4943137.04,
+        "type": "Store",
+        "retail_location_id": 56
+    },
+    {
+        "id": 493,
+        "location": "West Michelle",
+        "cost": 3370229.87,
+        "type": "Store",
+        "retail_location_id": 55
+    },
+    {
+        "id": 494,
+        "location": "Martinezburgh",
+        "cost": 122580.03,
+        "type": "Kiosk",
+        "operating_hours": "11am - 7pm",
+        "monthly_rent": 3755.18
+    },
+    {
+        "id": 495,
+        "location": "South Williammouth",
+        "cost": 387961.33,
+        "type": "Store",
+        "retail_location_id": 58
+    },
+    {
+        "id": 496,
+        "location": "Edwinview",
+        "cost": 2824638.33,
+        "type": "Warehouse",
+        "date_of_acquisition": "2004-03-10",
+        "bought_from": "Williams-Graham",
+        "warehouse_capacity_volume": 6989
+    },
+    {
+        "id": 497,
+        "location": "South Katherineview",
+        "cost": 4389989.44,
+        "type": "Office",
+        "office_seating_capacity": 316
+    },
+    {
+        "id": 498,
+        "location": "East Jasontown",
+        "cost": 2677683.53,
+        "type": "Office",
+        "office_seating_capacity": 401
+    },
+    {
+        "id": 499,
+        "location": "Mooreland",
+        "cost": 861004.01,
+        "type": "Store",
+        "retail_location_id": 49
+    },
+    {
+        "id": 500,
+        "location": "South Johnbury",
+        "cost": 4193359.68,
+        "type": "Store",
+        "retail_location_id": 30
+    },
+    {
+        "id": 501,
+        "location": "Daniellefort",
+        "cost": 3575902.8,
+        "type": "Kiosk",
+        "operating_hours": "10am - 5pm",
+        "monthly_rent": 4184.73
+    },
+    {
+        "id": 502,
+        "location": "Lake Jessetown",
+        "cost": 4205011.81,
+        "type": "Kiosk",
+        "operating_hours": "8am - 7pm",
+        "monthly_rent": 2557.11
+    },
+    {
+        "id": 503,
+        "location": "Ronnieville",
+        "cost": 686335.19,
+        "type": "Warehouse",
+        "date_of_acquisition": "2003-09-23",
+        "bought_from": "Thomas-Smith",
+        "warehouse_capacity_volume": 6137
+    },
+    {
+        "id": 504,
+        "location": "South Joshua",
+        "cost": 1033331.72,
+        "type": "Office",
+        "office_seating_capacity": 414
+    },
+    {
+        "id": 505,
+        "location": "Alanburgh",
+        "cost": 3417128.55,
+        "type": "Store",
+        "retail_location_id": 10
+    },
+    {
+        "id": 506,
+        "location": "Petersonfort",
+        "cost": 3883225.87,
+        "type": "Kiosk",
+        "operating_hours": "11am - 9pm",
+        "monthly_rent": 4645.44
+    },
+    {
+        "id": 507,
+        "location": "Lopezmouth",
+        "cost": 4826149.67,
+        "type": "Warehouse",
+        "date_of_acquisition": "2024-01-31",
+        "bought_from": "Howard-Zhang",
+        "warehouse_capacity_volume": 4907
+    },
+    {
+        "id": 508,
+        "location": "East Stephen",
+        "cost": 4352154.85,
+        "type": "Kiosk",
+        "operating_hours": "12am - 6pm",
+        "monthly_rent": 2478.19
+    },
+    {
+        "id": 509,
+        "location": "Elizabethville",
+        "cost": 4125047.81,
+        "type": "Warehouse",
+        "date_of_acquisition": "2017-10-13",
+        "bought_from": "Ramirez and Sons",
+        "warehouse_capacity_volume": 2576
+    },
+    {
+        "id": 510,
+        "location": "Lake Nancyport",
+        "cost": 2626459.5,
+        "type": "Kiosk",
+        "operating_hours": "9am - 10pm",
+        "monthly_rent": 4964.55
+    },
+    {
+        "id": 511,
+        "location": "Blackmouth",
+        "cost": 3734445.83,
+        "type": "Warehouse",
+        "date_of_acquisition": "2003-08-22",
+        "bought_from": "Bennett Ltd",
+        "warehouse_capacity_volume": 7955
+    },
+    {
+        "id": 512,
+        "location": "Port Patrick",
+        "cost": 2966577.56,
+        "type": "Warehouse",
+        "date_of_acquisition": "2004-06-18",
+        "bought_from": "Pollard-Brown",
+        "warehouse_capacity_volume": 4504
+    },
+    {
+        "id": 513,
+        "location": "Jessicafurt",
+        "cost": 3283102.24,
+        "type": "Warehouse",
+        "date_of_acquisition": "2009-10-17",
+        "bought_from": "Walters-Wilson",
+        "warehouse_capacity_volume": 1518
+    },
+    {
+        "id": 514,
+        "location": "North Jill",
+        "cost": 2321944.12,
+        "type": "Office",
+        "office_seating_capacity": 168
+    },
+    {
+        "id": 515,
+        "location": "North Daniel",
+        "cost": 3202251.42,
+        "type": "Store",
+        "retail_location_id": 35
+    },
+    {
+        "id": 516,
+        "location": "Jeffreymouth",
+        "cost": 3063180.25,
+        "type": "Office",
+        "office_seating_capacity": 198
+    },
+    {
+        "id": 517,
+        "location": "South Dawnmouth",
+        "cost": 3126210.48,
+        "type": "Kiosk",
+        "operating_hours": "10am - 8pm",
+        "monthly_rent": 1882.88
+    },
+    {
+        "id": 518,
+        "location": "South Elizabeth",
+        "cost": 396863.8,
+        "type": "Office",
+        "office_seating_capacity": 317
+    },
+    {
+        "id": 519,
+        "location": "Mauriceside",
+        "cost": 3357107.9,
+        "type": "Warehouse",
+        "date_of_acquisition": "2025-01-10",
+        "bought_from": "Hunter Group",
+        "warehouse_capacity_volume": 5652
+    },
+    {
+        "id": 520,
+        "location": "West Josephbury",
+        "cost": 1738692.8,
+        "type": "Store",
+        "retail_location_id": 57
+    },
+    {
+        "id": 521,
+        "location": "Wilsontown",
+        "cost": 2416722.79,
+        "type": "Warehouse",
+        "date_of_acquisition": "2011-11-14",
+        "bought_from": "Green-Kaiser",
+        "warehouse_capacity_volume": 4404
+    },
+    {
+        "id": 522,
+        "location": "Garciafort",
+        "cost": 183882.28,
+        "type": "Kiosk",
+        "operating_hours": "11am - 9pm",
+        "monthly_rent": 1534.23
+    },
+    {
+        "id": 523,
+        "location": "Lake Jasonchester",
+        "cost": 3936432.68,
+        "type": "Store",
+        "retail_location_id": 40
+    },
+    {
+        "id": 524,
+        "location": "Port Elijahmouth",
+        "cost": 4951180.52,
+        "type": "Store",
+        "retail_location_id": 21
+    },
+    {
+        "id": 525,
+        "location": "Victorborough",
+        "cost": 2725395.12,
+        "type": "Warehouse",
+        "date_of_acquisition": "2001-01-15",
+        "bought_from": "Reyes, Fields and Mccall",
+        "warehouse_capacity_volume": 5535
+    },
+    {
+        "id": 526,
+        "location": "East Barbara",
+        "cost": 1104429.05,
+        "type": "Warehouse",
+        "date_of_acquisition": "2023-09-12",
+        "bought_from": "Lopez, Roberts and Smith",
+        "warehouse_capacity_volume": 1847
+    },
+    {
+        "id": 527,
+        "location": "Joseport",
+        "cost": 2108971.38,
+        "type": "Kiosk",
+        "operating_hours": "8am - 4pm",
+        "monthly_rent": 4342.46
+    },
+    {
+        "id": 528,
+        "location": "Walkerburgh",
+        "cost": 330401.02,
+        "type": "Office",
+        "office_seating_capacity": 369
+    },
+    {
+        "id": 529,
+        "location": "Foxview",
+        "cost": 1371795.81,
+        "type": "Kiosk",
+        "operating_hours": "8am - 7pm",
+        "monthly_rent": 1731.08
+    },
+    {
+        "id": 530,
+        "location": "North Hannahland",
+        "cost": 2319581.75,
+        "type": "Store",
+        "retail_location_id": 43
+    },
+    {
+        "id": 531,
+        "location": "New Leonardburgh",
+        "cost": 597305.52,
+        "type": "Warehouse",
+        "date_of_acquisition": "2006-06-12",
+        "bought_from": "Friedman-Coleman",
+        "warehouse_capacity_volume": 1387
+    },
+    {
+        "id": 532,
+        "location": "Lake Dustin",
+        "cost": 4302175.31,
+        "type": "Warehouse",
+        "date_of_acquisition": "2025-01-06",
+        "bought_from": "Hopkins and Sons",
+        "warehouse_capacity_volume": 4965
+    },
+    {
+        "id": 533,
+        "location": "Mathewschester",
+        "cost": 116993.43,
+        "type": "Store",
+        "retail_location_id": 45
+    },
+    {
+        "id": 534,
+        "location": "Wattsland",
+        "cost": 2105961.24,
+        "type": "Kiosk",
+        "operating_hours": "10am - 9pm",
+        "monthly_rent": 4245.98
+    },
+    {
+        "id": 535,
+        "location": "New James",
+        "cost": 2071557.3,
+        "type": "Warehouse",
+        "date_of_acquisition": "2017-03-14",
+        "bought_from": "Drake Inc",
+        "warehouse_capacity_volume": 1354
+    },
+    {
+        "id": 536,
+        "location": "Greerland",
+        "cost": 4365433.45,
+        "type": "Warehouse",
+        "date_of_acquisition": "2015-05-13",
+        "bought_from": "Rodriguez-Thomas",
+        "warehouse_capacity_volume": 7399
+    },
+    {
+        "id": 537,
+        "location": "North Jaredport",
+        "cost": 2718684.29,
+        "type": "Office",
+        "office_seating_capacity": 28
+    },
+    {
+        "id": 538,
+        "location": "South Morganshire",
+        "cost": 1499384.16,
+        "type": "Office",
+        "office_seating_capacity": 353
+    },
+    {
+        "id": 539,
+        "location": "East Christopherburgh",
+        "cost": 4492803.74,
+        "type": "Office",
+        "office_seating_capacity": 293
+    },
+    {
+        "id": 540,
+        "location": "Wuhaven",
+        "cost": 4320143.79,
+        "type": "Office",
+        "office_seating_capacity": 251
+    },
+    {
+        "id": 541,
+        "location": "Melaniehaven",
+        "cost": 1676340.66,
+        "type": "Kiosk",
+        "operating_hours": "8am - 9pm",
+        "monthly_rent": 4321.36
+    },
+    {
+        "id": 542,
+        "location": "Port Cindymouth",
+        "cost": 2314627.79,
+        "type": "Office",
+        "office_seating_capacity": 61
+    },
+    {
+        "id": 543,
+        "location": "Port Ashleyton",
+        "cost": 927923.71,
+        "type": "Warehouse",
+        "date_of_acquisition": "2023-09-11",
+        "bought_from": "Nguyen-Beck",
+        "warehouse_capacity_volume": 1217
+    },
+    {
+        "id": 544,
+        "location": "West Michelle",
+        "cost": 2234899.89,
+        "type": "Kiosk",
+        "operating_hours": "9am - 9pm",
+        "monthly_rent": 3056.98
+    },
+    {
+        "id": 545,
+        "location": "East Jesseville",
+        "cost": 1005542.87,
+        "type": "Warehouse",
+        "date_of_acquisition": "2022-04-29",
+        "bought_from": "Hernandez, Davila and Conrad",
+        "warehouse_capacity_volume": 3784
+    },
+    {
+        "id": 546,
+        "location": "Sparksmouth",
+        "cost": 1630681.94,
+        "type": "Office",
+        "office_seating_capacity": 471
+    },
+    {
+        "id": 547,
+        "location": "Lake Amy",
+        "cost": 2130030.23,
+        "type": "Kiosk",
+        "operating_hours": "8am - 7pm",
+        "monthly_rent": 3735.8
+    },
+    {
+        "id": 548,
+        "location": "Williamsshire",
+        "cost": 2540253.25,
+        "type": "Kiosk",
+        "operating_hours": "9am - 4pm",
+        "monthly_rent": 3347.92
+    },
+    {
+        "id": 549,
+        "location": "West Nicholas",
+        "cost": 1703147.15,
+        "type": "Office",
+        "office_seating_capacity": 268
+    },
+    {
+        "id": 550,
+        "location": "New Travisfort",
+        "cost": 3078707.54,
+        "type": "Office",
+        "office_seating_capacity": 263
+    },
+    {
+        "id": 551,
+        "location": "Port Sarah",
+        "cost": 775447.32,
+        "type": "Store",
+        "retail_location_id": 44
+    },
+    {
+        "id": 552,
+        "location": "West Victoriatown",
+        "cost": 2453376.57,
+        "type": "Kiosk",
+        "operating_hours": "11am - 9pm",
+        "monthly_rent": 2301.86
+    },
+    {
+        "id": 553,
+        "location": "North Kimberly",
+        "cost": 2499627.87,
+        "type": "Store",
+        "retail_location_id": 43
+    },
+    {
+        "id": 554,
+        "location": "Acostamouth",
+        "cost": 332035.27,
+        "type": "Kiosk",
+        "operating_hours": "10am - 5pm",
+        "monthly_rent": 3206.39
+    },
+    {
+        "id": 555,
+        "location": "Port Diana",
+        "cost": 4666907.2,
+        "type": "Office",
+        "office_seating_capacity": 93
+    },
+    {
+        "id": 556,
+        "location": "Louisport",
+        "cost": 2873578.41,
+        "type": "Warehouse",
+        "date_of_acquisition": "2005-04-18",
+        "bought_from": "Preston, Morgan and Tucker",
+        "warehouse_capacity_volume": 7641
+    },
+    {
+        "id": 557,
+        "location": "Mcknightview",
+        "cost": 987803.12,
+        "type": "Warehouse",
+        "date_of_acquisition": "2022-02-11",
+        "bought_from": "Hutchinson-Wilson",
+        "warehouse_capacity_volume": 5035
+    },
+    {
+        "id": 558,
+        "location": "Patriciaburgh",
+        "cost": 4720939.09,
+        "type": "Kiosk",
+        "operating_hours": "10am - 4pm",
+        "monthly_rent": 1729.08
+    },
+    {
+        "id": 559,
+        "location": "South Melissa",
+        "cost": 4493741.17,
+        "type": "Warehouse",
+        "date_of_acquisition": "2007-02-16",
+        "bought_from": "Flynn-Orozco",
+        "warehouse_capacity_volume": 4665
+    },
+    {
+        "id": 560,
+        "location": "Lindaburgh",
+        "cost": 1583009.75,
+        "type": "Store",
+        "retail_location_id": 35
+    },
+    {
+        "id": 561,
+        "location": "Elijahborough",
+        "cost": 2423386.62,
+        "type": "Store",
+        "retail_location_id": 43
+    },
+    {
+        "id": 562,
+        "location": "Hernandezmouth",
+        "cost": 1640728.27,
+        "type": "Kiosk",
+        "operating_hours": "10am - 5pm",
+        "monthly_rent": 1616.24
+    },
+    {
+        "id": 563,
+        "location": "Michaelland",
+        "cost": 592375.9,
+        "type": "Office",
+        "office_seating_capacity": 41
+    },
+    {
+        "id": 564,
+        "location": "West Andrea",
+        "cost": 1199084.09,
+        "type": "Office",
+        "office_seating_capacity": 404
+    },
+    {
+        "id": 565,
+        "location": "Port Gilbert",
+        "cost": 3703358.55,
+        "type": "Store",
+        "retail_location_id": 51
+    },
+    {
+        "id": 566,
+        "location": "Williamsontown",
+        "cost": 1687992.87,
+        "type": "Office",
+        "office_seating_capacity": 47
+    },
+    {
+        "id": 567,
+        "location": "Austinmouth",
+        "cost": 1082764.25,
+        "type": "Store",
+        "retail_location_id": 12
+    },
+    {
+        "id": 568,
+        "location": "Nancyland",
+        "cost": 621658.98,
+        "type": "Kiosk",
+        "operating_hours": "11am - 4pm",
+        "monthly_rent": 2438.73
+    },
+    {
+        "id": 569,
+        "location": "Robertburgh",
+        "cost": 4294155.93,
+        "type": "Kiosk",
+        "operating_hours": "10am - 7pm",
+        "monthly_rent": 1064.41
+    },
+    {
+        "id": 570,
+        "location": "East Jameston",
+        "cost": 2390083.78,
+        "type": "Kiosk",
+        "operating_hours": "10am - 6pm",
+        "monthly_rent": 2928.45
+    },
+    {
+        "id": 571,
+        "location": "West Aimeeborough",
+        "cost": 4292804.34,
+        "type": "Office",
+        "office_seating_capacity": 418
+    },
+    {
+        "id": 572,
+        "location": "West Juliemouth",
+        "cost": 3804312.72,
+        "type": "Office",
+        "office_seating_capacity": 334
+    },
+    {
+        "id": 573,
+        "location": "Paulatown",
+        "cost": 2416735.53,
+        "type": "Store",
+        "retail_location_id": 2
+    },
+    {
+        "id": 574,
+        "location": "Petersontown",
+        "cost": 4290862.82,
+        "type": "Kiosk",
+        "operating_hours": "9am - 7pm",
+        "monthly_rent": 4402.53
+    },
+    {
+        "id": 575,
+        "location": "West Ericahaven",
+        "cost": 807930.2,
+        "type": "Office",
+        "office_seating_capacity": 152
+    },
+    {
+        "id": 576,
+        "location": "Ryanmouth",
+        "cost": 2682645.67,
+        "type": "Kiosk",
+        "operating_hours": "8am - 4pm",
+        "monthly_rent": 4822.0
+    },
+    {
+        "id": 577,
+        "location": "West Wesleymouth",
+        "cost": 4179551.49,
+        "type": "Warehouse",
+        "date_of_acquisition": "2014-01-09",
+        "bought_from": "Coffey Group",
+        "warehouse_capacity_volume": 2910
+    },
+    {
+        "id": 578,
+        "location": "Port Amybury",
+        "cost": 3803662.13,
+        "type": "Warehouse",
+        "date_of_acquisition": "2012-01-06",
+        "bought_from": "Johnson, James and Davenport",
+        "warehouse_capacity_volume": 4106
+    },
+    {
+        "id": 579,
+        "location": "Thompsonstad",
+        "cost": 4317574.75,
+        "type": "Office",
+        "office_seating_capacity": 349
+    },
+    {
+        "id": 580,
+        "location": "New Karenstad",
+        "cost": 2023833.16,
+        "type": "Store",
+        "retail_location_id": 22
+    },
+    {
+        "id": 581,
+        "location": "Ashleyberg",
+        "cost": 3102468.79,
+        "type": "Kiosk",
+        "operating_hours": "8am - 5pm",
+        "monthly_rent": 3604.0
+    },
+    {
+        "id": 582,
+        "location": "Rosarioton",
+        "cost": 3977864.58,
+        "type": "Office",
+        "office_seating_capacity": 448
+    },
+    {
+        "id": 583,
+        "location": "Charleneberg",
+        "cost": 4534677.63,
+        "type": "Kiosk",
+        "operating_hours": "8am - 9pm",
+        "monthly_rent": 3260.6
+    },
+    {
+        "id": 584,
+        "location": "Gonzalezburgh",
+        "cost": 3039562.83,
+        "type": "Warehouse",
+        "date_of_acquisition": "2022-01-25",
+        "bought_from": "Thompson, West and Bryan",
+        "warehouse_capacity_volume": 3354
+    },
+    {
+        "id": 585,
+        "location": "New Tyler",
+        "cost": 3851943.79,
+        "type": "Warehouse",
+        "date_of_acquisition": "2005-11-07",
+        "bought_from": "Zuniga Group",
+        "warehouse_capacity_volume": 2990
+    },
+    {
+        "id": 586,
+        "location": "Jonathonland",
+        "cost": 1358946.91,
+        "type": "Warehouse",
+        "date_of_acquisition": "2025-01-27",
+        "bought_from": "Perez and Sons",
+        "warehouse_capacity_volume": 6142
+    },
+    {
+        "id": 587,
+        "location": "Carlyberg",
+        "cost": 289935.41,
+        "type": "Store",
+        "retail_location_id": 7
+    },
+    {
+        "id": 588,
+        "location": "Salasborough",
+        "cost": 1847554.84,
+        "type": "Office",
+        "office_seating_capacity": 208
+    },
+    {
+        "id": 589,
+        "location": "Burgesschester",
+        "cost": 1046777.83,
+        "type": "Office",
+        "office_seating_capacity": 438
+    },
+    {
+        "id": 590,
+        "location": "Port Vernon",
+        "cost": 347007.62,
+        "type": "Warehouse",
+        "date_of_acquisition": "2021-08-23",
+        "bought_from": "Spence, Blackburn and Brewer",
+        "warehouse_capacity_volume": 7548
+    },
+    {
+        "id": 591,
+        "location": "Port Linda",
+        "cost": 251841.69,
+        "type": "Warehouse",
+        "date_of_acquisition": "2019-05-27",
+        "bought_from": "Espinoza, Ramsey and Lucero",
+        "warehouse_capacity_volume": 2610
+    },
+    {
+        "id": 592,
+        "location": "South Bobby",
+        "cost": 2120053.01,
+        "type": "Store",
+        "retail_location_id": 43
+    },
+    {
+        "id": 593,
+        "location": "West Tami",
+        "cost": 1917014.02,
+        "type": "Store",
+        "retail_location_id": 12
+    },
+    {
+        "id": 594,
+        "location": "West Johnny",
+        "cost": 1539193.35,
+        "type": "Office",
+        "office_seating_capacity": 102
+    },
+    {
+        "id": 595,
+        "location": "South Nicholeland",
+        "cost": 480519.33,
+        "type": "Store",
+        "retail_location_id": 28
+    },
+    {
+        "id": 596,
+        "location": "Port Nicholas",
+        "cost": 4417936.24,
+        "type": "Warehouse",
+        "date_of_acquisition": "2001-10-07",
+        "bought_from": "Stephens-Hampton",
+        "warehouse_capacity_volume": 6527
+    },
+    {
+        "id": 597,
+        "location": "South Timothyfort",
+        "cost": 2428297.26,
+        "type": "Warehouse",
+        "date_of_acquisition": "2016-10-13",
+        "bought_from": "Taylor-Castillo",
+        "warehouse_capacity_volume": 6673
+    },
+    {
+        "id": 598,
+        "location": "East Jameshaven",
+        "cost": 2503706.23,
+        "type": "Warehouse",
+        "date_of_acquisition": "2023-01-20",
+        "bought_from": "Dean-Mccann",
+        "warehouse_capacity_volume": 2459
+    },
+    {
+        "id": 599,
+        "location": "New Michaelville",
+        "cost": 174604.87,
+        "type": "Kiosk",
+        "operating_hours": "8am - 8pm",
+        "monthly_rent": 1145.68
+    },
+    {
+        "id": 600,
+        "location": "Courtneyberg",
+        "cost": 4051360.79,
+        "type": "Kiosk",
+        "operating_hours": "8am - 4pm",
+        "monthly_rent": 2806.05
+    },
+    {
+        "id": 601,
+        "location": "Port Jerrystad",
+        "cost": 3161434.96,
+        "type": "Kiosk",
+        "operating_hours": "12am - 9pm",
+        "monthly_rent": 4915.99
+    },
+    {
+        "id": 602,
+        "location": "Haydenville",
+        "cost": 205455.08,
+        "type": "Office",
+        "office_seating_capacity": 241
+    },
+    {
+        "id": 603,
+        "location": "North Kerryshire",
+        "cost": 1405699.98,
+        "type": "Kiosk",
+        "operating_hours": "12am - 4pm",
+        "monthly_rent": 2968.93
+    },
+    {
+        "id": 604,
+        "location": "West Suzanneport",
+        "cost": 361274.2,
+        "type": "Office",
+        "office_seating_capacity": 109
+    },
+    {
+        "id": 605,
+        "location": "Sanchezmouth",
+        "cost": 1056135.71,
+        "type": "Office",
+        "office_seating_capacity": 421
+    },
+    {
+        "id": 606,
+        "location": "Cookeland",
+        "cost": 1080110.86,
+        "type": "Office",
+        "office_seating_capacity": 265
+    },
+    {
+        "id": 607,
+        "location": "Castillohaven",
+        "cost": 1039334.48,
+        "type": "Office",
+        "office_seating_capacity": 113
+    },
+    {
+        "id": 608,
+        "location": "Melissafurt",
+        "cost": 4324944.03,
+        "type": "Office",
+        "office_seating_capacity": 384
+    },
+    {
+        "id": 609,
+        "location": "Port Susan",
+        "cost": 1122640.95,
+        "type": "Store",
+        "retail_location_id": 3
+    },
+    {
+        "id": 610,
+        "location": "Johnmouth",
+        "cost": 1353059.43,
+        "type": "Office",
+        "office_seating_capacity": 350
+    },
+    {
+        "id": 611,
+        "location": "Vanessastad",
+        "cost": 3770737.79,
+        "type": "Office",
+        "office_seating_capacity": 23
+    },
+    {
+        "id": 612,
+        "location": "Port Emilyberg",
+        "cost": 3454867.73,
+        "type": "Office",
+        "office_seating_capacity": 136
+    },
+    {
+        "id": 613,
+        "location": "Tylerberg",
+        "cost": 3952899.97,
+        "type": "Kiosk",
+        "operating_hours": "12am - 4pm",
+        "monthly_rent": 1867.28
+    },
+    {
+        "id": 614,
+        "location": "Sandraton",
+        "cost": 3725623.47,
+        "type": "Warehouse",
+        "date_of_acquisition": "2004-11-22",
+        "bought_from": "Parks-Rowland",
+        "warehouse_capacity_volume": 4032
+    },
+    {
+        "id": 615,
+        "location": "Kathymouth",
+        "cost": 3726474.51,
+        "type": "Kiosk",
+        "operating_hours": "10am - 4pm",
+        "monthly_rent": 1588.18
+    },
+    {
+        "id": 616,
+        "location": "Port Kari",
+        "cost": 724942.1,
+        "type": "Warehouse",
+        "date_of_acquisition": "2000-04-24",
+        "bought_from": "Richardson LLC",
+        "warehouse_capacity_volume": 2688
+    },
+    {
+        "id": 617,
+        "location": "Whitemouth",
+        "cost": 1081950.13,
+        "type": "Kiosk",
+        "operating_hours": "9am - 6pm",
+        "monthly_rent": 1365.72
+    },
+    {
+        "id": 618,
+        "location": "South Brandiburgh",
+        "cost": 1651899.3,
+        "type": "Office",
+        "office_seating_capacity": 154
+    },
+    {
+        "id": 619,
+        "location": "East Crystal",
+        "cost": 3855840.83,
+        "type": "Office",
+        "office_seating_capacity": 307
+    },
+    {
+        "id": 620,
+        "location": "New Maria",
+        "cost": 100463.99,
+        "type": "Office",
+        "office_seating_capacity": 264
+    },
+    {
+        "id": 621,
+        "location": "Ramirezbury",
+        "cost": 2747092.72,
+        "type": "Store",
+        "retail_location_id": 53
+    },
+    {
+        "id": 622,
+        "location": "Joshuamouth",
+        "cost": 942514.92,
+        "type": "Kiosk",
+        "operating_hours": "11am - 6pm",
+        "monthly_rent": 2847.6
+    },
+    {
+        "id": 623,
+        "location": "Spencerstad",
+        "cost": 784117.57,
+        "type": "Warehouse",
+        "date_of_acquisition": "2009-05-29",
+        "bought_from": "Skinner Ltd",
+        "warehouse_capacity_volume": 2674
+    },
+    {
+        "id": 624,
+        "location": "North Gregorystad",
+        "cost": 4191655.96,
+        "type": "Office",
+        "office_seating_capacity": 154
+    },
+    {
+        "id": 625,
+        "location": "Carterchester",
+        "cost": 2167406.95,
+        "type": "Kiosk",
+        "operating_hours": "9am - 10pm",
+        "monthly_rent": 3218.83
+    },
+    {
+        "id": 626,
+        "location": "Byrdville",
+        "cost": 4571210.38,
+        "type": "Warehouse",
+        "date_of_acquisition": "2003-09-21",
+        "bought_from": "Zhang Group",
+        "warehouse_capacity_volume": 520
+    },
+    {
+        "id": 627,
+        "location": "Whiteport",
+        "cost": 3332309.83,
+        "type": "Warehouse",
+        "date_of_acquisition": "2005-03-14",
+        "bought_from": "Andrade, Lane and Cooper",
+        "warehouse_capacity_volume": 9360
+    },
+    {
+        "id": 628,
+        "location": "West Heidi",
+        "cost": 2911007.6,
+        "type": "Office",
+        "office_seating_capacity": 120
+    },
+    {
+        "id": 629,
+        "location": "New Joelton",
+        "cost": 4311072.7,
+        "type": "Store",
+        "retail_location_id": 45
+    },
+    {
+        "id": 630,
+        "location": "Lake Frederick",
+        "cost": 3120720.61,
+        "type": "Office",
+        "office_seating_capacity": 89
+    },
+    {
+        "id": 631,
+        "location": "Whitemouth",
+        "cost": 1418236.66,
+        "type": "Office",
+        "office_seating_capacity": 316
+    },
+    {
+        "id": 632,
+        "location": "New Christopher",
+        "cost": 1585367.96,
+        "type": "Store",
+        "retail_location_id": 14
+    },
+    {
+        "id": 633,
+        "location": "Darrellmouth",
+        "cost": 3046161.01,
+        "type": "Office",
+        "office_seating_capacity": 229
+    },
+    {
+        "id": 634,
+        "location": "Emilyside",
+        "cost": 2960521.66,
+        "type": "Warehouse",
+        "date_of_acquisition": "2010-11-16",
+        "bought_from": "Gilbert, Phillips and Harris",
+        "warehouse_capacity_volume": 5427
+    },
+    {
+        "id": 635,
+        "location": "North Karen",
+        "cost": 295401.79,
+        "type": "Office",
+        "office_seating_capacity": 78
+    },
+    {
+        "id": 636,
+        "location": "Heatherstad",
+        "cost": 890789.44,
+        "type": "Store",
+        "retail_location_id": 27
+    },
+    {
+        "id": 637,
+        "location": "South Hannahborough",
+        "cost": 3142591.46,
+        "type": "Kiosk",
+        "operating_hours": "12am - 4pm",
+        "monthly_rent": 3052.1
+    },
+    {
+        "id": 638,
+        "location": "Anitaport",
+        "cost": 3237052.82,
+        "type": "Store",
+        "retail_location_id": 9
+    },
+    {
+        "id": 639,
+        "location": "Lake Michael",
+        "cost": 2110266.11,
+        "type": "Kiosk",
+        "operating_hours": "8am - 9pm",
+        "monthly_rent": 4750.84
+    },
+    {
+        "id": 640,
+        "location": "South Jenniferton",
+        "cost": 3726861.7,
+        "type": "Store",
+        "retail_location_id": 31
+    },
+    {
+        "id": 641,
+        "location": "Kerryland",
+        "cost": 1698029.78,
+        "type": "Kiosk",
+        "operating_hours": "9am - 4pm",
+        "monthly_rent": 1865.93
+    },
+    {
+        "id": 642,
+        "location": "Glenmouth",
+        "cost": 3888872.52,
+        "type": "Store",
+        "retail_location_id": 41
+    },
+    {
+        "id": 643,
+        "location": "Port Michael",
+        "cost": 3880279.08,
+        "type": "Store",
+        "retail_location_id": 40
+    },
+    {
+        "id": 644,
+        "location": "Montoyahaven",
+        "cost": 2743503.58,
+        "type": "Warehouse",
+        "date_of_acquisition": "2019-09-12",
+        "bought_from": "Lyons-Walsh",
+        "warehouse_capacity_volume": 6353
+    },
+    {
+        "id": 645,
+        "location": "North Teresa",
+        "cost": 3853299.53,
+        "type": "Warehouse",
+        "date_of_acquisition": "2011-01-01",
+        "bought_from": "Griffin LLC",
+        "warehouse_capacity_volume": 5933
+    },
+    {
+        "id": 646,
+        "location": "Evansberg",
+        "cost": 1710982.05,
+        "type": "Store",
+        "retail_location_id": 26
+    },
+    {
+        "id": 647,
+        "location": "North Cassandra",
+        "cost": 472220.06,
+        "type": "Kiosk",
+        "operating_hours": "9am - 8pm",
+        "monthly_rent": 1684.02
+    },
+    {
+        "id": 648,
+        "location": "Clarkbury",
+        "cost": 3407051.16,
+        "type": "Office",
+        "office_seating_capacity": 82
+    },
+    {
+        "id": 649,
+        "location": "Karenshire",
+        "cost": 2795553.54,
+        "type": "Office",
+        "office_seating_capacity": 183
+    },
+    {
+        "id": 650,
+        "location": "Johnton",
+        "cost": 3384151.85,
+        "type": "Store",
+        "retail_location_id": 53
+    },
+    {
+        "id": 651,
+        "location": "Mannchester",
+        "cost": 1076529.46,
+        "type": "Office",
+        "office_seating_capacity": 173
+    },
+    {
+        "id": 652,
+        "location": "South Melissa",
+        "cost": 4490815.03,
+        "type": "Kiosk",
+        "operating_hours": "9am - 7pm",
+        "monthly_rent": 3431.61
+    },
+    {
+        "id": 653,
+        "location": "North Danielle",
+        "cost": 4869047.1,
+        "type": "Warehouse",
+        "date_of_acquisition": "2019-03-14",
+        "bought_from": "Taylor, Robinson and Kelley",
+        "warehouse_capacity_volume": 4670
+    },
+    {
+        "id": 654,
+        "location": "South Kelsey",
+        "cost": 2397183.43,
+        "type": "Warehouse",
+        "date_of_acquisition": "2017-07-24",
+        "bought_from": "Williams, Phillips and Goodwin",
+        "warehouse_capacity_volume": 7913
+    },
+    {
+        "id": 655,
+        "location": "New Melaniemouth",
+        "cost": 2392512.92,
+        "type": "Office",
+        "office_seating_capacity": 27
+    },
+    {
+        "id": 656,
+        "location": "Jessicastad",
+        "cost": 2103048.05,
+        "type": "Store",
+        "retail_location_id": 49
+    },
+    {
+        "id": 657,
+        "location": "South Joshua",
+        "cost": 2966251.56,
+        "type": "Warehouse",
+        "date_of_acquisition": "2010-05-19",
+        "bought_from": "Gonzalez-Davis",
+        "warehouse_capacity_volume": 7518
+    },
+    {
+        "id": 658,
+        "location": "Kevinberg",
+        "cost": 4586651.62,
+        "type": "Store",
+        "retail_location_id": 19
+    },
+    {
+        "id": 659,
+        "location": "South Crystalborough",
+        "cost": 570144.13,
+        "type": "Store",
+        "retail_location_id": 10
+    },
+    {
+        "id": 660,
+        "location": "East Charles",
+        "cost": 4368495.55,
+        "type": "Store",
+        "retail_location_id": 7
+    },
+    {
+        "id": 661,
+        "location": "Port Dale",
+        "cost": 4822820.29,
+        "type": "Office",
+        "office_seating_capacity": 120
+    },
+    {
+        "id": 662,
+        "location": "Copelandton",
+        "cost": 1258874.17,
+        "type": "Office",
+        "office_seating_capacity": 11
+    },
+    {
+        "id": 663,
+        "location": "Robinsonville",
+        "cost": 1760232.13,
+        "type": "Warehouse",
+        "date_of_acquisition": "2020-06-27",
+        "bought_from": "Nichols Inc",
+        "warehouse_capacity_volume": 2712
+    },
+    {
+        "id": 664,
+        "location": "Caseybury",
+        "cost": 2502655.54,
+        "type": "Office",
+        "office_seating_capacity": 178
+    },
+    {
+        "id": 665,
+        "location": "New Mark",
+        "cost": 1171695.95,
+        "type": "Office",
+        "office_seating_capacity": 116
+    },
+    {
+        "id": 666,
+        "location": "East Diamondmouth",
+        "cost": 2415179.64,
+        "type": "Office",
+        "office_seating_capacity": 100
+    },
+    {
+        "id": 667,
+        "location": "New David",
+        "cost": 2900442.53,
+        "type": "Store",
+        "retail_location_id": 32
+    },
+    {
+        "id": 668,
+        "location": "South Markview",
+        "cost": 2456535.42,
+        "type": "Warehouse",
+        "date_of_acquisition": "2015-08-03",
+        "bought_from": "Miller-Waller",
+        "warehouse_capacity_volume": 9226
+    },
+    {
+        "id": 669,
+        "location": "Aaronhaven",
+        "cost": 605494.62,
+        "type": "Office",
+        "office_seating_capacity": 78
+    },
+    {
+        "id": 670,
+        "location": "Salinasport",
+        "cost": 2179727.21,
+        "type": "Office",
+        "office_seating_capacity": 126
+    },
+    {
+        "id": 671,
+        "location": "West Andrewborough",
+        "cost": 1610299.62,
+        "type": "Store",
+        "retail_location_id": 12
+    },
+    {
+        "id": 672,
+        "location": "Port Johnmouth",
+        "cost": 1985730.79,
+        "type": "Warehouse",
+        "date_of_acquisition": "2013-04-25",
+        "bought_from": "Estrada, Ellis and Gonzalez",
+        "warehouse_capacity_volume": 7001
+    },
+    {
+        "id": 673,
+        "location": "North Laurashire",
+        "cost": 1956006.33,
+        "type": "Kiosk",
+        "operating_hours": "9am - 7pm",
+        "monthly_rent": 1339.99
+    },
+    {
+        "id": 674,
+        "location": "Franciscofurt",
+        "cost": 1902363.29,
+        "type": "Kiosk",
+        "operating_hours": "8am - 9pm",
+        "monthly_rent": 4526.8
+    },
+    {
+        "id": 675,
+        "location": "Richardfort",
+        "cost": 2108316.88,
+        "type": "Store",
+        "retail_location_id": 59
+    },
+    {
+        "id": 676,
+        "location": "North Kendra",
+        "cost": 3926038.47,
+        "type": "Store",
+        "retail_location_id": 34
+    },
+    {
+        "id": 677,
+        "location": "South Penny",
+        "cost": 2700700.06,
+        "type": "Store",
+        "retail_location_id": 47
+    },
+    {
+        "id": 678,
+        "location": "Port Austinmouth",
+        "cost": 4884390.32,
+        "type": "Warehouse",
+        "date_of_acquisition": "2002-06-27",
+        "bought_from": "Pearson and Sons",
+        "warehouse_capacity_volume": 2829
+    },
+    {
+        "id": 679,
+        "location": "East Barbarabury",
+        "cost": 2044934.2,
+        "type": "Kiosk",
+        "operating_hours": "8am - 8pm",
+        "monthly_rent": 3257.0
+    },
+    {
+        "id": 680,
+        "location": "Patriciafurt",
+        "cost": 2564471.35,
+        "type": "Store",
+        "retail_location_id": 47
+    },
+    {
+        "id": 681,
+        "location": "Turnerbury",
+        "cost": 1384443.61,
+        "type": "Office",
+        "office_seating_capacity": 298
+    },
+    {
+        "id": 682,
+        "location": "Lake Keithchester",
+        "cost": 2097551.49,
+        "type": "Warehouse",
+        "date_of_acquisition": "2000-09-15",
+        "bought_from": "Houston, Esparza and Patel",
+        "warehouse_capacity_volume": 1772
+    },
+    {
+        "id": 683,
+        "location": "Patelport",
+        "cost": 1304567.83,
+        "type": "Store",
+        "retail_location_id": 15
+    },
+    {
+        "id": 684,
+        "location": "New Martinville",
+        "cost": 924226.09,
+        "type": "Kiosk",
+        "operating_hours": "11am - 9pm",
+        "monthly_rent": 4570.31
+    },
+    {
+        "id": 685,
+        "location": "Lake Joeltown",
+        "cost": 4061176.92,
+        "type": "Store",
+        "retail_location_id": 2
+    },
+    {
+        "id": 686,
+        "location": "South Alanshire",
+        "cost": 1567115.83,
+        "type": "Store",
+        "retail_location_id": 11
+    },
+    {
+        "id": 687,
+        "location": "East Tammy",
+        "cost": 2626948.85,
+        "type": "Warehouse",
+        "date_of_acquisition": "2022-01-17",
+        "bought_from": "Hale Ltd",
+        "warehouse_capacity_volume": 5937
+    },
+    {
+        "id": 688,
+        "location": "New Alexisberg",
+        "cost": 1717594.03,
+        "type": "Warehouse",
+        "date_of_acquisition": "2007-11-12",
+        "bought_from": "Wang, Wright and Jordan",
+        "warehouse_capacity_volume": 6947
+    },
+    {
+        "id": 689,
+        "location": "Gonzalezshire",
+        "cost": 254218.7,
+        "type": "Kiosk",
+        "operating_hours": "10am - 4pm",
+        "monthly_rent": 3785.11
+    },
+    {
+        "id": 690,
+        "location": "East Catherinechester",
+        "cost": 2659546.29,
+        "type": "Kiosk",
+        "operating_hours": "8am - 10pm",
+        "monthly_rent": 1186.95
+    },
+    {
+        "id": 691,
+        "location": "West Tiffanyfort",
+        "cost": 1685941.86,
+        "type": "Office",
+        "office_seating_capacity": 78
+    },
+    {
+        "id": 692,
+        "location": "Andersonview",
+        "cost": 173727.54,
+        "type": "Kiosk",
+        "operating_hours": "8am - 10pm",
+        "monthly_rent": 4328.6
+    },
+    {
+        "id": 693,
+        "location": "Seanmouth",
+        "cost": 3230200.46,
+        "type": "Kiosk",
+        "operating_hours": "9am - 6pm",
+        "monthly_rent": 3258.14
+    },
+    {
+        "id": 694,
+        "location": "Nancyhaven",
+        "cost": 727095.17,
+        "type": "Kiosk",
+        "operating_hours": "12am - 8pm",
+        "monthly_rent": 2338.76
+    },
+    {
+        "id": 695,
+        "location": "Maldonadohaven",
+        "cost": 3411448.01,
+        "type": "Warehouse",
+        "date_of_acquisition": "2019-03-26",
+        "bought_from": "Maynard, Washington and Madden",
+        "warehouse_capacity_volume": 1680
+    },
+    {
+        "id": 696,
+        "location": "Tranmouth",
+        "cost": 3276812.81,
+        "type": "Office",
+        "office_seating_capacity": 401
+    },
+    {
+        "id": 697,
+        "location": "Millerfurt",
+        "cost": 1810539.14,
+        "type": "Kiosk",
+        "operating_hours": "8am - 10pm",
+        "monthly_rent": 3481.66
+    },
+    {
+        "id": 698,
+        "location": "Port Rebecca",
+        "cost": 817217.23,
+        "type": "Office",
+        "office_seating_capacity": 381
+    },
+    {
+        "id": 699,
+        "location": "Lake Christine",
+        "cost": 898171.22,
+        "type": "Store",
+        "retail_location_id": 3
+    },
+    {
+        "id": 700,
+        "location": "Lake Lisa",
+        "cost": 881411.61,
+        "type": "Store",
+        "retail_location_id": 54
+    }
+]

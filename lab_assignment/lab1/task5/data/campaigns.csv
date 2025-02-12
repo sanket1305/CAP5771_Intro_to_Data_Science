@@ -1,0 +1,501 @@
+campaign_id,campaign_start_date,campaign_name,target_product_id,expenditure
+1,2016-03-24,Easter Extravaganza #1,54,41383.65
+2,2019-07-26,Spring Revival #2,56,27615.01
+3,2025-11-11,New Year's Sale #3,13,48870.93
+4,2019-01-15,Back to School Offers #4,36,16823.93
+5,2018-07-12,Halloween Specials #5,82,22500.91
+6,2015-06-08,Exclusive Online Deals #6,85,19563.86
+7,2015-07-26,Flash Sale Bonanza #7,58,48073.86
+8,2016-04-13,Independence Day Offers #8,33,21192.34
+9,2017-05-14,Easter Extravaganza #9,25,9737.42
+10,2022-10-09,Spring Revival #10,75,30820.83
+11,2024-10-20,Winter Clearance #11,77,37926.31
+12,2024-03-26,Back to School Offers #12,61,44314.46
+13,2016-02-17,Loyalty Program Launch #13,77,36687.93
+14,2021-10-06,Super Sunday Discounts #14,51,26896.67
+15,2015-03-13,Fall Festive Sale #15,7,39373.49
+16,2019-06-19,New Year's Sale #16,36,36933.41
+17,2018-03-18,Fall Festive Sale #17,43,42288.31
+18,2024-04-23,Limited Time Savings #18,45,6657.54
+19,2023-09-02,Green Friday Sale #19,61,23238.06
+20,2021-05-28,Gala Shopping Event #20,40,42297.88
+21,2017-02-18,Winter Clearance #21,52,40487.68
+22,2019-05-27,Customer Appreciation Week #22,40,40033.89
+23,2024-11-18,New Year's Sale #23,18,5564.35
+24,2024-10-27,Independence Day Offers #24,38,12506.86
+25,2024-09-24,Year-End Blowout #25,84,4566.43
+26,2025-07-02,Mid-Year Clearance #26,89,28963.49
+27,2020-08-27,Labor Day Discounts #27,5,35451.93
+28,2021-02-07,Summer Solstice Deals #28,62,26821.86
+29,2017-05-24,Dream Deals Week #29,78,37404.39
+30,2017-06-14,Halloween Specials #30,33,35632.75
+31,2017-06-26,Summer Solstice Deals #31,13,37159.1
+32,2019-10-13,Mega Savings Month #32,86,21703.32
+33,2025-01-27,Loyalty Program Launch #33,91,17871.04
+34,2016-07-04,Year-End Blowout #34,12,5617.6
+35,2023-11-30,Gala Shopping Event #35,72,8091.47
+36,2023-02-04,Mega Savings Month #36,86,24222.54
+37,2019-05-07,Green Friday Sale #37,74,20847.88
+38,2016-08-11,Exclusive Online Deals #38,4,42010.64
+39,2017-12-02,Festival of Lights Sale #39,18,30871.32
+40,2017-08-30,Independence Day Offers #40,72,32980.3
+41,2018-02-20,Labor Day Discounts #41,11,23815.07
+42,2025-03-17,Summer Solstice Deals #42,42,6283.02
+43,2017-10-28,Spring Revival #43,33,35448.5
+44,2021-02-23,Loyalty Program Launch #44,66,4655.53
+45,2022-09-04,Labor Day Discounts #45,61,14710.97
+46,2018-05-14,Black Friday Sale #46,27,39153.58
+47,2018-03-26,Flash Sale Bonanza #47,65,18120.83
+48,2019-04-11,Mid-Year Clearance #48,73,43117.58
+49,2023-10-20,Mid-Year Clearance #49,34,32315.09
+50,2018-06-10,Independence Day Offers #50,63,17698.69
+51,2022-04-27,Mid-Year Clearance #51,84,2126.41
+52,2023-11-16,Holiday Extravaganza #52,61,22886.4
+53,2023-04-23,Spring Revival #53,16,15138.51
+54,2023-01-07,Black Friday Sale #54,86,36683.12
+55,2025-11-23,Fall Festive Sale #55,12,32605.12
+56,2020-03-04,Summer Splash Discounts #56,40,23625.75
+57,2015-05-17,Back to School Offers #57,59,43497.2
+58,2016-01-14,Festival of Lights Sale #58,52,22562.5
+59,2022-04-27,Summer Solstice Deals #59,55,19516.65
+60,2023-09-21,Mid-Year Clearance #60,74,7677.73
+61,2023-06-29,Halloween Specials #61,50,44596.39
+62,2016-08-29,Cyber Monday Deals #62,57,11061.49
+63,2019-09-23,Holiday Extravaganza #63,77,23098.24
+64,2022-01-27,Back to School Offers #64,51,15417.74
+65,2017-09-19,Weekend Wonders #65,21,41857.87
+66,2019-02-13,Summer Splash Discounts #66,42,41499.23
+67,2016-11-09,Weekend Wonders #67,80,22245.26
+68,2019-10-20,Fall Festive Sale #68,18,25408.01
+69,2020-06-24,Winter Clearance #69,29,30411.67
+70,2019-10-20,Limited Time Savings #70,90,7206.68
+71,2024-11-04,Back to School Offers #71,28,36100.59
+72,2016-01-16,Spring Revival #72,21,49729.93
+73,2022-03-06,Limited Time Savings #73,63,2471.85
+74,2017-11-16,Black Friday Sale #74,63,32688.14
+75,2015-10-09,Loyalty Program Launch #75,12,29644.8
+76,2025-08-28,Customer Appreciation Week #76,71,7008.05
+77,2017-02-08,Summer Solstice Deals #77,69,21370.71
+78,2023-09-17,Summer Splash Discounts #78,63,37504.31
+79,2023-12-12,Mid-Year Clearance #79,83,35380.13
+80,2023-09-05,Year-End Blowout #80,15,40130.16
+81,2021-06-25,Holiday Extravaganza #81,76,27616.56
+82,2022-09-17,Weekend Wonders #82,43,47556.59
+83,2023-05-21,Fall Festive Sale #83,66,19634.0
+84,2017-04-07,Mid-Year Clearance #84,41,23987.59
+85,2018-06-02,Green Friday Sale #85,68,34318.88
+86,2021-10-04,Limited Time Savings #86,61,26893.28
+87,2018-01-04,Valentine's Day Gifts #87,53,35826.17
+88,2025-05-09,Super Sunday Discounts #88,90,11705.53
+89,2022-10-22,Halloween Specials #89,2,11305.74
+90,2018-03-03,Super Sunday Discounts #90,27,27429.26
+91,2022-08-28,Spring Revival #91,29,40491.57
+92,2017-05-14,Cyber Monday Deals #92,45,44809.6
+93,2020-10-14,Dream Deals Week #93,48,12883.9
+94,2016-07-28,Super Sunday Discounts #94,25,44854.61
+95,2025-05-20,Summer Solstice Deals #95,89,15608.34
+96,2024-08-16,Valentine's Day Gifts #96,86,4315.47
+97,2024-07-15,Customer Appreciation Week #97,41,48003.47
+98,2015-07-16,Easter Extravaganza #98,85,23727.87
+99,2019-01-18,Year-End Blowout #99,76,21978.19
+100,2021-07-13,Labor Day Discounts #100,80,2876.15
+101,2025-04-29,Valentine's Day Gifts #101,7,3250.31
+102,2019-10-11,Limited Time Savings #102,48,43717.03
+103,2021-08-24,Loyalty Program Launch #103,33,41598.2
+104,2021-12-21,Labor Day Discounts #104,32,40941.26
+105,2023-05-20,Flash Sale Bonanza #105,77,16502.9
+106,2025-08-11,Winter Clearance #106,51,44571.63
+107,2019-05-09,Halloween Specials #107,41,23352.02
+108,2025-05-29,Weekend Wonders #108,38,18219.88
+109,2016-04-01,Summer Splash Discounts #109,37,46409.08
+110,2022-05-07,Customer Appreciation Week #110,16,49443.94
+111,2025-01-10,Black Friday Sale #111,80,44165.9
+112,2016-10-29,Mid-Year Clearance #112,9,6199.85
+113,2023-06-13,Mega Savings Month #113,71,42708.03
+114,2016-12-09,Cyber Monday Deals #114,71,25407.02
+115,2024-01-01,Easter Extravaganza #115,80,47222.28
+116,2025-04-14,Loyalty Program Launch #116,82,24191.8
+117,2025-04-03,Festival of Lights Sale #117,19,33900.25
+118,2017-11-16,New Year's Sale #118,91,31587.61
+119,2018-04-16,Black Friday Sale #119,30,14074.71
+120,2025-09-24,Cyber Monday Deals #120,91,9483.21
+121,2016-08-04,Mid-Year Clearance #121,10,8779.47
+122,2017-03-02,Fall Festive Sale #122,89,24707.73
+123,2015-09-20,Back to School Offers #123,81,9299.9
+124,2018-09-10,Winter Clearance #124,62,11360.7
+125,2020-03-23,Flash Sale Bonanza #125,1,14570.46
+126,2018-06-30,Winter Clearance #126,22,17404.57
+127,2022-07-01,Summer Splash Discounts #127,73,15402.08
+128,2022-05-18,Mid-Year Clearance #128,12,25196.94
+129,2025-04-13,Mid-Year Clearance #129,45,23712.39
+130,2021-11-22,Gala Shopping Event #130,29,33912.06
+131,2024-08-07,Winter Clearance #131,49,45483.61
+132,2021-12-06,Labor Day Discounts #132,22,6445.43
+133,2017-12-15,Fall Festive Sale #133,33,26948.73
+134,2025-08-01,Fall Festive Sale #134,19,29687.81
+135,2022-05-27,Green Friday Sale #135,38,15034.8
+136,2019-10-19,Cyber Monday Deals #136,41,22001.32
+137,2023-11-20,Valentine's Day Gifts #137,36,33677.64
+138,2023-01-28,Green Friday Sale #138,60,18726.0
+139,2017-08-23,Dream Deals Week #139,23,14422.78
+140,2016-01-04,Weekend Wonders #140,65,5732.92
+141,2023-11-14,Customer Appreciation Week #141,12,22602.03
+142,2022-03-23,Green Friday Sale #142,72,1595.14
+143,2015-06-14,Festival of Lights Sale #143,85,34890.86
+144,2022-03-05,Flash Sale Bonanza #144,67,19858.07
+145,2017-01-20,Customer Appreciation Week #145,23,7430.56
+146,2019-07-06,Green Friday Sale #146,15,25359.39
+147,2020-07-14,Holiday Extravaganza #147,13,16495.09
+148,2024-06-10,Grand Opening Offers #148,35,14105.94
+149,2019-08-06,Cyber Monday Deals #149,56,33286.26
+150,2022-03-17,Labor Day Discounts #150,22,38971.03
+151,2017-10-19,New Year's Sale #151,87,6719.89
+152,2022-08-26,Grand Opening Offers #152,3,24964.2
+153,2025-12-19,Easter Extravaganza #153,46,36870.19
+154,2024-10-05,Valentine's Day Gifts #154,46,37437.81
+155,2016-02-26,Grand Opening Offers #155,20,11238.01
+156,2019-02-19,Grand Opening Offers #156,25,24983.59
+157,2022-12-07,Independence Day Offers #157,28,5422.77
+158,2017-12-26,Weekend Wonders #158,2,42706.02
+159,2017-05-03,Festival of Lights Sale #159,46,13217.34
+160,2019-06-29,Limited Time Savings #160,75,21981.35
+161,2023-07-28,Grand Opening Offers #161,88,44399.1
+162,2019-11-22,Weekend Wonders #162,48,36706.98
+163,2021-04-07,Summer Solstice Deals #163,59,6223.05
+164,2023-05-13,Flash Sale Bonanza #164,15,40902.91
+165,2015-12-01,Grand Opening Offers #165,25,7487.9
+166,2016-03-18,Mid-Year Clearance #166,6,25909.34
+167,2021-08-19,Spring Revival #167,17,37327.99
+168,2023-02-10,Super Sunday Discounts #168,15,18808.68
+169,2017-07-05,Summer Solstice Deals #169,51,14090.43
+170,2023-12-27,Mid-Year Clearance #170,74,17652.78
+171,2017-08-21,Limited Time Savings #171,40,34262.31
+172,2023-01-28,Summer Splash Discounts #172,64,47337.01
+173,2025-08-20,Green Friday Sale #173,38,4870.42
+174,2016-04-27,Loyalty Program Launch #174,4,24343.73
+175,2023-11-12,Black Friday Sale #175,60,26490.57
+176,2017-04-02,Easter Extravaganza #176,37,44107.53
+177,2024-12-10,Fall Festive Sale #177,16,42809.31
+178,2021-02-08,Limited Time Savings #178,57,44946.21
+179,2023-01-12,Black Friday Sale #179,57,14395.46
+180,2018-09-14,Festival of Lights Sale #180,41,3154.92
+181,2021-11-23,Black Friday Sale #181,12,21435.59
+182,2018-05-11,Grand Opening Offers #182,77,27426.13
+183,2024-10-21,Flash Sale Bonanza #183,68,6596.33
+184,2025-06-16,New Year's Sale #184,44,7134.03
+185,2020-12-10,Halloween Specials #185,85,38029.93
+186,2018-08-08,Back to School Offers #186,24,2536.87
+187,2021-05-27,Grand Opening Offers #187,86,25666.46
+188,2017-04-08,Super Sunday Discounts #188,12,34623.64
+189,2024-08-19,Easter Extravaganza #189,36,32211.09
+190,2024-06-10,Holiday Extravaganza #190,65,41498.07
+191,2019-07-30,Halloween Specials #191,45,22863.53
+192,2023-09-21,Flash Sale Bonanza #192,26,2628.3
+193,2022-04-10,Loyalty Program Launch #193,61,7785.24
+194,2017-07-07,Flash Sale Bonanza #194,23,34755.06
+195,2024-07-01,Year-End Blowout #195,24,34499.86
+196,2024-05-07,Mega Savings Month #196,69,14158.21
+197,2021-09-25,Super Sunday Discounts #197,52,23529.53
+198,2020-09-17,Grand Opening Offers #198,77,46514.98
+199,2021-12-29,Mega Savings Month #199,28,15988.44
+200,2015-04-08,Back to School Offers #200,84,39234.83
+201,2025-04-17,Loyalty Program Launch #201,30,42231.6
+202,2023-03-28,Cyber Monday Deals #202,6,31348.73
+203,2025-04-02,Independence Day Offers #203,43,37801.26
+204,2016-01-20,Summer Solstice Deals #204,4,19149.14
+205,2017-12-29,Easter Extravaganza #205,59,23094.33
+206,2015-02-06,Flash Sale Bonanza #206,86,47055.58
+207,2021-10-27,Mid-Year Clearance #207,31,40865.71
+208,2024-04-27,Loyalty Program Launch #208,85,44804.12
+209,2024-04-20,Loyalty Program Launch #209,83,42855.84
+210,2021-04-05,Independence Day Offers #210,4,15009.52
+211,2017-08-14,Gala Shopping Event #211,85,31922.36
+212,2021-04-15,Easter Extravaganza #212,38,18311.87
+213,2015-02-05,Gala Shopping Event #213,7,23186.68
+214,2018-12-01,Halloween Specials #214,11,28526.08
+215,2024-07-12,Gala Shopping Event #215,62,27362.25
+216,2023-09-08,Winter Clearance #216,59,40727.13
+217,2019-12-16,Exclusive Online Deals #217,39,1146.07
+218,2019-04-17,Dream Deals Week #218,68,23795.85
+219,2025-10-07,Weekend Wonders #219,75,27075.79
+220,2016-06-07,Back to School Offers #220,66,45908.56
+221,2025-10-18,Year-End Blowout #221,74,15943.76
+222,2017-07-22,Fall Festive Sale #222,82,34370.18
+223,2015-03-18,Gala Shopping Event #223,78,17684.93
+224,2022-02-04,Fall Festive Sale #224,43,10903.33
+225,2019-06-17,Limited Time Savings #225,4,2594.08
+226,2020-08-08,Fall Festive Sale #226,77,44038.39
+227,2018-05-23,Grand Opening Offers #227,87,18870.71
+228,2022-01-05,Fall Festive Sale #228,80,11506.61
+229,2016-10-04,Summer Splash Discounts #229,79,19104.99
+230,2024-10-17,Winter Clearance #230,51,24009.61
+231,2024-09-17,Valentine's Day Gifts #231,31,30136.19
+232,2024-09-03,Loyalty Program Launch #232,28,44452.77
+233,2025-11-08,Weekend Wonders #233,89,42361.75
+234,2017-05-18,New Year's Sale #234,72,34547.65
+235,2020-12-28,Winter Clearance #235,32,28626.36
+236,2019-05-14,Flash Sale Bonanza #236,68,13823.12
+237,2024-05-14,Independence Day Offers #237,22,43318.57
+238,2017-11-28,Weekend Wonders #238,13,47405.44
+239,2018-11-19,Easter Extravaganza #239,13,28574.01
+240,2023-07-31,Spring Revival #240,25,6167.94
+241,2023-08-30,Mega Savings Month #241,22,13677.76
+242,2020-11-28,Dream Deals Week #242,75,15999.57
+243,2015-04-21,Gala Shopping Event #243,44,8870.87
+244,2024-12-21,Exclusive Online Deals #244,53,12420.79
+245,2023-05-24,Independence Day Offers #245,90,8895.9
+246,2019-06-14,Easter Extravaganza #246,37,19182.24
+247,2022-11-13,Valentine's Day Gifts #247,90,42558.11
+248,2017-02-05,Exclusive Online Deals #248,20,39178.94
+249,2025-06-23,Mid-Year Clearance #249,19,41777.03
+250,2021-09-15,Valentine's Day Gifts #250,77,19731.34
+251,2025-07-11,Independence Day Offers #251,75,9950.31
+252,2016-10-13,Limited Time Savings #252,71,33777.28
+253,2023-03-12,Black Friday Sale #253,55,16377.0
+254,2022-08-05,Valentine's Day Gifts #254,23,5956.58
+255,2023-10-15,Valentine's Day Gifts #255,16,48012.86
+256,2019-03-29,Valentine's Day Gifts #256,26,13108.78
+257,2025-12-24,Summer Solstice Deals #257,25,36577.82
+258,2022-05-11,Gala Shopping Event #258,78,5010.06
+259,2023-07-03,Labor Day Discounts #259,91,12239.84
+260,2015-01-26,Back to School Offers #260,83,13053.4
+261,2017-10-19,Easter Extravaganza #261,64,10373.77
+262,2025-07-09,Independence Day Offers #262,52,12538.84
+263,2025-10-12,Black Friday Sale #263,15,32223.24
+264,2020-05-03,Summer Solstice Deals #264,1,15736.4
+265,2024-04-06,Summer Solstice Deals #265,86,22242.1
+266,2015-02-16,Limited Time Savings #266,61,2901.57
+267,2015-12-10,Weekend Wonders #267,34,11086.77
+268,2016-06-27,Festival of Lights Sale #268,61,35742.32
+269,2025-05-03,Holiday Extravaganza #269,48,17445.79
+270,2019-11-19,Halloween Specials #270,36,16444.36
+271,2021-01-26,Mid-Year Clearance #271,88,33194.21
+272,2024-05-09,Loyalty Program Launch #272,65,41890.57
+273,2018-12-02,Exclusive Online Deals #273,56,17007.12
+274,2021-04-07,New Year's Sale #274,56,6608.86
+275,2016-12-22,Gala Shopping Event #275,75,31599.32
+276,2018-03-19,Winter Clearance #276,32,1760.74
+277,2018-11-11,Summer Splash Discounts #277,52,44124.03
+278,2017-10-18,Flash Sale Bonanza #278,48,47384.73
+279,2015-11-01,Fall Festive Sale #279,56,26376.35
+280,2019-08-04,Flash Sale Bonanza #280,34,1393.32
+281,2025-06-27,Super Sunday Discounts #281,28,47360.89
+282,2023-07-16,Festival of Lights Sale #282,7,1326.55
+283,2020-07-11,Valentine's Day Gifts #283,27,24263.04
+284,2025-07-14,Easter Extravaganza #284,80,44891.17
+285,2019-09-13,Gala Shopping Event #285,37,22757.78
+286,2021-08-27,Green Friday Sale #286,48,16134.31
+287,2016-03-30,Festival of Lights Sale #287,64,20977.95
+288,2025-07-17,Flash Sale Bonanza #288,79,19527.3
+289,2024-01-22,Summer Splash Discounts #289,65,33812.31
+290,2023-02-12,Loyalty Program Launch #290,39,1044.8
+291,2017-09-20,New Year's Sale #291,14,40971.54
+292,2020-08-03,Year-End Blowout #292,71,13824.06
+293,2017-12-05,Holiday Extravaganza #293,77,33920.15
+294,2017-08-07,Black Friday Sale #294,73,38362.89
+295,2015-01-19,Valentine's Day Gifts #295,65,42046.73
+296,2015-01-27,Weekend Wonders #296,38,35029.06
+297,2018-11-23,Gala Shopping Event #297,13,23322.18
+298,2016-12-12,Spring Revival #298,48,27045.29
+299,2022-03-10,Mega Savings Month #299,82,23519.36
+300,2017-07-02,Back to School Offers #300,64,1711.67
+301,2016-10-04,Customer Appreciation Week #301,10,38470.33
+302,2015-06-22,Fall Festive Sale #302,48,8846.61
+303,2016-04-15,Easter Extravaganza #303,15,36053.84
+304,2021-09-12,Holiday Extravaganza #304,91,34718.49
+305,2024-01-15,Summer Splash Discounts #305,66,38015.28
+306,2018-01-28,New Year's Sale #306,32,40241.9
+307,2022-12-16,Holiday Extravaganza #307,68,46682.52
+308,2018-07-16,Grand Opening Offers #308,88,21801.9
+309,2022-05-10,Grand Opening Offers #309,49,47196.0
+310,2015-06-18,Spring Revival #310,83,5777.49
+311,2016-03-11,Weekend Wonders #311,43,44677.71
+312,2015-07-31,Summer Splash Discounts #312,15,6575.42
+313,2025-11-23,Labor Day Discounts #313,8,30631.3
+314,2025-04-26,Green Friday Sale #314,34,11990.39
+315,2022-10-30,Mid-Year Clearance #315,63,5164.68
+316,2020-01-04,Grand Opening Offers #316,31,5197.48
+317,2022-10-29,Independence Day Offers #317,74,20836.78
+318,2019-03-24,Weekend Wonders #318,83,44031.64
+319,2020-04-26,Fall Festive Sale #319,18,5287.5
+320,2023-07-09,Festival of Lights Sale #320,53,6560.52
+321,2024-07-26,Valentine's Day Gifts #321,10,38804.23
+322,2020-12-20,Grand Opening Offers #322,85,13244.49
+323,2015-08-24,Easter Extravaganza #323,7,42090.65
+324,2020-10-05,Halloween Specials #324,64,49653.22
+325,2024-08-14,Back to School Offers #325,75,24197.39
+326,2021-09-19,Summer Splash Discounts #326,86,15350.96
+327,2021-04-13,Year-End Blowout #327,1,31423.26
+328,2017-08-02,Dream Deals Week #328,32,31698.63
+329,2015-12-26,Summer Solstice Deals #329,78,30902.44
+330,2024-06-29,Summer Splash Discounts #330,74,17990.03
+331,2015-12-20,Winter Clearance #331,16,21061.57
+332,2019-09-13,Grand Opening Offers #332,15,2165.46
+333,2018-04-28,Festival of Lights Sale #333,5,31310.73
+334,2023-01-20,Super Sunday Discounts #334,90,23276.95
+335,2022-04-04,Fall Festive Sale #335,16,21007.41
+336,2025-03-29,Holiday Extravaganza #336,49,22144.25
+337,2018-01-09,Customer Appreciation Week #337,84,43529.74
+338,2018-04-04,Independence Day Offers #338,50,47326.88
+339,2022-06-25,Back to School Offers #339,43,24309.47
+340,2025-08-13,Holiday Extravaganza #340,62,29502.43
+341,2023-01-12,Halloween Specials #341,1,9405.66
+342,2025-09-15,Spring Revival #342,12,31205.29
+343,2018-09-30,Gala Shopping Event #343,58,31544.15
+344,2021-02-18,Exclusive Online Deals #344,37,35935.65
+345,2025-08-14,Loyalty Program Launch #345,9,32893.95
+346,2025-10-12,Winter Clearance #346,70,10214.23
+347,2018-09-14,Festival of Lights Sale #347,20,45517.36
+348,2016-05-10,Independence Day Offers #348,39,21871.55
+349,2017-10-29,Back to School Offers #349,14,27413.04
+350,2023-05-28,Valentine's Day Gifts #350,22,49499.79
+351,2022-08-22,Green Friday Sale #351,19,35795.17
+352,2018-07-29,Back to School Offers #352,48,44920.44
+353,2021-03-22,Grand Opening Offers #353,16,42267.21
+354,2023-12-01,Festival of Lights Sale #354,65,9722.56
+355,2021-11-06,Fall Festive Sale #355,46,48062.06
+356,2016-01-14,Limited Time Savings #356,26,44842.51
+357,2018-10-19,Gala Shopping Event #357,3,16079.4
+358,2019-07-07,Grand Opening Offers #358,77,34570.9
+359,2016-09-10,Holiday Extravaganza #359,7,3166.86
+360,2016-05-17,Easter Extravaganza #360,36,40305.76
+361,2022-04-07,Easter Extravaganza #361,14,44596.02
+362,2016-04-04,Black Friday Sale #362,74,48710.91
+363,2025-06-18,Valentine's Day Gifts #363,7,33126.25
+364,2023-08-10,Summer Solstice Deals #364,21,39641.19
+365,2016-07-03,Valentine's Day Gifts #365,34,47682.48
+366,2020-02-17,Green Friday Sale #366,5,42946.97
+367,2020-03-10,Labor Day Discounts #367,19,47471.8
+368,2023-02-03,Customer Appreciation Week #368,53,19808.95
+369,2023-05-14,Customer Appreciation Week #369,27,24175.9
+370,2018-04-29,Dream Deals Week #370,66,30866.92
+371,2015-07-18,Holiday Extravaganza #371,61,30568.65
+372,2015-01-11,New Year's Sale #372,13,38165.44
+373,2020-08-17,Back to School Offers #373,42,11954.54
+374,2024-08-01,Dream Deals Week #374,79,40113.87
+375,2016-07-05,Dream Deals Week #375,45,31464.37
+376,2018-07-16,Back to School Offers #376,70,38736.1
+377,2025-07-21,Summer Solstice Deals #377,87,47121.1
+378,2019-05-27,Independence Day Offers #378,79,7396.58
+379,2016-11-25,Black Friday Sale #379,44,30044.91
+380,2016-06-01,Labor Day Discounts #380,61,48972.79
+381,2024-03-02,Summer Splash Discounts #381,84,17878.18
+382,2017-10-10,Mid-Year Clearance #382,44,46103.49
+383,2021-04-05,Year-End Blowout #383,11,4550.82
+384,2024-12-12,Fall Festive Sale #384,41,4996.37
+385,2019-10-19,Mid-Year Clearance #385,21,34280.34
+386,2017-12-09,Independence Day Offers #386,7,13754.03
+387,2021-07-30,Fall Festive Sale #387,30,35714.45
+388,2025-10-09,Flash Sale Bonanza #388,37,45200.83
+389,2025-10-07,Fall Festive Sale #389,4,23909.6
+390,2015-08-11,Flash Sale Bonanza #390,4,13218.17
+391,2023-04-14,Summer Splash Discounts #391,35,4743.2
+392,2025-08-15,Exclusive Online Deals #392,14,33240.56
+393,2020-12-19,Year-End Blowout #393,59,10556.18
+394,2022-03-06,Mid-Year Clearance #394,43,7614.87
+395,2022-07-08,Grand Opening Offers #395,51,10137.92
+396,2019-09-11,Valentine's Day Gifts #396,23,15852.43
+397,2024-07-14,Loyalty Program Launch #397,72,47982.05
+398,2016-12-22,Green Friday Sale #398,13,27437.64
+399,2025-02-04,Halloween Specials #399,12,24496.89
+400,2016-11-15,Super Sunday Discounts #400,69,22005.27
+401,2022-04-03,Labor Day Discounts #401,75,48864.67
+402,2022-09-06,Mid-Year Clearance #402,27,14217.69
+403,2020-01-06,Halloween Specials #403,21,47323.91
+404,2021-08-29,Summer Solstice Deals #404,86,8744.67
+405,2018-09-09,Summer Solstice Deals #405,30,47403.21
+406,2020-02-17,Mega Savings Month #406,58,25570.14
+407,2022-08-05,Winter Clearance #407,68,11002.47
+408,2019-10-10,Mega Savings Month #408,25,21107.43
+409,2016-07-17,Black Friday Sale #409,26,28981.74
+410,2016-07-14,Black Friday Sale #410,50,7627.12
+411,2017-07-13,Spring Revival #411,25,18267.66
+412,2023-10-08,Grand Opening Offers #412,21,30454.53
+413,2023-11-15,Summer Solstice Deals #413,6,36118.13
+414,2023-07-14,Independence Day Offers #414,25,37166.64
+415,2017-05-31,Customer Appreciation Week #415,53,45190.08
+416,2021-11-22,Back to School Offers #416,53,34765.77
+417,2022-04-28,Halloween Specials #417,34,31733.11
+418,2018-05-13,Weekend Wonders #418,88,9991.1
+419,2018-01-28,Holiday Extravaganza #419,41,35109.33
+420,2020-01-28,Summer Splash Discounts #420,49,13199.03
+421,2015-06-16,Flash Sale Bonanza #421,13,6238.55
+422,2025-09-18,Limited Time Savings #422,19,19091.69
+423,2022-02-11,Year-End Blowout #423,72,45433.11
+424,2024-11-26,New Year's Sale #424,1,27962.17
+425,2019-08-13,Fall Festive Sale #425,83,12438.36
+426,2025-09-09,Customer Appreciation Week #426,13,47601.51
+427,2019-09-26,Halloween Specials #427,32,4749.14
+428,2024-03-11,Dream Deals Week #428,55,37283.24
+429,2018-06-22,Super Sunday Discounts #429,27,14150.3
+430,2024-03-06,Independence Day Offers #430,71,35381.01
+431,2019-11-10,Valentine's Day Gifts #431,16,46594.19
+432,2016-09-18,Labor Day Discounts #432,31,10609.7
+433,2019-06-11,Spring Revival #433,86,15173.63
+434,2023-06-30,Year-End Blowout #434,71,35687.68
+435,2023-04-01,Year-End Blowout #435,21,39933.11
+436,2021-05-10,Customer Appreciation Week #436,8,45989.44
+437,2023-02-16,Grand Opening Offers #437,32,33424.85
+438,2020-04-28,New Year's Sale #438,82,35189.04
+439,2022-10-14,Super Sunday Discounts #439,18,6462.79
+440,2023-09-14,Exclusive Online Deals #440,85,28065.13
+441,2019-04-01,Customer Appreciation Week #441,24,46828.74
+442,2023-04-30,Cyber Monday Deals #442,86,44540.32
+443,2024-04-15,Winter Clearance #443,40,46437.62
+444,2019-12-26,Valentine's Day Gifts #444,37,40274.57
+445,2019-01-30,Summer Solstice Deals #445,8,27304.36
+446,2016-03-04,Grand Opening Offers #446,46,3022.88
+447,2020-09-27,New Year's Sale #447,33,31330.54
+448,2024-12-18,Grand Opening Offers #448,35,10742.2
+449,2023-06-24,Loyalty Program Launch #449,51,38945.33
+450,2021-08-14,Summer Splash Discounts #450,65,32717.33
+451,2024-10-24,Black Friday Sale #451,44,19767.87
+452,2017-02-09,Festival of Lights Sale #452,1,37993.58
+453,2017-02-15,Holiday Extravaganza #453,41,22493.11
+454,2020-02-16,Loyalty Program Launch #454,35,17490.75
+455,2021-07-27,Customer Appreciation Week #455,64,12018.34
+456,2022-05-23,Mid-Year Clearance #456,2,48359.74
+457,2016-08-16,Festival of Lights Sale #457,5,27177.68
+458,2020-06-14,Exclusive Online Deals #458,90,48922.23
+459,2017-12-19,Exclusive Online Deals #459,4,32970.3
+460,2015-04-17,Black Friday Sale #460,54,33741.08
+461,2016-12-29,Summer Splash Discounts #461,73,31566.75
+462,2021-07-26,Mid-Year Clearance #462,41,14825.85
+463,2021-07-29,Fall Festive Sale #463,22,2952.12
+464,2024-11-28,Valentine's Day Gifts #464,62,24617.87
+465,2016-06-30,Festival of Lights Sale #465,22,35478.89
+466,2025-03-13,Dream Deals Week #466,14,14800.31
+467,2020-12-17,Spring Revival #467,87,38237.88
+468,2020-01-09,Exclusive Online Deals #468,42,11327.6
+469,2018-01-08,Back to School Offers #469,5,30649.12
+470,2015-07-28,Labor Day Discounts #470,81,49709.15
+471,2020-03-02,New Year's Sale #471,21,12210.31
+472,2025-04-03,Valentine's Day Gifts #472,32,49007.93
+473,2015-01-09,Labor Day Discounts #473,62,4096.96
+474,2025-08-09,Year-End Blowout #474,18,1217.48
+475,2016-03-19,Year-End Blowout #475,51,41845.22
+476,2025-06-08,Winter Clearance #476,75,15330.62
+477,2021-11-15,Customer Appreciation Week #477,27,32221.24
+478,2023-09-26,Gala Shopping Event #478,34,21990.7
+479,2015-12-22,Customer Appreciation Week #479,76,5469.02
+480,2022-05-25,Weekend Wonders #480,20,28195.08
+481,2016-01-09,Summer Splash Discounts #481,55,42218.73
+482,2024-04-14,Easter Extravaganza #482,43,2689.11
+483,2016-07-01,Cyber Monday Deals #483,71,29136.45
+484,2023-01-05,Year-End Blowout #484,40,25027.74
+485,2025-11-03,Independence Day Offers #485,73,31562.18
+486,2025-02-03,Year-End Blowout #486,82,47925.61
+487,2022-05-06,Halloween Specials #487,3,39381.37
+488,2022-05-20,Winter Clearance #488,2,49499.96
+489,2022-08-21,Spring Revival #489,4,7719.64
+490,2022-09-29,Gala Shopping Event #490,45,24754.26
+491,2018-07-08,Summer Solstice Deals #491,28,17081.55
+492,2015-04-10,Independence Day Offers #492,51,46670.28
+493,2022-12-31,Dream Deals Week #493,64,26187.28
+494,2016-02-21,Gala Shopping Event #494,60,44441.82
+495,2015-10-08,Limited Time Savings #495,66,19943.0
+496,2019-08-14,Mid-Year Clearance #496,58,24759.12
+497,2021-02-16,Flash Sale Bonanza #497,25,28930.44
+498,2020-06-27,Labor Day Discounts #498,62,19818.33
+499,2017-06-13,Easter Extravaganza #499,72,23964.66
+500,2021-10-15,Flash Sale Bonanza #500,66,33030.01
