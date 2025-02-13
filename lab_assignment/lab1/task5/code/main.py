@@ -30,7 +30,7 @@ def process_json(json_filename):
 
             if not key in map:
                 print(key, value)         # debug
-                if (is_quantitative and key[-2:] != 'id') or key[:4] == 'date':
+                if (is_quantitative and key[-2:] != 'id') or key[:4] == 'date' or key[-5:] == 'hours':
                     map[key] = 0
                 else:
                     map[key] = 1
@@ -266,7 +266,7 @@ if __name__ == "__main__":
             output_data += output
 
     sorted_data = sorted(output_data, key=lambda x: (
-        x[0], x[1].lower(), x[2].lower()))
+        x[0], x[1], x[2]))
     # sorted_data = output_data
 
     with open(output_filepath, mode='w', newline='') as file:

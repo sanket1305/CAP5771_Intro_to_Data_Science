@@ -7,8 +7,8 @@ bought_from,acquisitions,,Acquisitions,json,qualitative
 campaign_id,campaigns,,Marketing,csv,qualitative
 campaign_name,campaigns,,Marketing,csv,qualitative
 campaign_start_date,campaigns,,Marketing,csv,quantitative
-cost,acquisitions,,Acquisitions,json,quantitative
 cost,ProductDetail,,Sales,sql,quantitative
+cost,acquisitions,,Acquisitions,json,quantitative
 date_of_acquisition,acquisitions,,Acquisitions,json,quantitative
 date_of_joining,Employees,Employee_Data_1,HR,excel,quantitative
 date_of_joining,Employees,Employee_Data_2,HR,excel,quantitative
@@ -24,7 +24,6 @@ employee_id,Salary,Employee_Data_2,HR,excel,qualitative
 employee_id,Salary,Employee_Data_3,HR,excel,qualitative
 employee_id,Salary,Employee_Data_4,HR,excel,qualitative
 expenditure,campaigns,,Marketing,csv,quantitative
-id,acquisitions,,Acquisitions,json,qualitative
 id,Employees,Employee_Data_1,HR,excel,qualitative
 id,Employees,Employee_Data_2,HR,excel,qualitative
 id,Employees,Employee_Data_3,HR,excel,qualitative
@@ -32,6 +31,7 @@ id,Employees,Employee_Data_4,HR,excel,qualitative
 id,ProductDetail,,Sales,sql,qualitative
 id,RetailLocation,,Sales,sql,qualitative
 id,Sales,,Sales,sql,qualitative
+id,acquisitions,,Acquisitions,json,qualitative
 location,acquisitions,,Acquisitions,json,qualitative
 monthly_rent,acquisitions,,Acquisitions,json,quantitative
 name,Employees,Employee_Data_1,HR,excel,qualitative
@@ -40,14 +40,14 @@ name,Employees,Employee_Data_3,HR,excel,qualitative
 name,Employees,Employee_Data_4,HR,excel,qualitative
 name,ProductDetail,,Sales,sql,qualitative
 office_seating_capacity,acquisitions,,Acquisitions,json,quantitative
-operating_hours,acquisitions,,Acquisitions,json,qualitative
+operating_hours,acquisitions,,Acquisitions,json,quantitative
 product_detail_id,Sales,,Sales,sql,qualitative
-retail_location_id,acquisitions,,Acquisitions,json,qualitative
 retail_location_id,Employees,Employee_Data_1,HR,excel,qualitative
 retail_location_id,Employees,Employee_Data_2,HR,excel,qualitative
 retail_location_id,Employees,Employee_Data_3,HR,excel,qualitative
 retail_location_id,Employees,Employee_Data_4,HR,excel,qualitative
 retail_location_id,Sales,,Sales,sql,qualitative
+retail_location_id,acquisitions,,Acquisitions,json,qualitative
 salary,Salary,Employee_Data_1,HR,excel,quantitative
 salary,Salary,Employee_Data_2,HR,excel,quantitative
 salary,Salary,Employee_Data_3,HR,excel,quantitative
