@@ -92,9 +92,82 @@ def most_costly_office_acquisition():
         print(str(row['cost']))
     conn.close()
 
+# 6. function to print total campaign expenditure for each product id in descending order
+def product_wise_campaign_spending():
+    # connect to the SQLite database (input)
+    db_path = '../data/output.db'
+    conn = sqlite3.connect(db_path)
+
+    # query to get total campaign expenditure for each product id in descending order
+    query = "SELECT target_product_id, round(sum(expenditure),2) as total_expenditure FROM Campaigns GROUP BY target_product_id ORDER BY total_expenditure DESC"
+    df_from_db = pd.read_sql(query, conn)
+
+    # process and print all the rows from query result
+    for index, row in df_from_db.iterrows():
+        # formatting is required to convert 1 decimnal point values to 2 decimal points
+        print(f"{int(row['target_product_id'])} {row['total_expenditure']:.2f}")
+        # print(str(int(row['target_product_id'])) + " " + str(row['total_expenditure']))
+    
+    conn.close()
+
+# 7. function to print name of top 5 products with maximum sales, in order.
+def top_5_products_by_sales():
+    # connect to the SQLite database (input)
+    db_path = '../data/output.db'
+    conn = sqlite3.connect(db_path)
+
+    # query to get name of top 5 products with maximum sales, in order.
+    query = "SELECT p.name " +\
+            "FROM " +\
+                "ProductDetail as p " +\
+            "INNER JOIN " +\
+                "(SELECT product_detail_id, sum(selling_price) as total_selling_price " +\
+                "FROM Sales " +\
+                "GROUP BY product_detail_id " +\
+                "ORDER BY total_selling_price " +\
+                "DESC LIMIT 5) as s " +\
+            "ON " +\
+                "p.id = s.product_detail_id"
+    df_from_db = pd.read_sql(query, conn)
+
+    # process and print all the rows from query result
+    for index, row in df_from_db.iterrows():
+        print(row['name'])
+    
+    conn.close()
+
+# 8. function to print name of top 5 retail stores with maximum sales, in order.
+def top_5_retail_stores_by_sales():
+    # connect to the SQLite database (input)
+    db_path = '../data/output.db'
+    conn = sqlite3.connect(db_path)
+
+    # query to get name of top 5 retail stores with maximum sales, in order.
+    query = "SELECT r.store_name " +\
+            "FROM " +\
+                "RetailLocation as r " +\
+            "INNER JOIN " +\
+                "(SELECT retail_location_id, sum(selling_price) as total_selling_price " +\
+                "FROM Sales " +\
+                "GROUP BY retail_location_id " +\
+                "ORDER BY total_selling_price " +\
+                "DESC LIMIT 5) as s " +\
+            "ON " +\
+                "r.id = s.retail_location_id"
+    df_from_db = pd.read_sql(query, conn)
+
+    # process and print all the rows from query result
+    for index, row in df_from_db.iterrows():
+        print(row['store_name'])
+    
+    conn.close()
+
 if __name__ == "__main__":
     total_salary_bill_per_year()
     total_bonus_by_year()
     monthly_hiring_stats()
     most_costly_acquisition()
     most_costly_office_acquisition()
+    product_wise_campaign_spending()
+    top_5_products_by_sales()
+    top_5_retail_stores_by_sales()
