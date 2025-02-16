@@ -9,7 +9,15 @@ def sales_trends_over_time():
     conn = sqlite3.connect(db_path)
 
     # query to get aggregated total_selling_price over each month
-    query = "SELECT sum(selling_price) as total_selling_price, strftime('%Y-%m', datetime(sold_on, 'unixepoch')) AS formatted_date FROM Sales GROUP BY formatted_date ORDER BY formatted_date"
+    query = "SELECT " +\
+                "sum(selling_price) as total_selling_price, " +\
+                "strftime('%Y-%m', datetime(sold_on, 'unixepoch')) AS formatted_date " +\
+            "FROM "+\
+                "Sales " +\
+            "GROUP BY " +\
+                "formatted_date " +\
+            "ORDER BY " +\
+                "formatted_date"
     df_sales_data = pd.read_sql(query, conn)
 
     conn.close()
@@ -40,7 +48,25 @@ def product_performance():
     conn = sqlite3.connect(db_path)
 
     # query to get top 10 products based on sales from table
-    query = "SELECT p.name, s.total_sales FROM ProductDetail as p INNER JOIN (SELECT product_detail_id, SUM(selling_price) as total_sales FROM Sales GROUP BY product_detail_id ORDER BY total_sales DESC LIMIT 10) as s ON p.id = s.product_detail_id ORDER BY s.total_sales ASC"
+    query = "SELECT " +\
+                "p.name, s.total_sales " +\
+            "FROM " +\
+                "ProductDetail as p " +\
+            "INNER JOIN " +\
+                "(SELECT " +\
+                    "product_detail_id, " +\
+                    "SUM(selling_price) as total_sales " +\
+                "FROM " +\
+                    "Sales " +\
+                "GROUP BY " +\
+                    "product_detail_id " +\
+                "ORDER BY " +\
+                    "total_sales " +\
+                "DESC LIMIT 10) as s " +\
+            "ON " +\
+                "p.id = s.product_detail_id "+\
+            "ORDER BY " +\
+                "s.total_sales ASC"
     df_sales_data = pd.read_sql(query, conn)
 
     # print(df_sales_data)
@@ -83,7 +109,23 @@ def regional_performance():
     conn = sqlite3.connect(db_path)
 
     # query to get sales data by region from table
-    query = "SELECT r.store_name, s.total_sales FROM RetailLocation as r INNER JOIN (SELECT retail_location_id, SUM(selling_price) as total_sales FROM Sales GROUP BY retail_location_id ORDER BY total_sales DESC) as s ON r.id = s.retail_location_id ORDER BY r.store_name"
+    query = "SELECT "+\
+                "r.store_name, s.total_sales "+\
+            "FROM "+\
+                "RetailLocation as r "+\
+            "INNER JOIN "+\
+                "(SELECT "+\
+                    "retail_location_id, SUM(selling_price) as total_sales "+\
+                "FROM "+\
+                    "Sales "+\
+                "GROUP BY "+\
+                    "retail_location_id "+\
+                "ORDER BY "+\
+                    "total_sales DESC) as s "+\
+            "ON "+\
+                "r.id = s.retail_location_id "+\
+            "ORDER BY "+\
+                "r.store_name"
     df_sales_data = pd.read_sql(query, conn)
 
     # All the labels has 'GetorRetialNYC tag, remove it and keep labels compact to fit in graph
@@ -147,13 +189,27 @@ def campaign_effectiveness():
     conn = sqlite3.connect(db_path)
 
     # query to get revenue and expenses for each product from tables
-    query = "SELECT s.product_detail_id, s.revenue, c.expenses FROM (SELECT product_detail_id, sum(selling_price) as revenue FROM Sales GROUP BY product_detail_id) as s INNER JOIN (SELECT target_product_id, sum(expenditure) as expenses FROM Campaigns GROUP BY target_product_id) as c ON s.product_detail_id = c.target_product_id"
+    query = "SELECT "+\
+                "s.product_detail_id, s.revenue, c.expenses "+\
+            "FROM "+\
+                "(SELECT "+\
+                    "product_detail_id, sum(selling_price) as revenue "+\
+                "FROM "+\
+                    "Sales "+\
+                "GROUP BY "+\
+                    "product_detail_id) as s "+\
+            "INNER JOIN "+\
+                "(SELECT "+\
+                    "target_product_id, expenditure as expenses "+\
+                "FROM Campaigns) as c "+\
+            "ON "+\
+                "s.product_detail_id = c.target_product_id"
     df_product_data = pd.read_sql(query, conn)
 
     # print(df_product_data)
 
     # create scatter plot
-    plt.figure(5)
+    plt.figure(5, figsize=(12, 6))
     plt.scatter(df_product_data['expenses'], df_product_data['revenue'])
 
     # Add labels and title
