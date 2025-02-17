@@ -11,6 +11,7 @@ This project demonstrates the process of cleaning a dataset from Kaggle using Py
 4. [Data Cleaning Steps](#data-cleaning-steps)
 5. [Converting Data Types](#converting-data-types)
 6. [Notes on Missing Values](#notes-on-missing-values)
+7. [Saving the Data Insights into PDF format](#saving-the-data-insights-into-pdf-format)
 
 ---
 
@@ -117,6 +118,25 @@ df[col] = df[col].astype('category')
 ## Notes on Missing Values
 - Avoid converting numeric columns with missing values (e.g., `float64`) to integer types (`int64`) directly because integers cannot handle missing values in pandas.
 - Retain numeric columns as `float64` if they contain missing data.
+
+---
+
+## Saving the Data Insights into PDF format
+
+The `save_findings_to_pdf` function saves multi-line text content, such as data analysis findings, into a PDF using the ReportLab library. It handles page breaks and adds metadata like the report title and generation date.
+
+### Function: `save_findings_to_pdf(content, output_file="data_findings.pdf")`
+Parameters:
+- content (str): Text to write into the PDF.
+- output_file (str): Name of the output PDF file.
+
+Example Usage:
+```
+findings = "Data Report:\n1. Number of rows: 1000\n2. Missing values in 'Price': 5%"
+
+save_findings_to_pdf(findings, output_file="report.pdf")
+```
+
 
 ---
 
