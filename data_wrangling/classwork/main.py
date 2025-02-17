@@ -1,7 +1,9 @@
 import pandas as pd
-import descriptive_utils as desc_utils
+from descriptive_utils import describe_data
 
 file_path = "./Data/Melbourne_housing_FULL.csv"
 df = pd.read_csv(file_path)
 
-desc_utils.describe_data(df)
+describe_data(df)
+
+print(df.head())
