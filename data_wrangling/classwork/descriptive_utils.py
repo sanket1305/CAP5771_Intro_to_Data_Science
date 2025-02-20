@@ -1,9 +1,13 @@
+import matplotlib.pyplot as plt
 import pandas as pd
+import seaborn as sns
+
+from datetime import datetime
 from io import StringIO
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
-from datetime import datetime
 
+# function to describe dataset, including column types and different statistics for numerical dtype
 def describe_data(df):
     output = StringIO()     # Create a StringIO object to capture
 
@@ -67,6 +71,64 @@ def describe_data(df):
                     print(f"    {val}", file=output)
     
     return num_rows, num_columns, output.getvalue()
+
+def count_nulls(df):
+    print("Describing Nulls in the data:")
+
+    # null counts for each column
+    null_counts_columns = df.isnull().sum()
+    print("Null Counts per variable:")
+    print(null_counts_columns)
+
+    # null counts for each row
+    null_counts_rows = df.isnull().sum(axis=1)
+    # identifying max no. of nulls in a row
+    max_nulls = null_counts_rows.max()
+    # number of rows with most nulls
+    rows_with_most_nulls = null_counts_rows[null_counts_rows == max_nulls].index.tolist()
+
+    # calculating % of rows having any nulls
+    total_rows = len(df)
+    rows_with_any_nulls = (null_counts_rows > 0).sum()
+    percentage_with_nulls = (rows_with_any_nulls / total_rows) * 100
+
+    print(f"\nRows with the highest number of nulls ({max_nulls} nulls):")
+    print(rows_with_most_nulls)
+    print(rows_with_any_nulls)
+    print(f"Percentage of rows with any nulls: {percentage_with_nulls:.2f}%")
+
+    directory = "Images"
+    # creating 2 subplots with 1st one being 3 times as of 2nd one
+    fig, (ax1, ax2) = plt.subplots(nrows=1, ncols=2, figsize=(15, 5), gridspec_kw={'width_ratios': [3, 1]})
+
+    # plotting histogram for no. of null values in rows
+    sns.histplot(null_counts_rows, bins=max_nulls, color='blue', ax=ax1)
+    ax1.set_title('Histogram of Nulls Per Row')
+    ax1.set_xlabel('Number of Nulls')
+    ax1.set_ylabel('Frequency of Rows')
+    ax1.grid(True)
+
+    for p in ax1.patches:
+        ax1.annotate(f'{int(p.get_height())}', (p.get_x() + p.get_width() / 2., p.get_height()),
+                    ha='center', va='bottom', color='black', xytext=(0, 5), textcoords='offset points')
+
+    # plotting barplot for finding outliers for null_counts_rows data
+    sns.boxplot(y=null_counts_rows, color='green', ax=ax2)
+    ax2.set_title('Box Plot of Nulls Per Row')
+    ax2.set_ylabel('Number of Nulls')  
+
+    current_time = datetime.now().strftime("%Y%m%d_%H%M%S")
+    filename = f"{directory}/Null_distributions_{current_time}.png"
+    plt.savefig(filename)
+    plt.close()
+    print(f"Saved histogram and boxplot as: {filename}")
+
+    # based on the graph generated we can see that,
+    # only 3 oberservation has more than 10 null values in rows and are outliers
+    # most rows will have 0-2 null values in them
+
+
+
 
 # Function to save findings to PDF using ReportLab
 def save_findings_to_pdf(content, output_file="data_findings.pdf"):
