@@ -1,3 +1,4 @@
 bar.py
 test.py
 __pycache__/
+data_wrangling/labs/data/*.db
