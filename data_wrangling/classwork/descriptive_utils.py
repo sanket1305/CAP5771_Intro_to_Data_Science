@@ -127,8 +127,81 @@ def count_nulls(df):
     # only 3 oberservation has more than 10 null values in rows and are outliers
     # most rows will have 0-2 null values in them
 
+# function for describing numeric attributes of dataset
+def describe_numeric(df, ls_int):
+    print("***Reporting on Numeric variables:***")
+    # select only int or float type columns from dataframe
+    numeric_vars = df.select_dtypes(include=['int64', 'float64'])
+    descriptions = numeric_vars.describe()
+    print(descriptions)
 
+    # iterate over each numeric column for further analysis
+    for column in numeric_vars:
+        # drop na values from column and check if it has any values to plot histogtam
+        data = numeric_vars[column].dropna()
+        if data.empty:
+            print(f"No data available for histogram of {column} after removing NaNs.")
+            continue
+        
+        # plot 2 graphs in 1 figure again
+        fig, (ax1, ax2) = plt.subplots(nrows=1, ncols=2, figsize=(12, 4), gridspec_kw={'width_ratios': [3, 1]})
+        
+        if column in ls_int:
+            print(f"Setting bin width = 1 for: {column}")
+            min_val, max_val = int(data.min()), int(data.max())
+            bins = range(min_val, max_val + 1, 1)
+            sns.histplot(data, ax=ax1, color='blue', alpha=0.7, kde=False, bins=bins, element='bars', stat='count')
+            bin_width = 1  
+        else:
+            sns.histplot(data, ax=ax1, color='blue', alpha=0.7, kde=False, binwidth=None, element='bars', stat='count')
+            bin_width = ax1.patches[0].get_width() if ax1.patches else 0  # Calculate bin width from the first patch
+        
+        ax1.set_title(f'Histogram of {column}')
+        ax1.set_xlabel(f"{column} (Bin width: {bin_width:.2f})")
+        ax1.set_ylabel('Frequency')
+        ax1.grid(True)
 
+        sns.boxplot(y=data, ax=ax2, color='green')
+        ax2.set_title(f'Box Plot of {column}')
+        ax2.set_ylabel('Values')
+        ax2.set_xlabel('Box plot')
+
+        plt.tight_layout()  
+        
+        filename = f"Images/Numeric/{column}.png"
+        plt.savefig(filename, format='png', dpi=300)
+        plt.close(fig)  
+        print(f"{filename} has been saved")
+
+def plot_correlations(df, target_var):
+    numeric_vars = df.select_dtypes(include=['int64', 'float64', 'float32', 'int32'])
+
+    if target_var not in numeric_vars:
+        print(f"The target variable '{target_var}' is not in the DataFrame or is not numeric.")
+        return
+    
+    num_vars = numeric_vars.columns.size - 1  
+    n_cols = 3  
+    n_rows = (num_vars + n_cols - 1) // n_cols 
+    
+    fig, axes = plt.subplots(nrows=n_rows, ncols=n_cols, figsize=(n_cols * 5, n_rows * 5))
+    fig.suptitle('Scatter Plots of ' + target_var + ' with Other Numerical Variables', fontsize=16, y=1.02)
+    
+    ax = axes.ravel()
+    
+    for i, var in enumerate([col for col in numeric_vars.columns if col != target_var]):
+        sns.scatterplot(x=numeric_vars[var], y=numeric_vars[target_var], ax=ax[i], alpha=0.6)
+        ax[i].set_xlabel(var)
+        ax[i].set_ylabel(target_var)
+        ax[i].grid(True)
+    
+    for j in range(i + 1, n_cols * n_rows):
+        ax[j].axis('off')
+
+    plt.tight_layout()
+    filename = "Images/Numeric/correlations_{target_var}.png"
+    plt.savefig(filename)
+    print(f"{filename} has been saved")
 
 # Function to save findings to PDF using ReportLab
 def save_findings_to_pdf(content, output_file="data_findings.pdf"):
