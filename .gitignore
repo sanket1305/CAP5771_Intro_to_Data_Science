@@ -2,3 +2,4 @@ bar.py
 test.py
 __pycache__/
 data_wrangling/labs/**/*.db
+data_wrangling/labs/output

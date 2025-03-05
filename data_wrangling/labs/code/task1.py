@@ -1,5 +1,4 @@
 # WRITE YOUR CODE HERE
-import os
 import sqlite3
 
 def remove_legacy_products():
