@@ -1,0 +1,116 @@
+import pandas as pd
+import sqlite3
+from sklearn.linear_model import LinearRegression
+import matplotlib.pyplot as plt
+import numpy as np
+import warnings
+warnings.filterwarnings("ignore")
+
+# two issues as per codio:
+    # 1. for specific user, there could be scenario where all records are having checkjout_value = None, in this case training dataset would be empty
+    # 2. for specific user, we could have records where "item_count" is missing, how to deal with them?
+
+def predict_checkout_value(user_id: int, number_of_items: int, days_since_prior_order: int = None) -> None:
+    # print(user_id, number_of_items, days_since_prior_order)
+    # get number of items in order
+    # connect to db, to get "OrderProducts" table data (csv only has "Orders" table data)
+    db_path = "data/raw_data.db"
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
+
+    cursor.execute("SELECT order_id, count(*) FROM OrderProducts GROUP BY order_id")
+    results = cursor.fetchall()
+
+    df_order_item_count = pd.DataFrame(results, columns=['order_id', 'item_count'])
+
+    # print(df_order_item_count.shape)
+    # print(df_order_item_count.head())
+
+    # read csv file into dataframe
+    df_orders = pd.read_csv("output/task3_output.csv")
+    # print(df_orders.columns)
+    # print(df_orders.shape)
+
+    # Merge the dataframes on the 'order_id' column
+    result_df = pd.merge(df_orders, df_order_item_count, on='order_id', how='left')
+    # result_df = result_df[["order_id", "user_id", "days_since_prior_order", "checkout_value", "item_count"]]
+    # print(result_df.head())
+
+    # print(result_df["days_since_prior_order"].isna().sum())
+    result_df['days_since_prior_order'] = result_df['days_since_prior_order'].fillna(0)
+    # print(result_df["days_since_prior_order"].isna().sum())
+
+    # print(result_df.groupby("user_id").size().reset_index(name='count').shape)
+
+    user_df = result_df[result_df['user_id'] == user_id]
+    # print(user_df)
+
+    # Check if the DataFrame is empty
+    # if not user_df.empty:
+    #     check_not_null = user_df[user_df['checkout_value'].notnull()]
+    #     if not check_not_null.empty:
+    #         result_df = user_df
+
+    result_df['item_count'] = result_df['item_count'].fillna(0)
+    # result_df = result_df.dropna(subset=['item_count'])
+    
+    # Split the data into two parts
+    train_data = result_df[result_df['checkout_value'].notnull()]
+    missing_data = result_df[result_df['checkout_value'].isnull()]
+
+    # Features and target variable for training
+    X_train = train_data[['days_since_prior_order', 'item_count']]
+    y_train = train_data['checkout_value']
+
+    # Features for prediction
+    X_missing = missing_data[['days_since_prior_order', 'item_count']]
+
+    # Train the linear regression model
+    model = LinearRegression()
+    model.fit(X_train, y_train)
+
+    # Calculate R^2 score
+    r2_score = model.score(X_train, y_train)
+    print("score:", round(r2_score, 2))
+
+    # Predict missing values
+    predicted_values = model.predict(pd.DataFrame(X_missing))
+
+    # Fill missing values with predictions
+    result_df.loc[result_df['checkout_value'].isnull(), 'checkout_value'] = predicted_values
+
+    # print the prediction for given user
+    print("predicted checkout_value:", round(model.predict([[days_since_prior_order, number_of_items]])[0]))
+
+    # ===========================
+    # 3D Plot with Regression Plane
+    # ===========================
+    fig = plt.figure()
+    ax = fig.add_subplot(111, projection='3d')
+
+    # Plot existing data points
+    ax.scatter(train_data['days_since_prior_order'], train_data['item_count'], train_data['checkout_value'], color='blue', label='Existing Data')
+
+    # Plot predicted missing values
+    ax.scatter(missing_data['days_since_prior_order'], missing_data['item_count'], predicted_values, color='red', label='Predicted Data')
+
+    # Create a mesh grid for the regression plane
+    A_mesh, B_mesh = np.meshgrid(np.linspace(result_df['days_since_prior_order'].min(), result_df['days_since_prior_order'].max(), 50),
+                                np.linspace(result_df['item_count'].min(), result_df['item_count'].max(), 50))
+    C_mesh = model.predict(np.c_[A_mesh.ravel(), B_mesh.ravel()]).reshape(A_mesh.shape)
+
+    # Plot the regression plane
+    ax.plot_surface(A_mesh, B_mesh, C_mesh, alpha=0.4, color='cyan')
+
+    # Set labels
+    ax.set_xlabel('days_since_prior_order (Feature 1)')
+    ax.set_ylabel('item_count (Feature 2)')
+    ax.set_zlabel('checkout_value (Target/Output)')
+
+    # Add legend
+    ax.legend()
+
+    # Show the plot
+    plt.show()
+
+# predict_checkout_value(89960, 0, 0)
