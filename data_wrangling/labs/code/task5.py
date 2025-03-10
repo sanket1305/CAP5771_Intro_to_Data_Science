@@ -87,7 +87,7 @@ def mine_frequent_itemsets(support_count_threshold=10):
     image = Image.new('RGB', (width, height), 'white')
     draw = ImageDraw.Draw(image)
 
-    y = 0
+    y = 20
     for line in lines:
         draw.text((10, y), line, font=font, fill='black')
         y += 20

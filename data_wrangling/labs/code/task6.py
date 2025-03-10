@@ -1,9 +1,14 @@
+import io
 import pandas as pd
 import sqlite3
+import sys
 from mlxtend.frequent_patterns import apriori, association_rules
 from PIL import Image, ImageDraw, ImageFont
 
 def report_top_association_rules(support_threshold: int, confidence_threshold: float):    
+    # capture print oputput statements
+    old_stdout = sys.stdout
+    sys.stdout = io.StringIO()
 
     # establish db connection
     db_path = '../output/cleaned_data.db'
@@ -75,7 +80,28 @@ def report_top_association_rules(support_threshold: int, confidence_threshold: f
     for _, row in sorted_rules.iterrows():
         print(f"{row['antecedent']} -> {row['consequent']}")
 
+    # Capture the output
+    output = sys.stdout.getvalue()
+    sys.stdout = old_stdout
 
+    # convert text to image
+    font = ImageFont.load_default()
+    lines = output.split('\n')
+    width = 800
+    height = 20*len(lines)
+
+    image = Image.new('RGB', (width, height), 'white')
+    draw = ImageDraw.Draw(image)
+
+    y = 10
+    for line in lines:
+        draw.text((10, y), line, font=font, fill='black')
+        y += 20
     
+    # save the image
+    image.save('../output/task6_frequent_rules.png')
 
-report_top_association_rules(10, 1)
+    for line in lines:
+        print(line)
+
+report_top_association_rules(10, 0.2)
