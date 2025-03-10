@@ -58,14 +58,18 @@ def report_top_association_rules(support_threshold: int, confidence_threshold: f
     # apriori results contains support count for all items >= support_threshold, 
     # however, association rule has return the results having confidence >= confidence_threshold
     # this step will allow us to find support count for each rule, by combining both columns (antecedents, consquents)
-    # association_rules_df['support_count'] = association_rules_df['antecedents'].combine(association_rules_df['consequents'], lambda x,y: frequent_products.loc[frequent_products['itemsets'] == x.union(y), 'count'].values[0])
+    association_rules_df['support_count'] = association_rules_df['antecedents'].combine(association_rules_df['consequents'], lambda x,y: frequent_products.loc[frequent_products['itemsets'] == x.union(y), 'count'].values[0])
 
     # sort each value for antecedent and consquent columns
     association_rules_df['antecedent'] = association_rules_df['antecedents'].apply(lambda x: ', '.join(sorted(x)))
     association_rules_df['consequent'] = association_rules_df['consequents'].apply(lambda x: ', '.join(sorted(x)))
 
+    # filter based on support_threshold and confidence_threshold
+    association_rules_df = association_rules_df[(association_rules_df['support_count'] > support_threshold) & (association_rules_df['confidence'] > confidence_threshold)]
+
     # sort by value length and column 
-    sorted_rules = association_rules_df.sort_values(by=['antecedent', 'consequent']).sort_values(by=['antecedents'], key=lambda x: x.apply(len), ascending=True, kind='stable')
+    sorted_rules = association_rules_df.sort_values(by=['antecedent', 'consequent'])
+    sorted_rules = sorted_rules.sort_values(by=['antecedents'], key=lambda x: x.apply(len), ascending=True, kind='stable')
 
     # display results
     for _, row in sorted_rules.iterrows():
