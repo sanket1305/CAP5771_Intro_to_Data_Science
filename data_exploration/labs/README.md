@@ -8,7 +8,6 @@
 - [Tasks](#tasks)
 - [Deliverables](#deliverables)
 - [Getting Started](#getting-started)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
