@@ -4,3 +4,4 @@ __pycache__/
 data_wrangling/labs/**/*.db
 data_wrangling/labs/output
 .ipynb_checkpoints/
+.DS_Store
